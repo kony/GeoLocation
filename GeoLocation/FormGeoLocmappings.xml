@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="FormGeoLoc" id="FormGeoLoc">
+    <container type="dialog" id="hdrOne" displayname="Popup"/>
+    <container type="dialog" id="ftrOne" displayname="Popup"/>
+    <container type="form" id="HomePage" displayname="Form"/>
+    <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
+    <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
+    <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
+    <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
+    <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
+    <globalsequences/>
+    <skins/>
+</application>

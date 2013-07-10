@@ -1,0 +1,4 @@
+<globals>
+    <attributes datatype="string" value="" name="watchID"/>
+    <attributes datatype="boolean" value="false" name="watchFlag"/>
+</globals>
