@@ -2030,11 +2030,11 @@
             </location>
             <size>
                 <width>448</width>
-                <height>200</height>
+                <height>68</height>
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>45</height>
+                <height>15</height>
             </sizePercent>
             <overridePerferred>
                 <width>true</width>
@@ -2630,7 +2630,7 @@
                 <updatedToNewImageData>true</updatedToNewImageData>
             </choiceData>
             <widgetSkin>sknSeg2Normal</widgetSkin>
-            <rowSkin>sknSeg2RowSampleApp</rowSkin>
+            <rowSkin>No Skin</rowSkin>
             <rowFocusSkin>sknSeg2FocusSampleApp</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
             <secHeaderSkin>sknSeg2Header</secHeaderSkin>
@@ -2820,7 +2820,7 @@
                 </size>
                 <sizePercent>
                     <width>100</width>
-                    <height>13</height>
+                    <height>39</height>
                 </sizePercent>
                 <skinId>sknLblBlack</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>

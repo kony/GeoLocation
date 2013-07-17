@@ -1532,7 +1532,7 @@
                     <left>35</left>
                     <right>35</right>
                     <top>5</top>
-                    <bottom>25</bottom>
+                    <bottom>23</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -2037,16 +2037,23 @@
             <parent_contentalignment>middle-center</parent_contentalignment>
             <event_onClick>
                 <evtSequence>
-                    <actionList xsi:type="eventFormAction">
+                    <actionList xsi:type="eventFunctionAction">
                         <enabled>true</enabled>
                         <name></name>
-                        <type>1</type>
-                        <destType>0</destType>
-                        <navigateFrom>frmHome</navigateFrom>
-                        <navigateTo>frmOptions</navigateTo>
-                        <newOutputMapping/>
-                        <outputMapping/>
-                        <platform>0</platform>
+                        <type>6</type>
+                        <functionName>None</functionName>
+                        <functionNameMap>
+                            <entry>
+                                <key>js</key>
+                                <value>geoPositionDesktopWeb</value>
+                            </entry>
+                        </functionNameMap>
+                        <paramDataMap>
+                            <entry>
+                                <key>js</key>
+                                <value/>
+                            </entry>
+                        </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
                     <seqname></seqname>

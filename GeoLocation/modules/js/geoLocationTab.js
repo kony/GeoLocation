@@ -98,6 +98,7 @@ function geoPositionDesktopWeb()
 {
  	try
  	{
+ 		frmOptions.show();
 		frmOptions.hbxWatchID.setVisibility(true);
 		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
 		var positionoptions = kony.location.getCurrentPosition(geoSuccessCallBackTab, geoErrorCallBackTab);

@@ -1788,10 +1788,10 @@
                 <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -1817,7 +1817,7 @@
                     <bottom>18</bottom>
                     <unit>px</unit>
                 </ipad>
-                <ipad_override>true</ipad_override>
+                <ipad_override>false</ipad_override>
                 <iphonerc>
                     <left>3</left>
                     <right>3</right>
@@ -1875,7 +1875,7 @@
                     <bottom>4</bottom>
                     <unit>%</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>true</tablet_rc_android_override>
+                <tablet_rc_android_override>false</tablet_rc_android_override>
                 <tabspaAndroid>
                     <left>1</left>
                     <right>1</right>
@@ -1906,7 +1906,7 @@
                     <bottom>4</bottom>
                     <unit>px</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>3</left>
                     <right>3</right>

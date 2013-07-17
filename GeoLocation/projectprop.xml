@@ -80,7 +80,7 @@
     <attributes name="bbusemds" value="false"/>
     <attributes name="ipadportraitmodekey" value="true"/>
     <attributes name="WP8_ID_CAP_MICROPHONE" value="true"/>
-    <attributes name="appnamekey" value="GeoLoc"/>
+    <attributes name="appnamekey" value="GeoLocation"/>
     <attributes name="iphonebundleversionkey" value="1.0"/>
     <attributes name="wp8packageauthorkey" value=""/>
     <attributes name="READ_HISTORY_BOOKMARKS" value="false"/>
@@ -145,7 +145,7 @@
     <attributes name="tciphonebasefontsize" value="12"/>
     <attributes name="tabletstartupformkey" value="frmHome"/>
     <attributes name="pathpatternkey" value=""/>
-    <attributes name="splashlogokey" value="0=splash.png,1=splash.png,8=splash.9.png,2=splash.png,3=splash_win7.5.png,20=,9=,15=,14=,42=,16=splash.png,18=splash.9.png,43=,22=splash.png,23=splash.9.png,24=splash.png,31=splash.png,32=splash.9.png,35=splash_win7.5.png,37=splash.png,1000=,1001=,1002=,45=,44=,36="/>
+    <attributes name="splashlogokey" value="0=splash_320x480.png,1=splash_320x480.png,8=splash.9.png,2=,3=,20=,9=,15=,14=,42=,16=splash_768x1024.png,18=splash_720x1280.png,43=,1000=,1001=,1002=,31=splash_640x1136.png,32=splash_640x960.png,45=,22=splash_320x480.png,23=splash.9.png,24=,35=,44=,36=,37=splash_320x480.png"/>
     <attributes name="USE_SIP" value="false"/>
     <attributes name="wp8iconicsmallkey" value=""/>
     <attributes name="enablepushnotifications" value="false"/>
@@ -277,12 +277,12 @@
     <attributes name="Webcam" value="true"/>
     <attributes name="ID_HW_FRONTCAMERA" value="true"/>
     <attributes name="winmobileguidkey" value="d2b46e98-ee38-4022-bb86-db3342671ae0"/>
-    <attributes name="tcbjs240basefontsize" value="10"/>
     <attributes name="desktopstartupformkey" value="frmHome"/>
+    <attributes name="tcbjs240basefontsize" value="10"/>
     <attributes name="SET_ALWAYS_FINISH" value="false"/>
     <attributes name="WP8_ID_CAP_SPEECH_RECOGNITION" value="true"/>
     <attributes name="apptitle" value=""/>
-    <attributes name="apppackagekey" value="com.orgname.GeoLoc"/>
+    <attributes name="apppackagekey" value="com.orgname.GeoLocation"/>
     <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="true"/>
     <attributes name="SET_ALARM" value="false"/>
     <attributes name="ID_REQ_NFC" value="false"/>
@@ -295,7 +295,7 @@
     <attributes name="iphoneurlscheme" value=""/>
     <attributes name="REORDER_TASKS" value="false"/>
     <attributes name="STATUS_BAR" value="false"/>
-    <attributes name="iphonebundleidentifierkey" value="com.kone.GeoLoc"/>
+    <attributes name="iphonebundleidentifierkey" value="com.kone.GeoLocation"/>
     <attributes name="WP8_ID_CAP_NETWORKING" value="true"/>
     <attributes name="spaandroidtabbasefontsize" value="17"/>
     <attributes name="SET_WALLPAPER" value="false"/>
@@ -348,14 +348,14 @@
     <attributes name="ID_REQ_REARCAMERA" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="tcandroid360basefontsize" value="13"/>
-    <attributes name="win8displaynamekey" value="GeoLoc"/>
+    <attributes name="win8displaynamekey" value="GeoLocation"/>
     <attributes name="wp8cycle7key" value=""/>
     <attributes name="spaandroidtab800basefontsize" value="14"/>
     <attributes name="tcbb400basefontsize" value="14"/>
     <attributes name="spawindows320basefontsize" value="12"/>
     <attributes name="bbservicemenuitemlabel" value=""/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.0.99.QA_v201306181624_r1"/>
+    <attributes name="currentgaversion" value="5.0.26.GA_v201307121922"/>
     <attributes name="ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="mwhttpsportkey" value="443"/>
     <attributes name="pathkey" value=""/>
