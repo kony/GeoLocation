@@ -114,9 +114,16 @@ function geoPosition()
  
  function errorCallBack1(errorMessage)
  {
- 	watchFlag=false;
- 	frmGeoCurrentNWatch.btnClearWatch.isVisible = false;
- 	alert("Error is :: " +errorMessage )
+ 	if(kony.string.containsOnlyGivenChars(kony.os.deviceInfo().deviceid,["0"])!= true){
+ 	
+ 		watchFlag=false;
+ 		alert("name:"+kony.os.deviceInfo().name+":"+kony.os.deviceInfo().model+":"+kony.os.deviceInfo().version+":"+kony.os.deviceInfo().useragent+":"+kony.os.deviceInfo().deviceid);
+ 		frmGeoCurrentNWatch.btnClearWatch.isVisible = false;
+ 		alert("Error is :: " +errorMessage )
+ 	
+ 	
+ 	}
+ 	
  }
  
  /*****************************************************************
@@ -138,7 +145,7 @@ function watchPosition()
 	frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);
 	frmGeoCurrentNWatch.lblGeoAdress.setVisibility(false);
 	frmGeoCurrentNWatch.btnClearWatch.setVisibility(true);
-	watchID = kony.location.watchPosition (geoSuccessCallBack, errorCallBack1, positionoptions);
+	watchID = kony.location.watchPosition (geoSuccessCallBack,errorCallBack1, positionoptions);
 }
 
 /*****************************************************************
