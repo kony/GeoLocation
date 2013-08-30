@@ -7,9 +7,8 @@
 
 function geoSuccessCallBackTab(position)
 {
-	
 	try
-	{
+	{		
 		var lat = position.coords.latitude.toFixed(10).replace(/0{0,2}$/, "");
 		var lng = position.coords.longitude.toFixed(10).replace(/0{0,2}$/, "");
 		frmOptions.lblLatValue.text ="= "+lat;
@@ -51,7 +50,6 @@ function geoSuccessCallBackTab(position)
 	{
 		alert("error is : "+err)
 	}
-	//frmOptions.show();
 	kony.application.dismissLoadingScreen();
 }
 	
@@ -64,7 +62,7 @@ function geoSuccessCallBackTab(position)
 
 function geoErrorCallBackTab(positionerror)
 {
-	alert("Error occured while retrieving the data " + positionerror)
+	alert("Error occured while retrieving the data " + positionerror);
 	kony.application.dismissLoadingScreen();
 }
 	
