@@ -7,23 +7,15 @@
 
 function geoSuccessCallBack(position)
 {
-	
 	try
 	{
 		var lat = position.coords.latitude.toFixed(10).replace(/0{0,2}$/, "");
 		var lng = position.coords.longitude.toFixed(10).replace(/0{0,2}$/, "");
 		frmGeoCurrentNWatch.lblLatValue.text ="= "+lat;
 		frmGeoCurrentNWatch.lblLongValue.text ="= " + lng;
-
 		frmGeoCurrentNWatch.lblAltValue.text ="= " + position.coords.altitude;
-
-		
 		frmGeoCurrentNWatch.lblAccValue.text= "= " + position.coords.accuracy;
-
 		frmGeoCurrentNWatch.lblHeadValue.text ="= "+ position.coords.heading;
-
-		
-		
 		if (watchFlag == false)
 		{
 			frmGeoCurrentNWatch.title = "Current Position";
@@ -35,11 +27,11 @@ function geoSuccessCallBack(position)
 			}
 			if (kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad")
 			{
-				frmGeoCurrentNWatch.lblSpeedValue.text = "= " + position.coords.speed;
+					frmGeoCurrentNWatch.lblSpeedValue.text = "= " + position.coords.speed;
 			}
 			else
 			{
-				frmGeoCurrentNWatch.lblSpeedValue.text = "= " + position.coords.speeding;
+					frmGeoCurrentNWatch.lblSpeedValue.text = "= " + position.coords.speeding;
 			}
 		}
 		else 
@@ -57,26 +49,21 @@ function geoSuccessCallBack(position)
 	}
 	catch(err)
 	{
-		alert("error is : "+err)
+		alert(err.message);
 	}
 	frmGeoCurrentNWatch.show();
 	kony.application.dismissLoadingScreen();
 }
-	
-	
 /*****************************************************************
 *	Name    : geoErrorCallBack
 *	Author  : Kony
 *	Purpose : The below function is the error call back of 'kony.location.getCurrentPosition' API,Used to display error details .
 ******************************************************************/
-
 function geoErrorCallBack(positionerror)
 {
 	alert("Error occured while retrieving the data " + positionerror)
 	kony.application.dismissLoadingScreen();
 }
-	
-	
 /*****************************************************************
 *	Name    : geoPosition
 *	Author  : Kony
@@ -145,7 +132,11 @@ function watchPosition()
 	frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);
 	frmGeoCurrentNWatch.lblGeoAdress.setVisibility(false);
 	frmGeoCurrentNWatch.btnClearWatch.setVisibility(true);
+	try{
 	watchID = kony.location.watchPosition (geoSuccessCallBack,errorCallBack1, positionoptions);
+	}catch(err)
+	{alert(err.message);
+	}
 }
 
 /*****************************************************************
@@ -182,9 +173,6 @@ function clearWatch()
 		frmGeoCurrentNWatch.labelFormOptions.text = "Clear Watch";
 		
 	}
-	
-	
-	
 	//Defining basicConf parameter for alert
 	var basicConf = {message: "Watch has stopped.",alertType: constants.
 	ALERT_TYPE_INFO,alertTitle: "clearWatch",yesLabel:"OK",
@@ -194,7 +182,6 @@ function clearWatch()
 	//Alert definition
 	var infoAlert = kony.ui.Alert(basicConf,pspConf);
 }
-
 /*****************************************************************
 *	Name    : checkForm
 *	Author  : Kony

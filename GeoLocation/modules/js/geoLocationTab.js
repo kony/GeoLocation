@@ -1,10 +1,8 @@
-	
-/*****************************************************************
+	/*****************************************************************
 *	Name    : geoSuccessCallBackTab
 *	Author  : Kony
 *	Purpose : The below function is the success call back of 'kony.location.getCurrentPosition' API,Used to display current location details .
 ******************************************************************/
-
 function geoSuccessCallBackTab(position)
 {
 	try
@@ -13,18 +11,12 @@ function geoSuccessCallBackTab(position)
 		var lng = position.coords.longitude.toFixed(10).replace(/0{0,2}$/, "");
 		frmOptions.lblLatValue.text ="= "+lat;
 		frmOptions.lblLongValue.text ="= " + lng;
-
 		frmOptions.lblAltValue.text ="= " + position.coords.altitude;
-
-		
 		frmOptions.lblAccValue.text= "= " + position.coords.accuracy;
-
 		frmOptions.lblHeadValue.text ="= "+ position.coords.heading;
-
-		
-		
 		if (watchFlag == false)
 		{
+			alert("in geoSuccessCallBackTab with watchflag="+watchFlag);
 			frmOptions.title = "Current Position";
 			frmOptions.lblDesc.setVisibility(true);
 			frmOptions.lblDesc.text = "getcurrentPosition Api gives the current location of the device.";
@@ -45,53 +37,48 @@ function geoSuccessCallBackTab(position)
 			frmOptions.lblDesc.text = "The watch operation continues to monitor the position of the device and invokes the appropriate callback every time this position changes. The watch operation continues until the clearWatch method is called with the corresponding identifier.";
 		}
 		frmOptions.lblTimeValue.text="= " + position.timestamp;
+		alert("completed geoSuccessCallBackTab() with watch flag="+watchFlag);
 	}
 	catch(err)
 	{
-		alert("error is : "+err)
+		alert(err.message+" "+err);
 	}
 	kony.application.dismissLoadingScreen();
 }
-	
-	
 /*****************************************************************
 *	Name    : geoErrorCallBackTab
 *	Author  : Kony
 *	Purpose : The below function is the error call back of 'kony.location.getCurrentPosition' API,Used to display error details .
 ******************************************************************/
-
 function geoErrorCallBackTab(positionerror)
 {
 	alert("Error occured while retrieving the data " + positionerror);
 	kony.application.dismissLoadingScreen();
 }
-	
-	
 /*****************************************************************
 *	Name    : geoPositionTab
 *	Author  : Kony
 *	Purpose : The below function is to invoke 'kony.location.getCurrentPosition' API
 ******************************************************************/
-
 function geoPositionTab()
 {
  	try
  	{
+ 		alert("in geoPositionTab");
  		if(kony.os.deviceInfo().name == "thinclient" || kony.os.deviceInfo().name == "WindowsPhone")
 			hboxHeadspa.lblHeadspa.text = "Current Position";
 	 	watchFlag = false;
-		frmOptions.btnClearWatch.setVisibility(false)
-		frmOptions.lblGeoAdress.setVisibility(false)
+		frmOptions.btnClearWatch.setVisibility(false);
+		frmOptions.lblGeoAdress.setVisibility(false);
 		frmOptions.hbxWatchID.setVisibility(true);
 		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
 		var positionoptions = kony.location.getCurrentPosition(geoSuccessCallBackTab, geoErrorCallBackTab);
-	}
-	catch(exception)
+		alert("completed geoPositionTab()");
+	}catch(exception)
 	{
-		alert("Exception is ::"+exception);
+		alert(exception.message+" "+exception);
 	}
 }
-	
 function geoPositionDesktopWeb()
 {
  	try
@@ -103,7 +90,8 @@ function geoPositionDesktopWeb()
 	}
 	catch(exception)
 	{
-		alert("Exception is ::"+exception);
+		//alert("Exception is ::"+exception);
+		alert(exception.message+" "+exception);
 	}
 }	
 /*****************************************************************
@@ -115,10 +103,15 @@ function geoPositionDesktopWeb()
  function errorCallBack1Tab(errorMessage)
  {
  	watchFlag=false;
- 	frmOptions.btnclearWatch.isVisible = false;
- 	alert("Error is :: " +errorMessage )
+ 	try{
+ 	//frmOptions.btnclearWatch.setVisibility= false;
+ 	alert("Error is :: " +errorMessage );
+ 	kony.application.dismissLoadingScreen();
+ 	 }catch(excep)
+ 	 {
+ 	 	alert(excep.message);
+ 	 } 
  }
- 
  /*****************************************************************
 *	Name    : watchPositionTab
 *	Author  : Kony
@@ -132,12 +125,18 @@ function watchPositionTab()
 	kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
 	var positionoptions = {};//maximumage: 3000};
 	watchFlag = true;
-	frmOptions.hbxWatchID.setVisibility(true);
-	frmOptions.lblGeoAdress.setVisibility(false);
-	watchID = kony.location.watchPosition(geoSuccessCallBackTab, errorCallBack1Tab, positionoptions);
-	frmOptions.btnClearWatch.setVisibility(true);
+	try{
+		alert("in watchPositionTab()")
+		frmOptions.hbxWatchID.setVisibility(true);
+		frmOptions.lblGeoAdress.setVisibility(false);
+		watchID = kony.location.watchPosition(geoSuccessCallBackTab, errorCallBack1Tab, positionoptions);
+		frmOptions.btnClearWatch.setVisibility(true);
+		alert("cleared watchPositionTab()");
+		}catch(excep)
+		{
+			alert(excep.message);
+		}
 }
-
 /*****************************************************************
 *	Name    : handleAlertTab
 *	Author  : Kony
@@ -252,7 +251,8 @@ function addHeaderSPATab(headerName)
 
 
 
-function segClickEvent(seguiWidget, sectionIndex, rowIndex){
+function segClickEvent(seguiWidget, sectionIndex, rowIndex)
+{
 		//alert(frmOptions.segNavigation.selectedItems[0]["lblNavigation"]+ "******"+seguiWidget+ "*****");
 		if(frmOptions.segNavigation.selectedItems[0]["lblGetCurrentPosition"]=="getCurrentLocation")
 			geoPositionTab();
