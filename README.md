@@ -17,6 +17,8 @@ This Application will showcase the following features of GeoLocation APIs
  * iPhone
  * SPA Android
  * SPA iPhone
+ * BlackBerry
+ * SPA BlackBerry
  
 **Tablet** 
  * Android
