@@ -16,13 +16,19 @@ function geoSuccessCallBack(position)
 		frmGeoCurrentNWatch.lblAltValue.text ="= " + position.coords.altitude;
 		frmGeoCurrentNWatch.lblAccValue.text= "= " + position.coords.accuracy;
 		frmGeoCurrentNWatch.lblHeadValue.text ="= "+ position.coords.heading;
+		//frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxlat.lblLatValue.text="= "+lat;
+		/*frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxlong.lblLongValue.text ="= " + lng;
+		frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxaltitude.lblAltValue.text ="= " + position.coords.altitude;
+		frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxaccuracy.lblAccValue.text= "= " + position.coords.accuracy;
+		frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxheading.lblHeadValue.text ="= "+ position.coords.heading;*/
 		if (watchFlag == false)
 		{
-			frmGeoCurrentNWatch.title = "Current Position";
+			frmGeoCurrentNWatch.title = "Current Position";			
+			frmGeoCurrentNWatch.lblDesc.text = "GetcurrentPosition Api gives the current location of the device.";
 			frmGeoCurrentNWatch.lblDesc.setVisibility(true);
-			frmGeoCurrentNWatch.lblDesc.text = "getcurrentPosition Api gives the current location of the device.";
 			if(kony.os.deviceInfo().name == "WindowsPhone" || kony.os.deviceInfo().name == "thinclient")
 			{
+				/*alert("hello");*/
 					frmGeoCurrentNWatch.labelFormOptions.text = "Current Position";
 			}
 			if (kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad")
@@ -72,11 +78,7 @@ function geoErrorCallBack(positionerror)
 
 function geoPosition()
 {
-	//#ifdef winphone8
-		frmGeoCurrentNWatch.show();
-	//#else
-		//do nothing
-	//#endif
+	
  	try
  	{
 	 	watchFlag = false;
@@ -90,6 +92,11 @@ function geoPosition()
 	{
 		alert("Exception is ::"+exception);
 	}
+	//#ifdef winphone8
+		frmGeoCurrentNWatch.show();
+	//#else
+		//do nothing
+	//#endif
 }
 	
 	

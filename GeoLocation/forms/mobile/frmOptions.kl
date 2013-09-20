@@ -1402,7 +1402,7 @@
                 <updatedToNewImageData>true</updatedToNewImageData>
             </choiceData>
             <widgetSkin>sknSeg2Normal</widgetSkin>
-            <rowSkin>No Skin</rowSkin>
+            <rowSkin>sknSeg2Normal</rowSkin>
             <rowFocusSkin>sknSeg2FocusSampleApp</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
             <secHeaderSkin>sknSeg2Header</secHeaderSkin>
@@ -1469,6 +1469,23 @@
                         <paramDataMap>
                             <entry>
                                 <key>js</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>eventobj</paramName>
+                                        <valType>0</valType>
+                                        <value>eventobject</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>eventobject</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
+                            <entry>
+                                <key>lua</key>
                                 <value>
                                     <paramList>
                                         <datatype>string</datatype>
@@ -1594,7 +1611,7 @@
                     <width>100</width>
                     <height>39</height>
                 </sizePercent>
-                <skinId>sknLblBlack</skinId>
+                <skinId>sknLblNormal</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -2263,9 +2280,9 @@
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>false</rc_winmobile>
+                <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>false</rc_winphone8>
+                <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -2439,7 +2456,7 @@
                     <right>1</right>
                     <top>1</top>
                     <bottom>1</bottom>
-                    <unit>px</unit>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -2455,7 +2472,7 @@
                     <right>1</right>
                     <top>1</top>
                     <bottom>1</bottom>
-                    <unit>px</unit>
+                    <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -2832,6 +2849,8 @@
             <parent_wrapping>word</parent_wrapping>
             <parent_longText>false</parent_longText>
             <parent_renderAsAnchor>false</parent_renderAsAnchor>
+            <overrideProperties>KLabel.winmobileContentAlign</overrideProperties>
+            <overrideProperties>KLabel.winphone8_contentalign</overrideProperties>
             <iphone_wrapping>0</iphone_wrapping>
             <iphone_contentAlignment>0</iphone_contentAlignment>
             <iphone_longtext>false</iphone_longtext>

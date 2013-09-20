@@ -8167,9 +8167,9 @@
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>false</rc_winmobile>
+                <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>false</rc_winphone8>
+                <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -8736,6 +8736,8 @@
             <parent_wrapping>word</parent_wrapping>
             <parent_longText>false</parent_longText>
             <parent_renderAsAnchor>false</parent_renderAsAnchor>
+            <overrideProperties>KLabel.winmobileContentAlign</overrideProperties>
+            <overrideProperties>KLabel.winphone8_contentalign</overrideProperties>
             <iphone_wrapping>0</iphone_wrapping>
             <iphone_contentAlignment>0</iphone_contentAlignment>
             <iphone_longtext>false</iphone_longtext>

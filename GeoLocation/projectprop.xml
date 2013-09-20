@@ -10,7 +10,7 @@
     <attributes name="ACCOUNT_MANAGER" value="true"/>
     <attributes name="tcpalm480basefontsize" value="14"/>
     <attributes name="wp8cycle6key" value=""/>
-    <attributes name="wp8packagepublisheridkey" value="KonyLabs"/>
+    <attributes name="wp8packagepublisheridkey" value="78ba3b18-58a4-4987-b337-da74ea4fed4a"/>
     <attributes name="Home_or_Work_Networking" value="true"/>
     <attributes name="andminsdkkey" value="2.1"/>
     <attributes name="PERSISTENT_ACTIVITY" value="false"/>
@@ -29,10 +29,10 @@
     <attributes name="ACCESS_COARSE_LOCATION" value="true"/>
     <attributes name="RESTART_PACKAGES" value="false"/>
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
-    <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="true"/>
+    <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="false"/>
     <attributes name="removeprintstatements" value="true"/>
     <attributes name="appversionkey" value="1.0.0"/>
-    <attributes name="WP8_ID_CAP_GAMERSERVICES" value="true"/>
+    <attributes name="WP8_ID_CAP_GAMERSERVICES" value="false"/>
     <attributes name="BIND_WALLPAPER" value="false"/>
     <attributes name="isNewAppWithRespectToAndroidPackageName" value="true"/>
     <attributes name="SET_ANIMATION_SCALE" value="false"/>
@@ -67,7 +67,7 @@
     <attributes name="BLUETOOTH" value="false"/>
     <attributes name="mangoapptitlekey" value=",,,,,,"/>
     <attributes name="genericexceptionalert" value="false"/>
-    <attributes name="win8certificatefilekey" value=""/>
+    <attributes name="win8certificatefilekey" value="Kony.cer"/>
     <attributes name="access_internet" value="true"/>
     <attributes name="wp8flipmediumkey" value=""/>
     <attributes name="deviceexception" value="Unknown Error Occurred &lt;br/&gt; Contact System Admin"/>
@@ -94,7 +94,7 @@
     <attributes name="bb10keystorepassword" value=""/>
     <attributes name="pathpatternkey" value=""/>
     <attributes name="wp8iconicsmallkey" value=""/>
-    <attributes name="splashlogokey" value="0=splash_320x480.png,1=splash_320x480.png,8=splash.9.png,2=,46=,3=,20=,9=,15=,14=,42=,16=splash_768x1024.png,18=splash_720x1280.png,43=,31=splash_640x1136.png,32=splash_640x960.png,22=splash_320x480.png,23=splash.9.png,37=splash_1280x720.png,1000=,1001=,1002=,45=,24=,35=,44=,36=,21="/>
+    <attributes name="splashlogokey" value="0=splash.9.png,1=splash_320x480.png,8=splash.9.png,2=,3=splash_480x762.png,42=splash_480x762.png,16=splash_768x1024.png,18=splash_720x1280.png,43=,31=splash_640x1136.png,32=splash_640x960.png,22=splash_320x480.png,23=splash.9.png,37=splash_1280x720.png,1000=,1001=,1002=,45=,24=,35=,44=,36=,21="/>
     <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="inputaccessoryviewtype" value="nextprevtoolbar"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
@@ -102,7 +102,7 @@
     <attributes name="WP8_ID_CAP_IDENTITY_DEVICE" value="true"/>
     <attributes name="INSTALL_LOCATION_PROVIDER" value="false"/>
     <attributes name="fbxfolderpathkey" value=""/>
-    <attributes name="ID_RESOLUTION_HD720P" value="false"/>
+    <attributes name="ID_RESOLUTION_HD720P" value="true"/>
     <attributes name="READ_CONTACTS" value="false"/>
     <attributes name="wintileforegroundnamekey" value="Light"/>
     <attributes name="ID_CAP_GAMERSERVICES" value="true"/>
@@ -167,7 +167,7 @@
     <attributes name="SET_ALWAYS_FINISH" value="false"/>
     <attributes name="apptitle" value=""/>
     <attributes name="apppackagekey" value="com.kony.GeoLocation"/>
-    <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="true"/>
+    <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="false"/>
     <attributes name="SET_ALARM" value="false"/>
     <attributes name="read_device_identifying_information" value="false"/>
     <attributes name="RECEIVE_MMS" value="false"/>
@@ -192,7 +192,7 @@
     <attributes name="ID_CAP_PUSH_NOTIFICATION" value="true"/>
     <attributes name="CONTROL_LOCATION_UPDATES" value="false"/>
     <attributes name="bb10packageid" value=""/>
-    <attributes name="win8shortnamekey" value="FormGeoLoc"/>
+    <attributes name="win8shortnamekey" value="GeoLocation"/>
     <attributes name="MASTER_CLEAR" value="false"/>
     <attributes name="tcnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>
     <attributes name="wp8supportlargetileskey" value="false"/>
@@ -206,7 +206,7 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.20.QA_v201309131735"/>
+    <attributes name="currentgaversion" value="5.5.21.QA_v201309171246"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -295,18 +295,18 @@
     <attributes name="SET_TIME_ZONE" value="false"/>
     <attributes name="tcbjs480basefontsize" value="10"/>
     <attributes name="WP8_ID_CAP_MEDIALIB_PLAYBACK" value="true"/>
-    <attributes name="ID_RESOLUTION_WVGA" value="false"/>
+    <attributes name="ID_RESOLUTION_WVGA" value="true"/>
     <attributes name="desktopwebbasefontsize" value="16"/>
     <attributes name="tcbjs320basefontsize" value="10"/>
     <attributes name="CLEAR_APP_CACHE" value="false"/>
     <attributes name="appiniteventkey" value="None"/>
-    <attributes name="ID_RESOLUTION_WXGA" value="false"/>
+    <attributes name="ID_RESOLUTION_WXGA" value="true"/>
     <attributes name="devicemsg" value="This device is currently not supported"/>
     <attributes name="CHANGE_WIFI_STATE" value="false"/>
     <attributes name="ID_CAP_MEDIALIB" value="true"/>
     <attributes name="WP8_ID_CAP_MAP" value="true"/>
     <attributes name="tcandroid640basefontsize" value="19"/>
-    <attributes name="winmangotiletitlekey" value="FormGeoLoc"/>
+    <attributes name="winmangotiletitlekey" value="GeoLocation"/>
     <attributes name="WP8_ID_CAP_ISV_CAMERA" value="true"/>
     <attributes name="hybridhttpsportkey" value=""/>
     <attributes name="READ_CALENDAR" value="false"/>
@@ -378,7 +378,7 @@
     <attributes name="spaandroidtab1024basefontsize" value="16"/>
     <attributes name="SIGNAL_PERSISTENT_PROCESSES" value="false"/>
     <attributes name="tcbb240basefontsize" value="12"/>
-    <attributes name="wp8displaynamekey" value="FormGeoLoc"/>
+    <attributes name="wp8displaynamekey" value="GeoLocation"/>
     <attributes name="spawindows480basefontsize" value="12"/>
     <attributes name="wp8cycle9key" value=""/>
     <attributes name="MOUNT_UNMOUNT_FILESYSTEMS" value="false"/>
