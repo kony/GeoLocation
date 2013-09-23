@@ -27,6 +27,7 @@ This Application will showcase the following features of GeoLocation APIs
  * iPad
  * SPA iPad
  * SPA Android
+ * Windows 8
  
 **Desktop**
  * DesktopWeb
