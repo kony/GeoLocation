@@ -1611,7 +1611,7 @@
                     <width>100</width>
                     <height>39</height>
                 </sizePercent>
-                <skinId>sknLblNormal</skinId>
+                <skinId>sknLblinSeg</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>

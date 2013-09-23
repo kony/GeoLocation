@@ -16,7 +16,7 @@ function geoSuccessCallBackTab(position)
 		frmOptions.lblHeadValue.text ="= "+ position.coords.heading;
 		if (watchFlag == false)
 		{
-			alert("in geoSuccessCallBackTab with watchflag="+watchFlag);
+			//alert("in geoSuccessCallBackTab with watchflag="+watchFlag);
 			frmOptions.title = "Current Position";
 			frmOptions.lblDesc.setVisibility(true);
 			frmOptions.lblDesc.text = "getcurrentPosition Api gives the current location of the device.";
@@ -37,7 +37,7 @@ function geoSuccessCallBackTab(position)
 			frmOptions.lblDesc.text = "The watch operation continues to monitor the position of the device and invokes the appropriate callback every time this position changes. The watch operation continues until the clearWatch method is called with the corresponding identifier.";
 		}
 		frmOptions.lblTimeValue.text="= " + position.timestamp;
-		alert("completed geoSuccessCallBackTab() with watch flag="+watchFlag);
+		//alert("completed geoSuccessCallBackTab() with watch flag="+watchFlag);
 	}
 	catch(err)
 	{
@@ -64,7 +64,7 @@ function geoPositionTab()
 {
  	try
  	{
- 		alert("in geoPositionTab");
+ 		//alert("in geoPositionTab");
  		if(kony.os.deviceInfo().name == "thinclient" || kony.os.deviceInfo().name == "WindowsPhone")
 			hboxHeadspa.lblHeadspa.text = "Current Position";
 	 	watchFlag = false;
@@ -73,7 +73,7 @@ function geoPositionTab()
 		frmOptions.hbxWatchID.setVisibility(true);
 		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
 		var positionoptions = kony.location.getCurrentPosition(geoSuccessCallBackTab, geoErrorCallBackTab);
-		alert("completed geoPositionTab()");
+		//alert("completed geoPositionTab()");
 	}catch(exception)
 	{
 		alert(exception.message+" "+exception);
@@ -126,12 +126,12 @@ function watchPositionTab()
 	var positionoptions = {};//maximumage: 3000};
 	watchFlag = true;
 	try{
-		alert("in watchPositionTab()")
+		//alert("in watchPositionTab()")
 		frmOptions.hbxWatchID.setVisibility(true);
 		frmOptions.lblGeoAdress.setVisibility(false);
 		watchID = kony.location.watchPosition(geoSuccessCallBackTab, errorCallBack1Tab, positionoptions);
 		frmOptions.btnClearWatch.setVisibility(true);
-		alert("cleared watchPositionTab()");
+		//alert("cleared watchPositionTab()");
 		}catch(excep)
 		{
 			alert(excep.message);

@@ -12,7 +12,7 @@
     <attributes name="wp8cycle6key" value=""/>
     <attributes name="wp8packagepublisheridkey" value="78ba3b18-58a4-4987-b337-da74ea4fed4a"/>
     <attributes name="Home_or_Work_Networking" value="true"/>
-    <attributes name="andminsdkkey" value="2.1"/>
+    <attributes name="andminsdkkey" value="3.1"/>
     <attributes name="PERSISTENT_ACTIVITY" value="false"/>
     <attributes name="READ_SMS" value="false"/>
     <attributes name="applepushfunc" value="None"/>
@@ -26,7 +26,7 @@
     <attributes name="CLEAR_APP_USER_DATA" value="false"/>
     <attributes name="wp8flipsmallkey" value=""/>
     <attributes name="tcnth440basefontsize" value="15"/>
-    <attributes name="ACCESS_COARSE_LOCATION" value="true"/>
+    <attributes name="ACCESS_COARSE_LOCATION" value="false"/>
     <attributes name="RESTART_PACKAGES" value="false"/>
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="false"/>
@@ -247,9 +247,9 @@
     <attributes name="SUBSCRIBED_FEEDS_WRITE" value="false"/>
     <attributes name="ipadportraitmodekey" value="true"/>
     <attributes name="appnamekey" value="GeoLocation"/>
-    <attributes name="andtargetsdkkey" value="2.1"/>
-    <attributes name="deeplinkkey" value="None"/>
+    <attributes name="andtargetsdkkey" value="3.1"/>
     <attributes name="READ_LOGS" value="false"/>
+    <attributes name="deeplinkkey" value="None"/>
     <attributes name="WRITE_GSERVICES" value="false"/>
     <attributes name="wp8packageversionkey" value=""/>
     <attributes name="CHANGE_CONFIGURATION" value="false"/>
@@ -277,7 +277,7 @@
     <attributes name="enablefocushtml5iphonbb" value="false"/>
     <attributes name="access_phone" value="false"/>
     <attributes name="win8packagepublichernamekey" value="Kony"/>
-    <attributes name="andmaxsdkkey" value="None"/>
+    <attributes name="andmaxsdkkey" value="4.2"/>
     <attributes name="wp8iconcountnotificationkey" value="false"/>
     <attributes name="READ_SYNC_SETTINGS" value="false"/>
     <attributes name="WRITE_HISTORY_BOOKMARKS" value="false"/>
@@ -312,7 +312,7 @@
     <attributes name="READ_CALENDAR" value="false"/>
     <attributes name="Removable_Storage" value="true"/>
     <attributes name="access_pimdomain_contacts" value="false"/>
-    <attributes name="androidInstallLocnPref" value="false"/>
+    <attributes name="androidInstallLocnPref" value="true"/>
     <attributes name="tcpalm240basefontsize" value="10"/>
     <attributes name="CHANGE_WIFI_MULTICAST_STATE" value="false"/>
     <attributes name="CALL_PRIVILEGED" value="false"/>

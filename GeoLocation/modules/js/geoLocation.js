@@ -1,10 +1,8 @@
-	
 /*****************************************************************
 *	Name    : geoSuccessCallBack
 *	Author  : Kony
 *	Purpose : The below function is the success call back of 'kony.location.getCurrentPosition' API,Used to display current location details .
 ******************************************************************/
-
 function geoSuccessCallBack(position)
 {
 	try
@@ -23,13 +21,13 @@ function geoSuccessCallBack(position)
 		frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxheading.lblHeadValue.text ="= "+ position.coords.heading;*/
 		if (watchFlag == false)
 		{
-			frmGeoCurrentNWatch.title = "Current Position";			
-			frmGeoCurrentNWatch.lblDesc.text = "GetcurrentPosition Api gives the current location of the device.";
-			frmGeoCurrentNWatch.lblDesc.setVisibility(true);
+			frmGeoCurrentNWatch.title = "Current Position";//	alert("1.1");		
+			frmGeoCurrentNWatch.lblDesc.text = "GetcurrentPosition Api gives the current location of the device.";//alert("2.1");
+			frmGeoCurrentNWatch.lblDesc.setVisibility(true);//alert("3.1");
 			if(kony.os.deviceInfo().name == "WindowsPhone" || kony.os.deviceInfo().name == "thinclient")
 			{
 				/*alert("hello");*/
-					frmGeoCurrentNWatch.labelFormOptions.text = "Current Position";
+					frmGeoCurrentNWatch.labelFormOptions.text = "Current Position";//alert("4.1");
 			}
 			if (kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad")
 			{
@@ -50,8 +48,8 @@ function geoSuccessCallBack(position)
 			{
 					frmGeoCurrentNWatch.labelFormOptions.text = "Watch Position";
 			}
-		}
-		frmGeoCurrentNWatch.lblTimeValue.text="= " + position.timestamp;
+		}//alert("5.1");
+		frmGeoCurrentNWatch.lblTimeValue.text="= " + position.timestamp;//alert("6.1");
 	}
 	catch(err)
 	{
@@ -78,15 +76,14 @@ function geoErrorCallBack(positionerror)
 
 function geoPosition()
 {
-	
- 	try
+	try
  	{
-	 	watchFlag = false;
-		frmGeoCurrentNWatch.btnClearWatch.setVisibility(false);
-		frmGeoCurrentNWatch.lblGeoAdress.setVisibility(false);
-		frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);
-		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
-		var positionoptions = kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack);
+	 	watchFlag = false;//alert("1");
+		frmGeoCurrentNWatch.btnClearWatch.setVisibility(false);//alert("2");
+		frmGeoCurrentNWatch.lblGeoAdress.setVisibility(false);//alert("3");
+		frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);//alert("4");
+		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);//alert("5");
+		var positionoptions = kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack);//alert("6");
 	}
 	catch(exception)
 	{
@@ -98,8 +95,6 @@ function geoPosition()
 		//do nothing
 	//#endif
 }
-	
-	
 /*****************************************************************
 *	Name    : errorCallBack1
 *	Author  : Kony
