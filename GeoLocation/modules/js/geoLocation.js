@@ -14,22 +14,16 @@ function geoSuccessCallBack(position)
 		frmGeoCurrentNWatch.lblAltValue.text ="= " + position.coords.altitude;
 		frmGeoCurrentNWatch.lblAccValue.text= "= " + position.coords.accuracy;
 		frmGeoCurrentNWatch.lblHeadValue.text ="= "+ position.coords.heading;
-		//frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxlat.lblLatValue.text="= "+lat;
-		/*frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxlong.lblLongValue.text ="= " + lng;
-		frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxaltitude.lblAltValue.text ="= " + position.coords.altitude;
-		frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxaccuracy.lblAccValue.text= "= " + position.coords.accuracy;
-		frmGeoCurrentNWatch.hbxWatchID.vboxMain.hboxheading.lblHeadValue.text ="= "+ position.coords.heading;*/
 		if (watchFlag == false)
 		{
-			frmGeoCurrentNWatch.title = "Current Position";//	alert("1.1");		
-			frmGeoCurrentNWatch.lblDesc.text = "GetcurrentPosition Api gives the current location of the device.";//alert("2.1");
-			frmGeoCurrentNWatch.lblDesc.setVisibility(true);//alert("3.1");
+			frmGeoCurrentNWatch.title = "Current Position";
+			frmGeoCurrentNWatch.lblDesc.text = "GetcurrentPosition Api gives the current location of the device.";
+			frmGeoCurrentNWatch.lblDesc.setVisibility(true);
 			if(kony.os.deviceInfo().name == "WindowsPhone" || kony.os.deviceInfo().name == "thinclient")
 			{
-				/*alert("hello");*/
-					frmGeoCurrentNWatch.labelFormOptions.text = "Current Position";//alert("4.1");
+					frmGeoCurrentNWatch.labelFormOptions.text = "Current Position";
 			}
-			if (kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad")
+			if (kony.os.deviceInfo().name == "iPhone")
 			{
 					frmGeoCurrentNWatch.lblSpeedValue.text = "= " + position.coords.speed;
 			}
@@ -40,7 +34,7 @@ function geoSuccessCallBack(position)
 		}
 		else 
 		{
-			frmGeoCurrentNWatch.lblSpeedValue.text = "= 0" ;
+			frmGeoCurrentNWatch.lblSpeedValue.text ="= "+ position.coords.speed;
 			frmGeoCurrentNWatch.title = "Watch Position";
 			frmGeoCurrentNWatch.lblDesc.setVisibility(true);
 			frmGeoCurrentNWatch.lblDesc.text = "The watch operation continues to monitor the position of the device and invokes the appropriate callback every time this position changes. The watch operation continues until the clearwatch method is called with the corresponding identifier.";
@@ -48,8 +42,8 @@ function geoSuccessCallBack(position)
 			{
 					frmGeoCurrentNWatch.labelFormOptions.text = "Watch Position";
 			}
-		}//alert("5.1");
-		frmGeoCurrentNWatch.lblTimeValue.text="= " + position.timestamp;//alert("6.1");
+		}
+		frmGeoCurrentNWatch.lblTimeValue.text="= " + position.timestamp;
 	}
 	catch(err)
 	{
@@ -78,22 +72,17 @@ function geoPosition()
 {
 	try
  	{
-	 	watchFlag = false;//alert("1");
-		frmGeoCurrentNWatch.btnClearWatch.setVisibility(false);//alert("2");
-		frmGeoCurrentNWatch.lblGeoAdress.setVisibility(false);//alert("3");
-		frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);//alert("4");
-		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);//alert("5");
-		var positionoptions = kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack);//alert("6");
+	 	watchFlag = false;
+		frmGeoCurrentNWatch.btnClearWatch.setVisibility(false);
+		frmGeoCurrentNWatch.lblGeoAdress.setVisibility(false);
+		frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);
+		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
+		var positionoptions = kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack);
 	}
 	catch(exception)
 	{
 		alert("Exception is ::"+exception);
 	}
-	//#ifdef winphone8
-		frmGeoCurrentNWatch.show();
-	//#else
-		//do nothing
-	//#endif
 }
 /*****************************************************************
 *	Name    : errorCallBack1
@@ -124,11 +113,6 @@ function geoPosition()
 function watchPosition()
 {      
 	kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
-	//#ifdef winphone8
-		frmGeoCurrentNWatch.show();
-	//#else
-		//do nothing
-	//#endif
 	var positionoptions = {};//maximumage: 3000};
 	watchFlag = true;
 	frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);
@@ -219,16 +203,9 @@ function onClickOfSegApi(eventobj){
 ******************************************************************/
 function onHideFrmGeo(){
 	if( watchFlag == true){
-		/*
-		frmGeoCurrentNWatch.btnClearWatch.isVisible = true;
-		frmGeoCurrentNWatch.btnClearWatch.setVisibility(true);
-		*/
 		clearWatch();
 	}
 	else{
-		/*
-		frmGeoCurrentNWatch.btnClearWatch.isVisible = false;
-		*/
 		//do nothing if it is for getCurrentPosition
 	}
 }
