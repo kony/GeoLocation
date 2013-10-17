@@ -70,14 +70,19 @@ function geoErrorCallBack(positionerror)
 
 function geoPosition()
 {
-	try
- 	{
-	 	watchFlag = false;
+		var positionoptions=new Object();
+		positionoptions.enablehighaccuracy=true;
+		positionoptions.timeout=3000;
+		positionoptions.maximumage=1000;
+		watchFlag = false;
 		frmGeoCurrentNWatch.btnClearWatch.setVisibility(false);
 		frmGeoCurrentNWatch.lblGeoAdress.setVisibility(false);
 		frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);
 		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
-		var positionoptions = kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack);
+	try
+ 	{
+	 	
+		 kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack,positionoptions);
 	}
 	catch(exception)
 	{
@@ -113,7 +118,11 @@ function geoPosition()
 function watchPosition()
 {      
 	kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
-	var positionoptions = {};//maximumage: 3000};
+	//var positionoptions = {};//maximumage: 3000};
+	var positionoptions=new Object();
+	positionoptions.enablehighaccuracy=true;
+	positionoptions.timeout=3000;
+	positionoptions.maximumage=1000;
 	watchFlag = true;
 	frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);
 	frmGeoCurrentNWatch.lblGeoAdress.setVisibility(false);
