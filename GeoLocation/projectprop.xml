@@ -106,7 +106,7 @@
     <attributes name="READ_CONTACTS" value="false"/>
     <attributes name="wintileforegroundnamekey" value="Light"/>
     <attributes name="ID_CAP_GAMERSERVICES" value="true"/>
-    <attributes name="iphoneipadglossyeffectkey" value="false"/>
+    <attributes name="iphoneipadglossyeffectkey" value="true"/>
     <attributes name="Text_Messaging" value="true"/>
     <attributes name="HARDWARE_TEST" value="false"/>
     <attributes name="WP8_ID_CAP_APPOINTMENTS" value="true"/>
@@ -114,8 +114,8 @@
     <attributes name="GET_PACKAGE_SIZE" value="false"/>
     <attributes name="allowselfsignedcertificate" value="false"/>
     <attributes name="NFC" value="false"/>
-    <attributes name="tcnth240basefontsize" value="12"/>
     <attributes name="tcbb480basefontsize" value="17"/>
+    <attributes name="tcnth240basefontsize" value="12"/>
     <attributes name="desktopwebnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>
     <attributes name="tcbb360basefontsize" value="13"/>
     <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
@@ -206,7 +206,7 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.21.QA_v201309171246"/>
+    <attributes name="currentgaversion" value="5.5.27.QA_v201310082304_r2"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -224,8 +224,8 @@
     <attributes name="ID_CAP_ISV_CAMERA" value="true"/>
     <attributes name="access_sms_mms" value="false"/>
     <attributes name="urlschemanameorder" value=""/>
-    <attributes name="win8packagelogokey" value=""/>
     <attributes name="desktopwebwidthoption" value="Percentage"/>
+    <attributes name="win8packagelogokey" value=""/>
     <attributes name="CAMERA" value="false"/>
     <attributes name="WP8_ID_CAP_MEDIALIB_PHOTO" value="true"/>
     <attributes name="access_location_services" value="false"/>
@@ -248,8 +248,8 @@
     <attributes name="ipadportraitmodekey" value="true"/>
     <attributes name="appnamekey" value="GeoLocation"/>
     <attributes name="andtargetsdkkey" value="3.1"/>
-    <attributes name="READ_LOGS" value="false"/>
     <attributes name="deeplinkkey" value="None"/>
+    <attributes name="READ_LOGS" value="false"/>
     <attributes name="WRITE_GSERVICES" value="false"/>
     <attributes name="wp8packageversionkey" value=""/>
     <attributes name="CHANGE_CONFIGURATION" value="false"/>
