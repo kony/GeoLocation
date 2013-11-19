@@ -1,4 +1,4 @@
-	/*****************************************************************
+/*****************************************************************
 *	Name    : geoSuccessCallBackTab
 *	Author  : Kony
 *	Purpose : The below function is the success call back of 'kony.location.getCurrentPosition' API,Used to display current location details .
@@ -14,30 +14,30 @@ function geoSuccessCallBackTab(position)
 	var hedin= position.coords.heading;
 	var speed;
 	if(lat==null)
-		frmOptions.lblLatValue.text ="=unavailable.";
+		frmOptions.lblLatValue.text ="= unavailable.";
 	else
 		frmOptions.lblLatValue.text ="= "+lat;
 	if(lang==null)
-		frmOptions.lblLongValue.text ="=unavailable.";
+		frmOptions.lblLongValue.text ="= unavailable.";
 	else
 		frmOptions.lblLongValue.text ="= " + lang;
-	if(alt==null || alt==0)
-		frmOptions.lblAltValue.text ="=unavailable.";
+	if(alt==null)
+		frmOptions.lblAltValue.text ="= unavailable.";
 	else
 		frmOptions.lblAltValue.text ="= " +alt;
 	if(acry==null)
-		frmOptions.lblAccValue.text= "=unavailable.";
+		frmOptions.lblAccValue.text= "= unavailable.";
 	else
 		frmOptions.lblAccValue.text= "= " + acry;
-	if(hedin==null || hedin==0)
-		frmOptions.lblHeadValue.text ="=unavailable.";
+	if(hedin==null)
+		frmOptions.lblHeadValue.text ="= unavailable.";
 	else
 		frmOptions.lblHeadValue.text ="= "+hedin;
 	if(kony.os.deviceInfo().name == "iPad")
 	{
 		speed= position.coords.speed;
 		if(speed==null )
-			frmOptions.lblSpeedValue.text = "=unavailable.";
+			frmOptions.lblSpeedValue.text = "= unavailable.";
 		else
 			frmOptions.lblSpeedValue.text = "= "+speed;
 	}
@@ -45,7 +45,7 @@ function geoSuccessCallBackTab(position)
 	{
 		speed=position.coords.speeding;
 		if(speed==null)
-			frmOptions.lblSpeedValue.text = "=unavailable.";
+			frmOptions.lblSpeedValue.text = "= unavailable.";
 		else
 			frmOptions.lblSpeedValue.text = "= "+speed;
 	}
@@ -115,45 +115,28 @@ function geoPositionDesktopWeb()
 		//alert("Exception is ::"+exception);
 		alert(exception.message+" "+exception);
 	}
-}	
+}
 /*****************************************************************
-*	Name    : errorCallBack1Tab
-*	Author  : Kony
-*	Purpose : The below function is the error call back of 'kony.location.watchPosition' API,Used to display error details .
-******************************************************************/
- function errorCallBack1Tab(errorMessage)
- {
- 	watchFlag=false;
- 	alert("Error occured while retrieving data:"+errorMessage.code+":"+errorMessage.message);
- 	/*try{
- 	//frmOptions.btnclearWatch.setVisibility= false;
- 	alert("Error is :: " +errorMessage );
- 	kony.application.dismissLoadingScreen();
- 	 }catch(excep)
- 	 {
- 	 	alert(excep.message);
- 	 } */
- }
- /*****************************************************************
 *	Name    : watchPositionTab
 *	Author  : Kony
 *	Purpose : The below function is to invoke ' kony.location.watchPosition' API
 ******************************************************************/
- 
 function watchPositionTab()
 {   
 	if(kony.os.deviceInfo().name == "thinclient" || kony.os.deviceInfo().name=="Windows 8")
 			hboxHeadspa.lblHeadspa.text = "Watch Position";   
-	var positionoptions=new Object();
-	positionoptions.enablehighaccuracy=true;
-	positionoptions.timeout=3000;
-	positionoptions.maximumage=1000;
-	frmOptions.hbxWatchID.setVisibility(true);
-	frmOptions.lblGeoAdress.setVisibility(false);
-	watchFlag = true;
 	kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
+	var positionoptions=new Object();
+		positionoptions.enablehighaccuracy=true;
+		positionoptions.timeout=3000;
+		positionoptions.maximumage=1000;
+		frmOptions.hbxWatchID.setVisibility(true);
+		frmOptions.lblGeoAdress.setVisibility(false);
+	watchFlag = true;
 	try{
-		watchID = kony.location.watchPosition(geoSuccessCallBackTab, errorCallBack1Tab, positionoptions);
+		
+		watchID = kony.location.watchPosition(geoSuccessCallBackTab,geoErrorCallBackTab, positionoptions);
+		
 		}catch(excep)
 		{
 			alert(excep.message);
@@ -168,8 +151,6 @@ function handleAlertTab(response)
 {
 	//frmOptions.show();
 }
-
-	
 /*****************************************************************
 *	Name    : clearWatchTab
 *	Author  : Kony
@@ -200,7 +181,6 @@ function clearWatchTab()
 	//Alert definition
 	var infoAlert = kony.ui.Alert(basicConf,pspConf);
 }
-
 /*****************************************************************
 *	Name    : showFrmOption
 *	Author  : Kony
@@ -209,7 +189,6 @@ function clearWatchTab()
 function showFrmOptionsTab(){
 	//frmOptions.show();
 }
-
 /*****************************************************************
 *	Name    : checkFormTab
 *	Author  : Kony
@@ -224,7 +203,6 @@ function checkFormTab(){
 		frmOptions.btnClearWatch.isVisible = false;
 	}
 }
-
 /*****************************************************************
 *	Name    : onClickOfSegApiTab
 *	Author  : Kony
@@ -237,28 +215,15 @@ function onClickOfSegApiTab(eventobj){
 	else if(apiKey==1)
 		watchPositionTab();
 }
-
 /*****************************************************************
 *	Name    : onHideFrmGeoTab
 *	Author  : Kony
 *	Purpose : The below function is to clear watch once the the watchPositiopn form is hidden
 ******************************************************************/
 function onHideFrmGeoTab(){
-	if( watchFlag == true){
-		/*
-		frmOptions.btnclearWatch.isVisible = true;
-		frmOptions.btnclearWatch.setVisibility(true);
-		*/
+	if( watchFlag == true)
 		clearWatchTab();
-	}
-	else{
-		/*
-		frmOptions.btnclearWatch.isVisible = false;
-		*/
-		//do nothing if it is for getCurrentPosition
-	}
 }
-
 /*****************************************************************
 *	Name    : addHeaderSPATab
 *	Author  : Kony
@@ -270,9 +235,6 @@ function addHeaderSPATab(headerName)
 	if(kony.os.deviceInfo().name == "thinclient" || kony.os.deviceInfo().name == "WindowsPhone")
 		hboxHeadspa.lblHeadspa.text = headerName;
 }
-
-
-
 function segClickEvent(seguiWidget, sectionIndex, rowIndex)
 {
 		//alert(frmOptions.segNavigation.selectedItems[0]["lblNavigation"]+ "******"+seguiWidget+ "*****");

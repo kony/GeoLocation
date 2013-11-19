@@ -1,7 +1,7 @@
 <properties>
     <attributes name="applogokey" value="0=icon.png"/>
     <attributes name="androidmapkey2" value=""/>
-    <attributes name="ACCESS_WIFI_STATE" value="false"/>
+    <attributes name="ACCESS_WIFI_STATE" value="true"/>
     <attributes name="mwaddrkey" value=""/>
     <attributes name="portkey" value=""/>
     <attributes name="INTERNAL_SYSTEM_WINDOW" value="false"/>
@@ -26,7 +26,7 @@
     <attributes name="CLEAR_APP_USER_DATA" value="false"/>
     <attributes name="wp8flipsmallkey" value=""/>
     <attributes name="tcnth440basefontsize" value="15"/>
-    <attributes name="ACCESS_COARSE_LOCATION" value="false"/>
+    <attributes name="ACCESS_COARSE_LOCATION" value="true"/>
     <attributes name="RESTART_PACKAGES" value="false"/>
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="false"/>
@@ -87,6 +87,7 @@
     <attributes name="BRICK" value="false"/>
     <attributes name="ID_CAP_APPOINTMENTS" value="true"/>
     <attributes name="SET_PREFERRED_APPLICATIONS" value="false"/>
+    <attributes name="SELECTED_THEME" value="KonyTheme"/>
     <attributes name="GET_TASKS" value="false"/>
     <attributes name="Music_Library" value="true"/>
     <attributes name="tabletstartupformkey" value="frmHome"/>
@@ -114,8 +115,8 @@
     <attributes name="GET_PACKAGE_SIZE" value="false"/>
     <attributes name="allowselfsignedcertificate" value="false"/>
     <attributes name="NFC" value="false"/>
-    <attributes name="tcbb480basefontsize" value="17"/>
     <attributes name="tcnth240basefontsize" value="12"/>
+    <attributes name="tcbb480basefontsize" value="17"/>
     <attributes name="desktopwebnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>
     <attributes name="tcbb360basefontsize" value="13"/>
     <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
@@ -206,7 +207,7 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.27.QA_v201310082304_r2"/>
+    <attributes name="currentgaversion" value="5.5.35.QA_v201311041735"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -224,8 +225,8 @@
     <attributes name="ID_CAP_ISV_CAMERA" value="true"/>
     <attributes name="access_sms_mms" value="false"/>
     <attributes name="urlschemanameorder" value=""/>
-    <attributes name="desktopwebwidthoption" value="Percentage"/>
     <attributes name="win8packagelogokey" value=""/>
+    <attributes name="desktopwebwidthoption" value="Percentage"/>
     <attributes name="CAMERA" value="false"/>
     <attributes name="WP8_ID_CAP_MEDIALIB_PHOTO" value="true"/>
     <attributes name="access_location_services" value="false"/>
@@ -347,7 +348,6 @@
     <attributes name="CHANGE_COMPONENT_ENABLED_STATE" value="false"/>
     <attributes name="WP8_ID_CAP_MEDIALIB_AUDIO" value="true"/>
     <attributes name="access_pimdomain_messages" value="false"/>
-    <attributes name="supportmarginpixelindip" value="true"/>
     <attributes name="iphonewebshrtcutkey" value=""/>
     <attributes name="ID_CAP_NETWORKING" value="true"/>
     <attributes name="ID_HW_FRONTCAMERA" value="true"/>

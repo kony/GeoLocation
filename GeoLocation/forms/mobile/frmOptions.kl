@@ -428,6 +428,24 @@
         <headerId>None</headerId>
         <footerId>None</footerId>
         <title>Position API's</title>
+        <onHide_root>
+            <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>kony.application.dismissLoadingScreen();</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </onHide_root>
         <init>
             <evtSequence>
                 <enabled>true</enabled>
@@ -497,7 +515,7 @@
                 <function>None</function>
                 <serviceType>0</serviceType>
             </leftImgEvtData>
-            <leftPrevTitle>false</leftPrevTitle>
+            <leftPrevTitle>true</leftPrevTitle>
             <leftSideView>1</leftSideView>
             <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
@@ -1571,16 +1589,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -2929,6 +2939,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

@@ -5,8 +5,6 @@
 ******************************************************************/
 function geoSuccessCallBack(position)
 {
-	/*var lat = position.coords.latitude.toFixed(10).replace(/0{0,2}$/, "");
-	var lng = position.coords.longitude.toFixed(10).replace(/0{0,2}$/, "");*/
 	var lat =position.coords.latitude;
 	var lang=position.coords.longitude;
 	var alt=position.coords.altitude;
@@ -16,27 +14,28 @@ function geoSuccessCallBack(position)
 	if(lat!=null)
 		frmGeoCurrentNWatch.lblLatValue.text ="= "+lat;
 	else
-		frmGeoCurrentNWatch.lblLatValue.text ="=unavailable";
+		frmGeoCurrentNWatch.lblLatValue.text ="=unavailable.";
 	if(lang!=null)
 		frmGeoCurrentNWatch.lblLongValue.text ="= " + lang;
 	else
 		frmGeoCurrentNWatch.lblLongValue.text ="=unavailable.";
-	if(alt!=0 && alt!=null)
-		frmGeoCurrentNWatch.lblAltValue.text ="= " +alt; 
-	else
+	if(alt==null || isNaN(alt))
 		frmGeoCurrentNWatch.lblAltValue.text ="=unavailable.";
-	if(acry!=0 || acry!=null || acry!=NaN)
+	else
+		frmGeoCurrentNWatch.lblAltValue.text ="= " +alt; 
+	if(acry==null || isNaN(acry))
 		frmGeoCurrentNWatch.lblAccValue.text= "=unavailable.";
 	else
 		frmGeoCurrentNWatch.lblAccValue.text= "= " +acry; 
-	if(hedin!=0 && hedin!=null)
-		frmGeoCurrentNWatch.lblHeadValue.text ="= "+hedin;
+	if(hedin==null || isNaN(hedin))
+		frmGeoCurrentNWatch.lblHeadValue.text ="=unavailable.";
 	else
-		frmGeoCurrentNWatch.lblHeadValue.text ="=unavailable";
+		frmGeoCurrentNWatch.lblHeadValue.text ="= "+hedin;
+		
 	if (kony.os.deviceInfo().name == "iPhone"|| kony.os.deviceInfo().name == "thinclient")
 	{
 		speed=position.coords.speed;
-		if(speed!=0 && speed!=null)
+		if(speed!=null)
 			frmGeoCurrentNWatch.lblSpeedValue.text = "= " +speed;
 		else
 			frmGeoCurrentNWatch.lblSpeedValue.text = "=unavailable."	
@@ -44,7 +43,7 @@ function geoSuccessCallBack(position)
 	else
 	{
 		speed=position.coords.speeding;
-		if(speed!=0 && speed!=null)
+		if(speed!=null)
 			frmGeoCurrentNWatch.lblSpeedValue.text = "= " +speed;
 		else
 			frmGeoCurrentNWatch.lblSpeedValue.text = "=unavailable."
@@ -62,7 +61,6 @@ function geoSuccessCallBack(position)
 	}
 	else 
 	{
-		//frmGeoCurrentNWatch.lblSpeedValue.text ="= "+ position.coords.speed;
 		frmGeoCurrentNWatch.title = "Watch Position";
 		frmGeoCurrentNWatch.lblDesc.setVisibility(true);
 		frmGeoCurrentNWatch.lblDesc.text = "The watch operation continues to monitor the position of the device and invokes the appropriate callback every time this position changes. The watch operation continues until the clearwatch method is called with the corresponding identifier.";
@@ -79,7 +77,7 @@ function geoSuccessCallBack(position)
 /*****************************************************************
 *	Name    : geoErrorCallBack
 *	Author  : Kony
-*	Purpose : The below function is the error call back of 'kony.location.getCurrentPosition' API,Used to display error details .
+*	Purpose : The below function is the error call back of 'kony.location.getCurrentPosition' & 'kony.location.watchPosition ' API,Used to display error details .
 ******************************************************************/
 function geoErrorCallBack(positionerror)
 {
@@ -93,6 +91,7 @@ function geoErrorCallBack(positionerror)
 ******************************************************************/
 function geoPosition()
 {
+	//var positionoptions1={};
 	var positionoptions=new Object();
 	positionoptions.enablehighaccuracy=true;
 	positionoptions.timeout=10000;
@@ -116,17 +115,10 @@ function geoPosition()
 *	Author  : Kony
 *	Purpose : The below function is the error call back of 'kony.location.watchPosition ' API,Used to display error details .
 ******************************************************************/
-function errorCallBack1(errorMessage)
+/*function errorCallBack1(positionerror)
 {
- 	/*if(kony.string.containsOnlyGivenChars(kony.os.deviceInfo().deviceid,["0"])!= true)
- 	{
- 		watchFlag=false;
- 		alert("name:"+kony.os.deviceInfo().name+":"+kony.os.deviceInfo().model+":"+kony.os.deviceInfo().version+":"+kony.os.deviceInfo().useragent+":"+kony.os.deviceInfo().deviceid);
- 		frmGeoCurrentNWatch.btnClearWatch.isVisible = false;
- 		
- 	}*/
  	alert("Error occured while retrieving the data:-\n"+"Error Code:"+positionerror.code+" : "+ positionerror.message);
-}
+}*/
 /*****************************************************************
 *	Name    : watchPosition
 *	Author  : Kony
@@ -135,7 +127,7 @@ function errorCallBack1(errorMessage)
 function watchPosition()
 {      
 	kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
-	//var positionoptions = {};//maximumage: 3000};
+	//var positionoptions1 = {};//maximumage: 3000};
 	var positionoptions=new Object();
 	positionoptions.enablehighaccuracy=true;
 	positionoptions.timeout=10000;
@@ -143,10 +135,9 @@ function watchPosition()
 	watchFlag = true;
 	frmGeoCurrentNWatch.hbxWatchID.setVisibility(true);
 	frmGeoCurrentNWatch.lblGeoAdress.setVisibility(false);
-	
 	try
 	{
-		watchID = kony.location.watchPosition (geoSuccessCallBack,errorCallBack1, positionoptions);
+		watchID = kony.location.watchPosition (geoSuccessCallBack,geoErrorCallBack, positionoptions);
 	}catch(err)
 	{
 		alert(err.message);
@@ -223,12 +214,9 @@ function onClickOfSegApi(eventobj){
 *	Purpose : The below function is to clear watch once the the watchPositiopn form is hidden
 ******************************************************************/
 function onHideFrmGeo(){
-	if( watchFlag == true){
+	if( watchFlag == true)
 		clearWatch();
-	}
-	else{
-		//do nothing if it is for getCurrentPosition
-	}
+		kony.application.dismissLoadingScreen();
 }
 /*****************************************************************
 *	Name    : addHeaderSPA
