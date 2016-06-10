@@ -1,0 +1,16 @@
+{
+    "p2kwiet433743360508_btnClearWatch_onClick_seq0": {
+        "id": "p2kwiet433743360508_btnClearWatch_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "actions": [{
+            "id": "customcode_onClick_946674337433609571",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearWatchTab",
+            "display": "clearWatchTab"
+        }]
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        5,
+        5,
+        5,
+        5
+    ],
+    "_padding_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_skin_": "s0e601ed7bb4442ba407861f681e6be9",
+    "_text_": "",
+    "_wrapping_": 2,
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.label.AndroidLabelProperty",
+        "_margin_": [
+            5,
+            6,
+            5,
+            1
+        ],
+        "margin": [
+            5,
+            6,
+            5,
+            1
+        ],
+        "marginInPixel": false,
+        "psp": {
+            "textCopyable": false
+        },
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "hexpand": true,
+    "id": "lblGeoAdress",
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.component.property.label.IPadLabelProperty",
+        "_margin_": [
+            5,
+            6,
+            5,
+            1
+        ],
+        "_padding_": [
+            2,
+            2,
+            2,
+            2
+        ],
+        "margin": [
+            5,
+            6,
+            5,
+            1
+        ],
+        "marginInPixel": false,
+        "padding": [
+            2,
+            2,
+            2,
+            2
+        ],
+        "paddingInPixel": false,
+        "psp": {
+            "textCopyable": false,
+            "wrapping": 2
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet433743360503",
+    "margininpixel": false,
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "vbxPosition",
+    "pf": "frmOptions",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPALabelProperty",
+        "psp": {
+            "textCopyable": false
+        }
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPAAndroidTabletLabelProperty",
+        "_margin_": [
+            5,
+            6,
+            5,
+            1
+        ],
+        "margin": [
+            5,
+            6,
+            5,
+            1
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPAIPadLabelProperty",
+        "_margin_": [
+            5,
+            6,
+            5,
+            1
+        ],
+        "margin": [
+            5,
+            6,
+            5,
+            1
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPAWindowsTabletLabelProperty",
+        "render": true
+    },
+    "tooltip": "",
+    "vexpand": false,
+    "wType": "Label",
+    "widgetalignment": 5,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.component.property.label.Windows8LabelProperty",
+        "_margin_": [
+            8,
+            0,
+            5,
+            0
+        ],
+        "margin": [
+            8,
+            0,
+            5,
+            0
+        ],
+        "marginInPixel": false,
+        "render": true
+    }
+}

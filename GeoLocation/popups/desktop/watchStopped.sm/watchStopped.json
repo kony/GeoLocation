@@ -1,0 +1,108 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s73b9a411ad640b19d9cfc1d3c857e02",
+    "_title_": "",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "lblWatchPop",
+        "btnWatchPop"
+    ],
+    "containerheightreference": 1,
+    "containerweight": 80,
+    "desktopweb": {
+        "@class": "com.kony.gen.viz.model.container.property.form.DesktopWebFormProperty",
+        "inTransitionConfig": {
+            "popupTransition": "none"
+        },
+        "isModal": false,
+        "outTransitionConfig": {
+            "popupTransition": "none"
+        },
+        "psp": {
+            "dockableAppMenu": true,
+            "dockableFooter": true,
+            "dockableHeader": true,
+            "draggable": false,
+            "minimizeOnLostFocus": false,
+            "resizable": false,
+            "titleBarConfig": {
+                "closeIcon": "close.png",
+                "maxIcon": "max.png",
+                "minIcon": "min.png",
+                "titleBarSkin": "Skin Defaults"
+            }
+        },
+        "render": true,
+        "undefined": true
+    },
+    "displayorientation": 1,
+    "enabledforidletimeout": false,
+    "footeroverlap": false,
+    "headeroverlap": false,
+    "id": "watchStopped",
+    "ide_onHide": "p2kwiet433743360558_watchStopped_onhide_seq0",
+    "info": null,
+    "initdone": false,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "invokedProperty": "footers",
+    "ismodal": false,
+    "isvisible": true,
+    "kiosk": {
+        "@class": "com.kony.gen.viz.model.container.property.form.KioskFormProperty",
+        "inTransitionConfig": {
+            "transitionSpeed": 0
+        },
+        "outTransitionConfig": {
+            "transitionSpeed": 0
+        },
+        "psp": {
+            "animateHeaderFooter": false
+        },
+        "render": true,
+        "undefined": true
+    },
+    "kuid": "p2kwiet433743360558",
+    "layouttype": 0,
+    "margininpixel": false,
+    "menuposition": 2,
+    "name": "kony.ui.Popup",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "percent": true,
+    "retainscrollposition": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAFormProperty",
+        "isModal": false,
+        "psp": {
+            "dockableAppMenu": true,
+            "dockableFooter": true,
+            "dockableHeader": true
+        }
+    },
+    "titlebar": true,
+    "transparencybehindthepopup": 0,
+    "type": 3,
+    "wType": "Popup",
+    "widgetalignment": 1
+}

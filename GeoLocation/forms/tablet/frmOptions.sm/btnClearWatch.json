@@ -1,0 +1,175 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        3,
+        1,
+        3
+    ],
+    "_skin_": "sf157a5844b2412fae13fe8527d04d32",
+    "_text_": "clearWatch",
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.button.AndroidButtonProperty",
+        "_margin_": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "displayText": true,
+        "margin": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s003d0d5646447a38be2ed3c00c24f48",
+    "hexpand": true,
+    "id": "btnClearWatch",
+    "ide_onClick": "p2kwiet433743360508_btnClearWatch_onClick_seq0",
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.component.property.button.IPadButtonProperty",
+        "_margin_": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "displayText": true,
+        "margin": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "marginInPixel": false,
+        "psp": {
+            "glowEffect": false
+        },
+        "render": true
+    },
+    "isvisible": false,
+    "kuid": "p2kwiet433743360504",
+    "margininpixel": false,
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "vbxPosition",
+    "pf": "frmOptions",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAButtonProperty",
+        "displayText": true
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAAndroidTabletButtonProperty",
+        "_margin_": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "_padding_": [
+            1,
+            3,
+            1,
+            3
+        ],
+        "margin": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "marginInPixel": false,
+        "padding": [
+            1,
+            3,
+            1,
+            3
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAIPadButtonProperty",
+        "_margin_": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "_padding_": [
+            1,
+            3,
+            1,
+            3
+        ],
+        "margin": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "marginInPixel": false,
+        "padding": [
+            1,
+            3,
+            1,
+            3
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAWindowsTabletButtonProperty",
+        "render": true
+    },
+    "vexpand": false,
+    "wType": "Button",
+    "widgetalignment": 5,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.component.property.button.Windows8ButtonProperty",
+        "_margin_": [
+            8,
+            1,
+            5,
+            0
+        ],
+        "_padding_": [
+            0,
+            1,
+            0,
+            1
+        ],
+        "displayText": true,
+        "margin": [
+            8,
+            1,
+            5,
+            0
+        ],
+        "marginInPixel": false,
+        "padding": [
+            0,
+            1,
+            0,
+            1
+        ],
+        "paddingInPixel": false,
+        "render": true
+    }
+}

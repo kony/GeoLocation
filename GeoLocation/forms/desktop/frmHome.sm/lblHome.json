@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        5,
+        5,
+        5,
+        3
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0e601ed7bb4442ba407861f681e6be9",
+    "_text_": "This application will showcase the following features of the GeoLocation API",
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "@class": "com.kony.gen.viz.model.component.property.label.DesktopWebLabelProperty",
+        "_margin_": [
+            20,
+            6,
+            5,
+            2
+        ],
+        "margin": [
+            20,
+            6,
+            5,
+            2
+        ],
+        "marginInPixel": false,
+        "psp": {
+            "textCopyable": false
+        },
+        "render": true
+    },
+    "hexpand": true,
+    "id": "lblHome",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "@class": "com.kony.gen.viz.model.component.property.label.KioskLabelProperty",
+        "render": true
+    },
+    "kuid": "p2kwiet433743360513",
+    "margininpixel": false,
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPALabelProperty",
+        "psp": {
+            "textCopyable": false
+        }
+    },
+    "tooltip": "",
+    "vexpand": false,
+    "wType": "Label",
+    "widgetalignment": 5
+}

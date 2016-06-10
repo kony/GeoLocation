@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<application name="GeoLocation" id="GeoLocation">
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmOptions" displayname="Form"/>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmOptions" displayname="Form"/>
-    <container type="dialog" id="watchStopped" displayname="Popup"/>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmOptions" displayname="Form"/>
-    <container type="dialog" id="watchStopped" displayname="Popup"/>
-    <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmOptions" displayname="Form"/>
-    <container type="dialog" id="watchStopped" displayname="Popup"/>
+<application id="GeoLocation" name="GeoLocation">
+    <container isflex="false" displayname="Form" id="frmHome" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOptions" type="form"/>
+    <container isflex="false" displayname="Form" id="frmHome" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOptions" type="form"/>
+    <container isflex="false" displayname="Popup" id="watchStopped" type="dialog"/>
+    <container isflex="false" displayname="Form" id="frmHome" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOptions" type="form"/>
+    <container isflex="false" displayname="Popup" id="watchStopped" type="dialog"/>
+    <container isflex="false" displayname="Form" id="frmGeoCurrentNWatch" type="form"/>
+    <container isflex="false" displayname="Form" id="frmHome" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOptions" type="form"/>
+    <container isflex="false" displayname="Popup" id="watchStopped" type="dialog"/>
     <globalsequences/>
     <skins/>
 </application>

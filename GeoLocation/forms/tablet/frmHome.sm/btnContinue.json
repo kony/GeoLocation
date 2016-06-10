@@ -1,0 +1,123 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        5,
+        6,
+        5,
+        2
+    ],
+    "_padding_": [
+        1,
+        3,
+        1,
+        3
+    ],
+    "_skin_": "sf157a5844b2412fae13fe8527d04d32",
+    "_text_": "Click here to continue",
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.button.AndroidButtonProperty",
+        "displayText": true,
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s003d0d5646447a38be2ed3c00c24f48",
+    "hexpand": true,
+    "id": "btnContinue",
+    "ide_onClick": "p2kwiet433743360472_btnContinue_onClick_seq0",
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.component.property.button.IPadButtonProperty",
+        "displayText": true,
+        "psp": {
+            "glowEffect": false
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet433743360462",
+    "margininpixel": false,
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAButtonProperty",
+        "displayText": true
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAAndroidTabletButtonProperty",
+        "_padding_": [
+            1,
+            3,
+            1,
+            3
+        ],
+        "padding": [
+            1,
+            3,
+            1,
+            3
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAIPadButtonProperty",
+        "_padding_": [
+            1,
+            3,
+            1,
+            3
+        ],
+        "padding": [
+            1,
+            3,
+            1,
+            3
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAWindowsTabletButtonProperty",
+        "render": true
+    },
+    "vexpand": false,
+    "wType": "Button",
+    "widgetalignment": 5,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.component.property.button.Windows8ButtonProperty",
+        "_margin_": [
+            120,
+            1,
+            50,
+            1
+        ],
+        "_padding_": [
+            0,
+            1,
+            0,
+            1
+        ],
+        "displayText": true,
+        "margin": [
+            120,
+            1,
+            50,
+            1
+        ],
+        "marginInPixel": true,
+        "padding": [
+            0,
+            1,
+            0,
+            1
+        ],
+        "paddingInPixel": true,
+        "render": true
+    }
+}

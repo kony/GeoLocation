@@ -1,0 +1,57 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_position_": 3,
+    "_resize_": true,
+    "_skin_": "s4551ca64fd8426cace017a69e53cf81",
+    "allboxes": [],
+    "borderCollapse": false,
+    "canUpdateUI": true,
+    "children": [
+        "hboxlat",
+        "hboxlong",
+        "hboxaltitude",
+        "hboxaccuracy",
+        "hboxheading",
+        "hboxspeeding",
+        "hboxtimestamp"
+    ],
+    "containerweight": 100,
+    "desktopweb": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.DesktopWebVBoxProperty",
+        "render": true
+    },
+    "id": "vboxMain",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.KioskVBoxProperty",
+        "render": true
+    },
+    "kuid": "p2kwiet433743360542",
+    "layouttype": 0,
+    "margininpixel": false,
+    "name": "kony.ui.Box",
+    "paddinginpixel": false,
+    "parent": "hbxWatchID",
+    "pf": "frmOptions",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.SPAVBoxProperty"
+    },
+    "templateType": "forms",
+    "wType": "VBox",
+    "widgetalignment": 1
+}

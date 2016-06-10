@@ -1,0 +1,19 @@
+{
+    "p2kwiet433743360435_frmGeoCurrentNWatch_onhide_seq0": {
+        "id": "p2kwiet433743360435_frmGeoCurrentNWatch_onhide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "actions": [{
+            "id": "customcode_onhide_340924337433607017",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onHideFrmGeo",
+            "display": "onHideFrmGeo"
+        }]
+    }
+}

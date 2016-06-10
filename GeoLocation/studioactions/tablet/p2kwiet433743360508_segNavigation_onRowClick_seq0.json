@@ -1,0 +1,26 @@
+{
+    "p2kwiet433743360508_segNavigation_onRowClick_seq0": {
+        "id": "p2kwiet433743360508_segNavigation_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }],
+        "actions": [{
+            "id": "customcode_onRowClick_990564337433606088",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfSegApiTab",
+            "display": "onClickOfSegApiTab",
+            "inputparams": [{
+                "name": "eventobj",
+                "value": "eventobject"
+            }]
+        }]
+    }
+}

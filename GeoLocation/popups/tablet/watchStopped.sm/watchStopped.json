@@ -1,0 +1,158 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s73b9a411ad640b19d9cfc1d3c857e02",
+    "_title_": "",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.form.AndroidFormProperty",
+        "displayOrientation": 1,
+        "footerOverlap": false,
+        "headerOverlap": false,
+        "inTransitionConfig": {
+            "animation": 0
+        },
+        "isModal": false,
+        "menuPosition": 2,
+        "outTransitionConfig": {
+            "animation": 0
+        },
+        "psp": {
+            "showActionBar": true,
+            "showActionBarIcon": true,
+            "windowSoftInputMode": 1
+        },
+        "render": true,
+        "undefined": true
+    },
+    "canUpdateUI": true,
+    "children": [
+        "lblWatchPop",
+        "btnWatchPop"
+    ],
+    "containerheightreference": 1,
+    "containerweight": 80,
+    "displayorientation": 1,
+    "enabledforidletimeout": false,
+    "footeroverlap": false,
+    "headeroverlap": false,
+    "id": "watchStopped",
+    "ide_onHide": "p2kwiet433743360554_watchStopped_onhide_seq0",
+    "info": null,
+    "initdone": false,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "invokedProperty": "footers",
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.container.property.form.IPadFormProperty",
+        "displayOrientation": 1,
+        "footerOverlap": false,
+        "headerOverlap": false,
+        "inTransitionConfig": {
+            "transitionDirection": "none",
+            "transitionEffect": "none"
+        },
+        "isModal": false,
+        "outTransitionConfig": {
+            "transitionDirection": "none",
+            "transitionEffect": "none"
+        },
+        "psp": {
+            "bounces": true,
+            "configureExtendBottom": false,
+            "configureExtendTop": false,
+            "configureStatusBarStyle": false,
+            "extendBottom": false,
+            "extendTop": false,
+            "formTransparencyDuringPostShow": 100,
+            "inputaccessoryviewtype": 1,
+            "needsIndicatorDuringPostShow": true,
+            "popupStyle": "kony",
+            "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
+            "useNativeTitlebar": true
+        },
+        "render": true,
+        "undefined": true
+    },
+    "ismodal": false,
+    "isvisible": true,
+    "kuid": "p2kwiet433743360554",
+    "margininpixel": false,
+    "menuposition": 2,
+    "name": "kony.ui.Popup",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "percent": true,
+    "retainscrollposition": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAFormProperty",
+        "inTransitionConfig": {
+            "popupTransition": "none"
+        },
+        "isModal": false,
+        "outTransitionConfig": {
+            "popupTransition": "none"
+        },
+        "psp": {
+            "dockableAppMenu": true,
+            "dockableFooter": true,
+            "dockableHeader": true
+        }
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAAndroidTabletFormProperty",
+        "render": true,
+        "undefined": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.psp.WidgetProperty",
+        "render": true,
+        "undefined": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAIPadFormProperty",
+        "render": true,
+        "undefined": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAWindowsTabletFormProperty",
+        "render": true,
+        "undefined": true
+    },
+    "titlebar": true,
+    "transparencybehindthepopup": 0,
+    "type": 3,
+    "wType": "Popup",
+    "widgetalignment": 1,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.container.property.form.Windows8FormProperty",
+        "displayOrientation": 1,
+        "psp": {
+            "enableBack": true,
+            "enableOnscreenMenu": false,
+            "layout": 2,
+            "maxAppMenuButtons": 4,
+            "noFixedItems": 0
+        },
+        "render": true,
+        "undefined": true
+    }
+}

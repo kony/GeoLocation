@@ -1,0 +1,135 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_resize_": true,
+    "_skin_": "s58364b1e4234a518c1be40b8a93ae11",
+    "allboxes": [],
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollbox.AndroidScrollBoxProperty",
+        "_position_": 3,
+        "enableScrollByPage": false,
+        "position": 3,
+        "render": true,
+        "showScrollbars": true,
+        "undefined": false
+    },
+    "canUpdateUI": true,
+    "children": [
+        "segNavigation"
+    ],
+    "containerheight": 100,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "enablescrollbypage": false,
+    "id": "scrollbox19302198661241",
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollbox.IPadScrollBoxProperty",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_position_": 3,
+        "enableScrollByPage": false,
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "position": 3,
+        "psp": {
+            "bounces": true
+        },
+        "render": true,
+        "showScrollbars": true,
+        "undefined": false
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet433743360477",
+    "layoutalignment": 3,
+    "margininpixel": false,
+    "name": "kony.ui.ScrollBox",
+    "paddinginpixel": false,
+    "parent": "hbox19302198661240",
+    "pf": "frmOptions",
+    "scrollbar": "scrollbar",
+    "scrolldirection": 2,
+    "scrollingevents": null,
+    "showscrollbars": true,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPAScrollBoxProperty",
+        "psp": {
+            "scrollArrowConfig": [
+                null,
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPAAndroidTabletScrollBoxProperty",
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPAIPadScrollBoxProperty",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPAWindowsTabletScrollBoxProperty",
+        "render": true
+    },
+    "templateType": "forms",
+    "totalWt": 0,
+    "wType": "ScrollBox",
+    "widgetalignment": 1,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollbox.Windows8ScrollBoxProperty",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "render": true
+    }
+}

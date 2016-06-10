@@ -1,0 +1,139 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_resize_": true,
+    "_skin_": "s8279090df1b4b2bad75eec17cb7fd66",
+    "allboxes": [],
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.AndroidHBoxProperty",
+        "_margin_": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "_position_": 3,
+        "margin": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "marginInPixel": false,
+        "position": 3,
+        "render": true
+    },
+    "borderCollapse": false,
+    "canUpdateUI": true,
+    "children": [
+        "vboxMain"
+    ],
+    "containerweight": 100,
+    "id": "hbxWatchID",
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.IPadHBoxProperty",
+        "_margin_": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "_position_": 3,
+        "margin": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "marginInPixel": false,
+        "position": 3,
+        "render": true
+    },
+    "isvisible": false,
+    "kuid": "p2kwiet433743360502",
+    "layoutalignment": 3,
+    "margininpixel": false,
+    "name": "kony.ui.Box",
+    "paddinginpixel": false,
+    "parent": "vbxPosition",
+    "pf": "frmOptions",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.SPAHBoxProperty"
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.SPAAndroidTabletHBoxProperty",
+        "_margin_": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "margin": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.SPAIPadHBoxProperty",
+        "_margin_": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "margin": [
+            3,
+            3,
+            3,
+            3
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.SPAWindowsTabletHBoxProperty",
+        "render": true
+    },
+    "templateType": "forms",
+    "wType": "HBox",
+    "widgetalignment": 1,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.Windows8HBoxProperty",
+        "_margin_": [
+            8,
+            0,
+            5,
+            0
+        ],
+        "_position_": 3,
+        "margin": [
+            8,
+            0,
+            5,
+            0
+        ],
+        "marginInPixel": false,
+        "position": 3,
+        "render": true
+    }
+}

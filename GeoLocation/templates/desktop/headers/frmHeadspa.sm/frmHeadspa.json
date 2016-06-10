@@ -1,0 +1,102 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4284abfe8d0490aab8c4e571628e453",
+    "_title_": "",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "hboxHeadspa"
+    ],
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "desktopweb": {
+        "@class": "com.kony.gen.viz.model.container.property.form.DesktopWebFormProperty",
+        "inTransitionConfig": {
+            "formTransition": "none"
+        },
+        "isModal": false,
+        "needAppMenu": true,
+        "outTransitionConfig": {
+            "formTransition": "none"
+        },
+        "psp": {
+            "dockableAppMenu": true,
+            "dockableFooter": true,
+            "dockableHeader": true,
+            "draggable": false,
+            "minimizeOnLostFocus": false,
+            "resizable": false
+        },
+        "render": true
+    },
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "footeroverlap": false,
+    "headeroverlap": false,
+    "id": "frmHeadspa",
+    "info": null,
+    "initdone": false,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "ismodal": false,
+    "isvisible": true,
+    "kiosk": {
+        "@class": "com.kony.gen.viz.model.container.property.form.KioskFormProperty",
+        "inTransitionConfig": {
+            "transitionSpeed": 0
+        },
+        "needAppMenu": true,
+        "outTransitionConfig": {
+            "transitionSpeed": 0
+        },
+        "psp": {
+            "animateHeaderFooter": false
+        },
+        "render": true
+    },
+    "kuid": "p2kwiet433743360566",
+    "layouttype": 0,
+    "margininpixel": false,
+    "menuposition": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "percent": true,
+    "restorewidgetprototypes": true,
+    "retainscrollposition": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAFormProperty",
+        "isModal": false,
+        "needAppMenu": false,
+        "psp": {
+            "dockableAppMenu": true,
+            "dockableFooter": true,
+            "dockableHeader": true
+        }
+    },
+    "templateType": "forms",
+    "titleBarSkin": "se8656328df94620acf20d48cdea5a86",
+    "titlebar": true,
+    "transparencybehindthepopup": 100,
+    "type": 3,
+    "wType": "Form",
+    "widgetalignment": 1
+}

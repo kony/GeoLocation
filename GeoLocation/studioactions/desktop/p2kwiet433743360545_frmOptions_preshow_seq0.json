@@ -1,0 +1,23 @@
+{
+    "p2kwiet433743360545_frmOptions_preshow_seq0": {
+        "id": "p2kwiet433743360545_frmOptions_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "actions": [{
+            "id": "customcode_preshow_431454337433607731",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addHeaderSPATab",
+            "display": "addHeaderSPATab",
+            "inputparams": [{
+                "name": "headerName",
+                "value": "\"GetCurrentPosition\""
+            }]
+        }]
+    }
+}

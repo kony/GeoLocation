@@ -1,0 +1,35 @@
+{
+    "android": {
+        "background_color": "ffffffff",
+        "bg_type": "one",
+        "isForked": true
+    },
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "000000ff",
+    "font_size": 100,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "background_image": "iosfrmbgimage.png",
+        "bg_type": "image",
+        "isForked": true
+    },
+    "iphone": {
+        "background_image": "iosfrmbgimage.png",
+        "bg_type": "image",
+        "isForked": true
+    },
+    "isDefaultSkin": true,
+    "kuid": "s4284abfe8d0490aab8c4e571628e453",
+    "tabrcandroid": {
+        "background_color": "ffffffff",
+        "bg_type": "one",
+        "isForked": true
+    },
+    "wType": "Form"
+}

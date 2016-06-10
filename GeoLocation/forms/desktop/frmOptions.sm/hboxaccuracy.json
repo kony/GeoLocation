@@ -1,0 +1,58 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_resize_": true,
+    "_skin_": "s965b21bfcdf4213bc7550f96711551d",
+    "allboxes": [],
+    "borderCollapse": false,
+    "canUpdateUI": true,
+    "children": [
+        "lblAccKey",
+        "lblAccValue"
+    ],
+    "containerweight": 100,
+    "desktopweb": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.DesktopWebHBoxProperty",
+        "_position_": 3,
+        "position": 3,
+        "render": true
+    },
+    "id": "hboxaccuracy",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.KioskHBoxProperty",
+        "_position_": 3,
+        "position": 3,
+        "render": true
+    },
+    "kuid": "p2kwiet433743360532",
+    "layoutalignment": 3,
+    "layouttype": 0,
+    "margininpixel": false,
+    "name": "kony.ui.Box",
+    "paddinginpixel": false,
+    "parent": "vboxMain",
+    "pf": "frmOptions",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.SPAHBoxProperty"
+    },
+    "templateType": "forms",
+    "wType": "HBox",
+    "widgetalignment": 1
+}

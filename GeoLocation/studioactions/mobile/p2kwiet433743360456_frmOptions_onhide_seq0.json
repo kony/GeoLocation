@@ -1,0 +1,18 @@
+{
+    "p2kwiet433743360456_frmOptions_onhide_seq0": {
+        "id": "p2kwiet433743360456_frmOptions_onhide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "actions": [{
+            "id": "expression_onhide_657024337433607000",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.dismissLoadingScreen();"
+        }]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        35,
+        5,
+        35,
+        23
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf157a5844b2412fae13fe8527d04d32",
+    "_text_": "Click here to continue",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "@class": "com.kony.gen.viz.model.component.property.button.DesktopWebButtonProperty",
+        "_padding_": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "displayText": true,
+        "padding": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "displaytext": true,
+    "focusskin": "s003d0d5646447a38be2ed3c00c24f48",
+    "hexpand": true,
+    "id": "btnContinue",
+    "ide_onClick": "p2kwiet433743360518_btnContinue_onClick_seq0",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "@class": "com.kony.gen.viz.model.component.property.button.KioskButtonProperty",
+        "render": true
+    },
+    "kuid": "p2kwiet433743360514",
+    "margininpixel": false,
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAButtonProperty",
+        "displayText": true
+    },
+    "vexpand": false,
+    "wType": "Button",
+    "widgetalignment": 5
+}

@@ -1,0 +1,247 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        24,
+        7,
+        24,
+        7
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf157a5844b2412fae13fe8527d04d32",
+    "_text_": "clearWatch",
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.button.AndroidButtonProperty",
+        "_margin_": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "_padding_": [
+            1,
+            4,
+            1,
+            4
+        ],
+        "displayText": true,
+        "margin": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "marginInPixel": false,
+        "padding": [
+            1,
+            4,
+            1,
+            4
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s003d0d5646447a38be2ed3c00c24f48",
+    "hexpand": true,
+    "id": "btnClearWatch",
+    "ide_onClick": "p2kwiet433743360435_btnClearWatch_onClick_seq0",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",
+        "_margin_": [
+            12,
+            5,
+            12,
+            7
+        ],
+        "_padding_": [
+            3,
+            12,
+            3,
+            12
+        ],
+        "displayText": true,
+        "margin": [
+            12,
+            5,
+            12,
+            7
+        ],
+        "marginInPixel": true,
+        "padding": [
+            3,
+            12,
+            3,
+            12
+        ],
+        "paddingInPixel": true,
+        "psp": {
+            "glowEffect": false
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet433743360432",
+    "margininpixel": true,
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "frmGeoCurrentNWatch",
+    "pf": "frmGeoCurrentNWatch",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAButtonProperty",
+        "displayText": true
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAAndroidButtonProperty",
+        "_margin_": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "_padding_": [
+            1,
+            4,
+            1,
+            4
+        ],
+        "margin": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "marginInPixel": false,
+        "padding": [
+            1,
+            4,
+            1,
+            4
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPABBButtonProperty",
+        "_margin_": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "_padding_": [
+            1,
+            4,
+            1,
+            4
+        ],
+        "margin": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "marginInPixel": false,
+        "padding": [
+            1,
+            4,
+            1,
+            4
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAIPhoneButtonProperty",
+        "_margin_": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "_padding_": [
+            1,
+            4,
+            1,
+            4
+        ],
+        "margin": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "marginInPixel": false,
+        "padding": [
+            1,
+            4,
+            1,
+            4
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAWinPhone8ButtonProperty",
+        "_margin_": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "margin": [
+            4,
+            2,
+            4,
+            3
+        ],
+        "marginInPixel": false,
+        "render": true
+    },
+    "vexpand": false,
+    "wType": "Button",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.button.WinPhone8ButtonProperty",
+        "_margin_": [
+            12,
+            5,
+            12,
+            7
+        ],
+        "_padding_": [
+            3,
+            12,
+            3,
+            12
+        ],
+        "displayText": true,
+        "margin": [
+            12,
+            5,
+            12,
+            7
+        ],
+        "marginInPixel": true,
+        "padding": [
+            3,
+            12,
+            3,
+            12
+        ],
+        "paddingInPixel": true,
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s40c798daf2b496bb8625cbdaff70ef7",
+    "_text_": "OK",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "@class": "com.kony.gen.viz.model.component.property.button.DesktopWebButtonProperty",
+        "_margin_": [
+            10,
+            2,
+            10,
+            2
+        ],
+        "_padding_": [
+            2,
+            3,
+            2,
+            3
+        ],
+        "displayText": true,
+        "margin": [
+            10,
+            2,
+            10,
+            2
+        ],
+        "marginInPixel": false,
+        "padding": [
+            2,
+            3,
+            2,
+            3
+        ],
+        "paddingInPixel": false,
+        "render": true
+    },
+    "displaytext": true,
+    "focusskin": "s46070553fa04048a39acef29cc12c4b",
+    "hexpand": true,
+    "id": "btnWatchPop",
+    "ide_onClick": "p2kwiet433743360558_btnWatchPop_onClick_seq0",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "@class": "com.kony.gen.viz.model.component.property.button.KioskButtonProperty",
+        "render": true
+    },
+    "kuid": "p2kwiet433743360557",
+    "margininpixel": false,
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "watchStopped",
+    "pf": "watchStopped",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAButtonProperty",
+        "displayText": true
+    },
+    "vexpand": false,
+    "wType": "Button",
+    "widgetalignment": 5
+}

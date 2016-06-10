@@ -1,0 +1,58 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        18,
+        1,
+        4,
+        1
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_resize_": true,
+    "_skin_": "s17fdf5989284f7ba1e12e687b531ebb",
+    "allboxes": [],
+    "borderCollapse": false,
+    "canUpdateUI": true,
+    "children": [
+        "image21043460833314",
+        "label104072006114"
+    ],
+    "containerweight": 100,
+    "desktopweb": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.DesktopWebHBoxProperty",
+        "_position_": 3,
+        "position": 3,
+        "render": true
+    },
+    "id": "hbox104072006112",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.KioskHBoxProperty",
+        "_position_": 3,
+        "position": 3,
+        "render": true
+    },
+    "kuid": "p2kwiet433743360517",
+    "layoutalignment": 3,
+    "layouttype": 0,
+    "margininpixel": false,
+    "name": "kony.ui.Box",
+    "paddinginpixel": false,
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.hbox.SPAHBoxProperty"
+    },
+    "templateType": "forms",
+    "wType": "HBox",
+    "widgetalignment": 1
+}
