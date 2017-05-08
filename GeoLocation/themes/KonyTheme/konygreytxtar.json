@@ -40,6 +40,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konygreytxtar",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -95,6 +96,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konygreytxtar",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -121,7 +123,7 @@
         "wType": "TextArea0"
     },
     "isForked": false,
-    "kuid": "s43d47d48e624c399397bb21f98c343d",
+    "kuid": "s52f9865c1fc4fcfa00ddb96d208fbc7",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -153,6 +155,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konygreytxtar",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -205,6 +208,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konygreytxtar",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -256,6 +260,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konygreytxtar",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

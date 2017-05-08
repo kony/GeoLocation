@@ -22,6 +22,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabInactive",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -88,6 +89,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabInactive",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -143,6 +145,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabInactive",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -169,7 +172,7 @@
         "wType": "TabPane"
     },
     "isForked": false,
-    "kuid": "s24407ad016445b69aa5ef22b83d6b29",
+    "kuid": "sa3ca7849867452e85a58bb3cc72a72f",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -201,6 +204,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabInactive",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -253,6 +257,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabInactive",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -318,6 +323,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabInactive",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -365,6 +371,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabInactive",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

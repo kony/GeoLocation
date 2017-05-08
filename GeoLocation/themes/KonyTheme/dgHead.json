@@ -22,6 +22,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -89,6 +90,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -146,6 +148,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -194,6 +197,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -220,7 +224,7 @@
         "wType": "DataGrid"
     },
     "isForked": false,
-    "kuid": "s50ccb8b5f784ec1a21f4786847fba45",
+    "kuid": "s9aa26b03b1a4fb79b9b9a112ba13cfb",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -255,6 +259,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -309,6 +314,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -363,6 +369,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -417,6 +424,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -473,6 +481,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -526,6 +535,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -588,6 +598,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -635,6 +646,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgHead",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

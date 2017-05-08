@@ -69,13 +69,13 @@ kony.sdk.claimsRefresh = function(callback, failureCallback) {
     var logger = new konyLogger();
     var networkProvider = new konyNetworkProvider();
     var loginWithAnonymousProvider = function(successCallback, failureCallback) {
-            var identityObject = konyRef.getIdentityService("$anonymousProvider");
-            identityObject.login(null, function(res) {
-                successCallback();
-            }, function(res) {
-                kony.sdk.verifyAndCallClosure(failureCallback, kony.sdk.error.getAuthErrObj(res));
-            });
-        };
+        var identityObject = konyRef.getIdentityService("$anonymousProvider");
+        identityObject.login(null, function(res) {
+            successCallback();
+        }, function(res) {
+            kony.sdk.verifyAndCallClosure(failureCallback, kony.sdk.error.getAuthErrObj(res));
+        });
+    };
     if (konyRef.currentClaimToken === null) {
         logger.log("claims Token is Unavialable");
         if (konyRef.isAnonymousProvider) {
@@ -110,8 +110,6 @@ kony.sdk.claimsRefresh = function(callback, failureCallback) {
                     konyRef.currentClaimToken = null;
                     konyRef.claimTokenExpiry = null;
                     konyRef.currentRefreshToken = null;
-                    //setting the anonymous provider as true to access the public protected urls without any issue
-                    konyRef.isAnonymousProvider = true;
                     kony.sdk.verifyAndCallClosure(failureCallback, kony.sdk.error.getAuthErrObj(data));
                 });
             }
@@ -182,34 +180,34 @@ kony.sdk.prototype.setReportingServiceEndPoint = function(serviceType, endPoint)
     }
 }
 kony.sdk.prototype.setMessagingServiceEndPoint = function(endPoint) {
-    if (!kony.sdk.isInitialized) {
-        throw new Exception(Errors.INIT_FAILURE, "Please call init before this, else your changes will be overridden when init is called");
+        if (!kony.sdk.isInitialized) {
+            throw new Exception(Errors.INIT_FAILURE, "Please call init before this, else your changes will be overridden when init is called");
+        }
+        var konyRef = kony.sdk.getCurrentInstance();
+        if (!konyRef.messagingsvc) {
+            throw new Exception(Errors.MESSAGING_FAILURE, "no valid reporting services available");
+        }
+        konyRef.messagingsvc.url = endPoint;
     }
-    var konyRef = kony.sdk.getCurrentInstance();
-    if (!konyRef.messagingsvc) {
-        throw new Exception(Errors.MESSAGING_FAILURE, "no valid reporting services available");
-    }
-    konyRef.messagingsvc.url = endPoint;
-}
-/**
- * Init success callback method.
- * @callback initSuccessCallback
- * @param {json} mainRef - Application Configuration
- */
-/**
- * Init failure callback method.
- * @callback initFailureCallback
- */
-/**
- * Initialization method for the kony SDK.
- * This method will fetch the app configuration from the kony server and stores in memory.
- * This method has to be invoked before invoking any other SDK methods.
- * @param {string} appKey - Appkey of the kony application
- * @param {string} appSecret - App Secret of the kony application
- * @param {string} serviceUrl - URL of the kony Server
- * @param {initSuccessCallback} successCallback  - Callback method on success
- * @param {initFailureCallback} failureCallback - Callback method on failure
- */
+    /**
+     * Init success callback method.
+     * @callback initSuccessCallback
+     * @param {json} mainRef - Application Configuration
+     */
+    /**
+     * Init failure callback method.
+     * @callback initFailureCallback
+     */
+    /**
+     * Initialization method for the kony SDK.
+     * This method will fetch the app configuration from the kony server and stores in memory.
+     * This method has to be invoked before invoking any other SDK methods.
+     * @param {string} appKey - Appkey of the kony application
+     * @param {string} appSecret - App Secret of the kony application
+     * @param {string} serviceUrl - URL of the kony Server
+     * @param {initSuccessCallback} successCallback  - Callback method on success
+     * @param {initFailureCallback} failureCallback - Callback method on failure
+     */
 kony.sdk.prototype.init = function(appKey, appSecret, serviceUrl, successCallback, failureCallback) {
     var logger = new konyLogger();
     if (!(appKey && appSecret && serviceUrl)) {
@@ -222,8 +220,7 @@ kony.sdk.prototype.init = function(appKey, appSecret, serviceUrl, successCallbac
     this.mainRef.serviceUrl = serviceUrl;
     var konyRef = this;
     logger.log("### init:: calling GET on appConfig to retrieve servicedoc");
-    networkProvider.post(
-    serviceUrl, null, {
+    networkProvider.post(serviceUrl, null, {
         "X-Kony-App-Key": appKey,
         "X-Kony-App-Secret": appSecret,
         "X-HTTP-Method-Override": "GET"
@@ -284,12 +281,12 @@ kony.sdk.prototype.initWithServiceDoc = function(appKey, appSecret, serviceDoc) 
             konyRef.mainRef.appSecret = appSecret;
             konyRef.mainRef.appId = servConfig.appId;
             /* if (!servConfig.baseId) {
-				throw new Exception(Errors.INIT_FAILURE, "invalid baseId " + servConfig.baseId);
-			} */
+            	throw new Exception(Errors.INIT_FAILURE, "invalid baseId " + servConfig.baseId);
+            } */
             konyRef.mainRef.baseId = servConfig.baseId;
             /* if (!servConfig.name) {
-				throw new Exception(Errors.INIT_FAILURE, "invalid name " + servConfig.name);
-			} */
+            	throw new Exception(Errors.INIT_FAILURE, "invalid name " + servConfig.name);
+            } */
             konyRef.mainRef.name = servConfig.name;
             if (servConfig.login) {
                 konyRef.login = servConfig.login;
@@ -331,10 +328,10 @@ kony.sdk.prototype.initWithServiceDoc = function(appKey, appSecret, serviceDoc) 
                 }
             }
             if (konyRef.internalSdkObject) {
-                konyRef.internalSdkObject.initWithServiceDoc(appKey, appSecret, servConfig);
                 if (konyRef.internalSdkObject.setClientParams) {
                     konyRef.internalSdkObject.setClientParams(konyRef.getClientParams());
                 }
+                konyRef.internalSdkObject.initWithServiceDoc(appKey, appSecret, servConfig);
                 logger.log("### init::internal sdk object initialized");
             }
             logger.log("### init::_doInit::_processServiceDoc parsing service document done");
@@ -852,64 +849,64 @@ function IdentityService(konyRef, rec) {
         getSessionData(securityAttributesUrl, successCallback, failureCallback);
     };
     /**
-		utility method to get session data
-		@private
-	*/
+    	utility method to get session data
+    	@private
+    */
     var getSessionData = function(sessionAttributesEndPointUrl, successCallback, failureCallback) {
-            if (konyRef.currentClaimToken === null) {
-                kony.sdk.verifyAndCallClosure(failureCallback, kony.sdk.error.getNullClaimsTokenErrObj());
-            }
-            networkProvider.post(sessionAttributesEndPointUrl, {}, {
-                "Authorization": konyRef.currentClaimToken,
-                "X-HTTP-Method-Override": "GET"
-            }, function(data) {
-                data = kony.sdk.formatSuccessResponse(data);
-                kony.sdk.verifyAndCallClosure(successCallback, data);
-            }, function(err) {
-                kony.sdk.verifyAndCallClosure(failureCallback, kony.sdk.error.getAuthErrObj(err));
-            });
-        };
+        if (konyRef.currentClaimToken === null) {
+            kony.sdk.verifyAndCallClosure(failureCallback, kony.sdk.error.getNullClaimsTokenErrObj());
+        }
+        networkProvider.post(sessionAttributesEndPointUrl, {}, {
+            "Authorization": konyRef.currentClaimToken,
+            "X-HTTP-Method-Override": "GET"
+        }, function(data) {
+            data = kony.sdk.formatSuccessResponse(data);
+            kony.sdk.verifyAndCallClosure(successCallback, data);
+        }, function(err) {
+            kony.sdk.verifyAndCallClosure(failureCallback, kony.sdk.error.getAuthErrObj(err));
+        });
+    };
     /**
      * Method to refresh the claims token.
      * @private
      */
     var _claimsRefresh = function(options, success, failure) {
-            logger.log("### AuthService::_claimsRefresh fetching claims from server for provider " + _providerName);
-            var value = konyRef.tokens[_providerName];
-            var refreshToken = null;
-            if (value) {
-                refreshToken = value.refresh_token;
-            }
-            var _url = _serviceUrl + "/claims";
-            if (options && options.requestParams != null) {
-                _url = _url + "?"
-                for (var i in options.requestParams) {
-                    if (options.requestParams.hasOwnProperty(i) && typeof(i) !== 'function') {
-                        _url = _url + (i + "=" + options.requestParams[i] + "&");
-                    }
+        logger.log("### AuthService::_claimsRefresh fetching claims from server for provider " + _providerName);
+        var value = konyRef.tokens[_providerName];
+        var refreshToken = null;
+        if (value) {
+            refreshToken = value.refresh_token;
+        }
+        var _url = _serviceUrl + "/claims";
+        if (options && options.requestParams != null) {
+            _url = _url + "?"
+            for (var i in options.requestParams) {
+                if (options.requestParams.hasOwnProperty(i) && typeof(i) !== 'function') {
+                    _url = _url + (i + "=" + options.requestParams[i] + "&");
                 }
-                _url = stripTrailingCharacter(_url, "&");
             }
-            if (refreshToken) {
-                logger.log("### AuthService::_claimsRefresh making POST request to claims endpoint");
-                networkProvider.post(_url, {}, {
-                    "Authorization": refreshToken,
-                    "Content-Type": "application/x-www-form-urlencoded"
-                }, function(data) {
-                    data = kony.sdk.formatSuccessResponse(data);
-                    logger.log("### AuthService::_claimsRefresh Fetching claims succcessfull");
-                    konyRef.tokens[_providerName] = data;
-                    logger.log("### AuthService::_claimsRefresh saved locally. Calling success callback");
-                    kony.sdk.verifyAndCallClosure(success, data);
-                }, function(xhr, status, err) {
-                    logger.log("### AuthService::_claimsRefresh fetching claims failed. Calling failure callback");
-                    kony.sdk.verifyAndCallClosure(failure, kony.sdk.error.getAuthErrObj(err));
-                });
-            } else {
-                logger.log("### AuthService::_claimsRefresh no refreshtoken found. calling failure callback");
-                kony.sdk.verifyAndCallClosure(failure, kony.sdk.error.getNullRefreshTokenErrObj());
-            }
-        };
+            _url = stripTrailingCharacter(_url, "&");
+        }
+        if (refreshToken) {
+            logger.log("### AuthService::_claimsRefresh making POST request to claims endpoint");
+            networkProvider.post(_url, {}, {
+                "Authorization": refreshToken,
+                "Content-Type": "application/x-www-form-urlencoded"
+            }, function(data) {
+                data = kony.sdk.formatSuccessResponse(data);
+                logger.log("### AuthService::_claimsRefresh Fetching claims succcessfull");
+                konyRef.tokens[_providerName] = data;
+                logger.log("### AuthService::_claimsRefresh saved locally. Calling success callback");
+                kony.sdk.verifyAndCallClosure(success, data);
+            }, function(xhr, status, err) {
+                logger.log("### AuthService::_claimsRefresh fetching claims failed. Calling failure callback");
+                kony.sdk.verifyAndCallClosure(failure, kony.sdk.error.getAuthErrObj(err));
+            });
+        } else {
+            logger.log("### AuthService::_claimsRefresh no refreshtoken found. calling failure callback");
+            kony.sdk.verifyAndCallClosure(failure, kony.sdk.error.getNullRefreshTokenErrObj());
+        }
+    };
 };
 stripTrailingCharacter = function(str, character) {
     if (str.substr(str.length - 1) == character) {
@@ -1005,21 +1002,21 @@ kony.sdk.formatSuccessResponse = function(data) {
     return data;
 }
 kony.sdk.isJson = function(str) {
-    try {
-        JSON.parse(str);
-    } catch (e) {
-        return false;
-    }
-    return true;
-}
-//private method to identify whether session/token expired or not based on error code
-kony.sdk.isSessionOrTokenExpired = function(mfcode) {
-    if (mfcode && (mfcode === "Auth-5" || mfcode === "Auth-6" || mfcode === "Gateway-31" || mfcode === "Gateway-33" || mfcode === "Gateway-35" || mfcode === "Gateway-36" || mfcode === "Auth-46" || mfcode === "Auth-55")) {
+        try {
+            JSON.parse(str);
+        } catch (e) {
+            return false;
+        }
         return true;
     }
-    return false;
-}
-//private method to clear cache
+    //private method to identify whether session/token expired or not based on error code
+kony.sdk.isSessionOrTokenExpired = function(mfcode) {
+        if (mfcode && (mfcode === "Auth-5" || mfcode === "Auth-6" || mfcode === "Gateway-31" || mfcode === "Gateway-33" || mfcode === "Gateway-35" || mfcode === "Gateway-36" || mfcode === "Auth-46" || mfcode === "Auth-55")) {
+            return true;
+        }
+        return false;
+    }
+    //private method to clear cache
 kony.sdk.resetCacheKeys = function(konyRef, _providerName) {
     try {
         if (konyRef) {
@@ -1027,8 +1024,6 @@ kony.sdk.resetCacheKeys = function(konyRef, _providerName) {
             konyRef.currentBackEndToken = null;
             konyRef.claimTokenExpiry = null;
             konyRef.currentRefreshToken = null;
-            //setting the anonymous provider as true to access the public protected urls without any issue
-            konyRef.isAnonymousProvider = true;
             if (_providerName) {
                 if (konyRef.tokens.hasOwnProperty(_providerName)) {
                     konyRef.tokens[_providerName] = null;
@@ -1446,10 +1441,10 @@ function IntegrationService(konyRef, serviceName) {
         }
         requestData["konyreportingparams"] = JSON.stringify(reportingData);
         var defaultHeaders = {
-            "Content-Type": "application/x-www-form-urlencoded",
-            "X-Kony-Authorization": konyRef.currentClaimToken
-        }
-        // if the user has defined his own headers, use them
+                "Content-Type": "application/x-www-form-urlencoded",
+                "X-Kony-Authorization": konyRef.currentClaimToken
+            }
+            // if the user has defined his own headers, use them
         if (headers) {
             for (var header in headers) {
                 defaultHeaders[header] = headers[header];
@@ -1485,17 +1480,17 @@ function IntegrationService(konyRef, serviceName) {
  * @returns {MessagingService} Messaging service instance
  */
 kony.sdk.prototype.getMessagingService = function() {
-    if (!kony.sdk.isInitialized) {
-        throw new Exception(Errors.INIT_FAILURE, "Please call init before invoking this service");
+        if (!kony.sdk.isInitialized) {
+            throw new Exception(Errors.INIT_FAILURE, "Please call init before invoking this service");
+        }
+        return new MessagingService(this);
     }
-    return new MessagingService(this);
-}
-/**
- * Should not be called by the developer.
- * @class
- * @classdesc Messaging service instance for invoking the Messaging services.
- *@param reference to kony object
- */
+    /**
+     * Should not be called by the developer.
+     * @class
+     * @classdesc Messaging service instance for invoking the Messaging services.
+     *@param reference to kony object
+     */
 function MessagingService(konyRef) {
     var homeUrl = konyRef.messagingsvc.url;
     var KSID;
@@ -1793,9 +1788,9 @@ function MetricsService(konyRef) {
      * invoke the getUserId operation
      */
     this.getUserId = function(userId) {
-        return konyRef.getUserId();
-    }
-    //start of event api
+            return konyRef.getUserId();
+        }
+        //start of event api
     var eventFlowTag = "";
     var eventBufferMaxValue = 1000;
     var eventBufferAutoFlushValue = 15;
@@ -2120,14 +2115,14 @@ function MetricsService(konyRef) {
         }, true);
     };
     /**
-	 * This method takes the event details from the developer and schedule it for sending to server as per Configuration values set by the developer.
-	 * @param {string} errorCode - errorCode of the reported error. Can be empty if not applicable
-	 * @param {string} errorType -   errorType of the reported error. Can be empty if not applicable
-	 * @param {string} errorMessage - errorMessage of the reported error. Can be empty if not applicable
-	 * @param {json} errorDetails - errorDetails of the reported error as a json string that can have key-value pairs for the following
-					keys errfile, errmethod, errline, errstacktrace, formID, widgetID, flowTag.
-	 * @throws Exception
-	 */
+     * This method takes the event details from the developer and schedule it for sending to server as per Configuration values set by the developer.
+     * @param {string} errorCode - errorCode of the reported error. Can be empty if not applicable
+     * @param {string} errorType -   errorType of the reported error. Can be empty if not applicable
+     * @param {string} errorMessage - errorMessage of the reported error. Can be empty if not applicable
+     * @param {json} errorDetails - errorDetails of the reported error as a json string that can have key-value pairs for the following
+    				keys errfile, errmethod, errline, errstacktrace, formID, widgetID, flowTag.
+     * @throws Exception
+     */
     this.reportError = function(errorCode, errorType, errorMessage, errorDetails) {
         var metaData = {};
         metaData.errorcode = errorCode ? errorCode : "";
@@ -2148,15 +2143,15 @@ function MetricsService(konyRef) {
         }
     };
     /**
-	 * This method takes the event details from the developer and schedule it for sending to server as per Configuration values set by the developer.
-	 * @param {string} exceptionCode - Code for the reported exception. Can be empty if not applicable
-	 * @param {string} exceptionType -   Type of the reported exception. Can be empty if not applicable
-	 * @param {string} exceptionMessage - Message of the reported exception. Can be empty if not applicable
-	 * @param {json}   exceptionDetails - Details of the reported exception as a JSON string that can have key-value pairs for the
-					following keys exceptioncode, exceptionfile, exceptionmethod, exceptionline,
-					exceptionstacktrace, formID, widgetID, flowTag.
-	 * @throws Exception
-	 */
+     * This method takes the event details from the developer and schedule it for sending to server as per Configuration values set by the developer.
+     * @param {string} exceptionCode - Code for the reported exception. Can be empty if not applicable
+     * @param {string} exceptionType -   Type of the reported exception. Can be empty if not applicable
+     * @param {string} exceptionMessage - Message of the reported exception. Can be empty if not applicable
+     * @param {json}   exceptionDetails - Details of the reported exception as a JSON string that can have key-value pairs for the
+    				following keys exceptioncode, exceptionfile, exceptionmethod, exceptionline,
+    				exceptionstacktrace, formID, widgetID, flowTag.
+     * @throws Exception
+     */
     this.reportHandledException = function(exceptionCode, exceptionType, exceptionMessage, exceptionDetails) {
         var metaData = {};
         metaData.exceptioncode = exceptionCode ? exceptionCode : "";
@@ -2181,33 +2176,33 @@ function MetricsService(konyRef) {
      * @param {string} sessionId
      */
     this.setSessionId = function(sessionId) {
-        if (sessionId) {
-            currentSessionId = sessionId;
+            if (sessionId) {
+                currentSessionId = sessionId;
+            }
         }
-    }
-    /**
-     * get the current sessionID
-     *
-     */
+        /**
+         * get the current sessionID
+         *
+         */
     this.getSessionId = function() {
-        return currentSessionId;
-    }
-    /**
-     * stub method used for event tracking
-     *
-     */
+            return currentSessionId;
+        }
+        /**
+         * stub method used for event tracking
+         *
+         */
     this.setEventTracking = function(eventTypes) {
         // Stub.  This is implemented in native->js binding
     }
 }
 //stub method
 kony.sdk.initiateSession = function() {
-    return;
-}
-/**
- * Method to create the Reporting service instance with the provided service name.
- * @returns {ReportingService} Reporting service instance
- */
+        return;
+    }
+    /**
+     * Method to create the Reporting service instance with the provided service name.
+     * @returns {ReportingService} Reporting service instance
+     */
 kony.sdk.prototype.getReportingService = function() {
     if (!kony.sdk.isInitialized) {
         throw new Exception(Errors.INIT_FAILURE, "Please call init before invoking this service");
@@ -2232,19 +2227,19 @@ function ReportingService(konyRef) {
      * @param {string} userId - userId specified by user
      */
     this.setUserId = function(userId) {
-        konyRef.setCurrentUserId(userId);
-    }
-    /**
-     * invoke the getUserId operation
-     */
+            konyRef.setCurrentUserId(userId);
+        }
+        /**
+         * invoke the getUserId operation
+         */
     this.getUserId = function(userId) {
-        return konyRef.getUserId();
-    }
-    /**
-     * invoke the report operation
-     * @param {string} reportingGroupID - reporting Group ID
-     * @param {object} metrics - metrics being reported
-     */
+            return konyRef.getUserId();
+        }
+        /**
+         * invoke the report operation
+         * @param {string} reportingGroupID - reporting Group ID
+         * @param {object} metrics - metrics being reported
+         */
     this.report = function(reportingGroupID, metrics) {
         if (typeof(metrics) !== "object") {
             throw new Exception(Errors.METRICS_FAILURE, "Invalid type for metrics data.");
@@ -2310,12 +2305,12 @@ function ReportingService(konyRef) {
 }
 //stub method
 kony.sdk.initiateSession = function() {
-    return;
-}
-/**
- * Method to create the sync service instance.
- * @returns {SyncService} sync service instance
- */
+        return;
+    }
+    /**
+     * Method to create the sync service instance.
+     * @returns {SyncService} sync service instance
+     */
 kony.sdk.prototype.getSyncService = function() {
     if (!kony.sdk.isInitialized) {
         throw new Exception(Errors.INIT_FAILURE, "Please call init before invoking this service");
@@ -2481,109 +2476,109 @@ kony.setupsdks = function(initConfig, successCallBack, errorCallBack) {
     // var KNYMobileFabric = null;
     // var KNYMetricsService = null;
     var getServiceDocNonMFApp = function(initConfig) {
-            var serviceDoc = new kony.sdk.serviceDoc();
-            serviceDoc.setAppId(initConfig.appConfig.appId);
-            serviceDoc.setBaseId(initConfig.appConfig.appId);
-            serviceDoc.setAppName(initConfig.appConfig.appName);
-            serviceDoc.setReportingService(kony.sdk.constants.reportingType.session, getLicenseUrl(initConfig.appConfig));
-            serviceDoc.setReportingService(kony.sdk.constants.reportingType.custom, getMetricsUrl(initConfig.appConfig));
-            return serviceDoc.toJSON();
-        };
+        var serviceDoc = new kony.sdk.serviceDoc();
+        serviceDoc.setAppId(initConfig.appConfig.appId);
+        serviceDoc.setBaseId(initConfig.appConfig.appId);
+        serviceDoc.setAppName(initConfig.appConfig.appName);
+        serviceDoc.setReportingService(kony.sdk.constants.reportingType.session, getLicenseUrl(initConfig.appConfig));
+        serviceDoc.setReportingService(kony.sdk.constants.reportingType.custom, getMetricsUrl(initConfig.appConfig));
+        return serviceDoc.toJSON();
+    };
     var getLicenseUrl = function(appConfig) {
-            var url = "";
-            if (appConfig.isturlbase) {
-                url = appConfig.isturlbase + "/IST";
-            } else if (appConfig.secureurl) {
-                url = getFromServerUrl(appConfig.secureurl, "IST");
-            } else if (appConfig.url) {
-                url = getFromServerUrl(appConfig.url, "IST");
-            }
-            return url;
+        var url = "";
+        if (appConfig.isturlbase) {
+            url = appConfig.isturlbase + "/IST";
+        } else if (appConfig.secureurl) {
+            url = getFromServerUrl(appConfig.secureurl, "IST");
+        } else if (appConfig.url) {
+            url = getFromServerUrl(appConfig.url, "IST");
         }
+        return url;
+    }
     var getMetricsUrl = function(appConfig) {
-            var url = "";
-            if (appConfig.isturlbase) {
-                url = appConfig.isturlbase + "/CMS";
-            } else if (appConfig.secureurl) {
-                url = getFromServerUrl(appConfig.secureurl, "CMS");
-            } else if (appConfig.url) {
-                url = getFromServerUrl(appConfig.url, "CMS");
-            }
-            return url;
+        var url = "";
+        if (appConfig.isturlbase) {
+            url = appConfig.isturlbase + "/CMS";
+        } else if (appConfig.secureurl) {
+            url = getFromServerUrl(appConfig.secureurl, "CMS");
+        } else if (appConfig.url) {
+            url = getFromServerUrl(appConfig.url, "CMS");
         }
+        return url;
+    }
     var getFromServerUrl = function(url, path) {
-            // ServerURL for non-mf has /mwservlet appended after the context path.
-            // We need to remove it to get the base server url
-            //url = url.replace(/mwservlet\/*$/i, "");
-            //return url + path;
-            var newUrl = "";
-            var exactSubString = url.match(/mwservlet/i);
-            if (exactSubString) {
-                var exactSubStringLength = "mwservlet".length;
-                var lastSubStringIndex = url.lastIndexOf(exactSubString);
-                var subString = url.slice(0, lastSubStringIndex);
-                var index = (lastSubStringIndex + exactSubStringLength);
-                var subString2 = url.slice(index, url.length);
-                var has = /[a-zA-Z0-9]/.test(subString2);
-                if (!has) {
-                    newUrl = subString;
-                } else {
-                    newUrl = url;
-                }
+        // ServerURL for non-mf has /mwservlet appended after the context path.
+        // We need to remove it to get the base server url
+        //url = url.replace(/mwservlet\/*$/i, "");
+        //return url + path;
+        var newUrl = "";
+        var exactSubString = url.match(/mwservlet/i);
+        if (exactSubString) {
+            var exactSubStringLength = "mwservlet".length;
+            var lastSubStringIndex = url.lastIndexOf(exactSubString);
+            var subString = url.slice(0, lastSubStringIndex);
+            var index = (lastSubStringIndex + exactSubStringLength);
+            var subString2 = url.slice(index, url.length);
+            var has = /[a-zA-Z0-9]/.test(subString2);
+            if (!has) {
+                newUrl = subString + path;
             } else {
                 newUrl = url;
             }
-            return newUrl + path;
-        };
+        } else {
+            newUrl = url;
+        }
+        return newUrl + path;
+    };
     var konyAPMSuccessCallBack = function(metricsObject, initConfig) {
-            kony.print("Initializing event tracking");
-            KNYMetricsService = metricsObject;
-            if (KNYMetricsService) {
-                KNYMetricsService.setEventTracking(initConfig.eventTypes);
-            }
-        };
+        kony.print("Initializing event tracking");
+        KNYMetricsService = metricsObject;
+        if (KNYMetricsService) {
+            KNYMetricsService.setEventTracking(initConfig.eventTypes);
+        }
+    };
     var initKNYMobileFabric = function(initConfig) {
-            KNYMobileFabric = new kony.sdk();
-            clientParams = {};
-            clientParams.aid = appConfig.appId;
-            clientParams.aname = appConfig.appName;
-            KNYMobileFabric.setClientParams(clientParams);
-        }
+        KNYMobileFabric = new kony.sdk();
+        clientParams = {};
+        clientParams.aid = appConfig.appId;
+        clientParams.aname = appConfig.appName;
+        KNYMobileFabric.setClientParams(clientParams);
+    }
     var isServiceDocPresentInAppConfig = function(initConfig) {
-            if ((initConfig) && (initConfig.appConfig) && (initConfig.appConfig.serviceDoc)) {
-                return true;
-            }
-            return false;
+        if ((initConfig) && (initConfig.appConfig) && (initConfig.appConfig.serviceDoc)) {
+            return true;
         }
+        return false;
+    }
     var sdkInit = function(initConfig, successcallback, failurecallback) {
-            if (KNYMobileFabric == null) {
-                initKNYMobileFabric(initConfig);
+        if (KNYMobileFabric == null) {
+            initKNYMobileFabric(initConfig);
+        }
+        if (initConfig && initConfig.appConfig && (getLicenseUrl(initConfig.appConfig) === "")) {
+            if (kony.license && kony.license.setIsLicenseUrlAvailable) {
+                kony.license.setIsLicenseUrlAvailable(false);
+                kony.sdk.isLicenseUrlAvailable = false;
             }
-            if (initConfig && initConfig.appConfig && (getLicenseUrl(initConfig.appConfig) === "")) {
-                if (kony.license && kony.license.setIsLicenseUrlAvailable) {
-                    kony.license.setIsLicenseUrlAvailable(false);
-                    kony.sdk.isLicenseUrlAvailable = false;
+        }
+        if (kony.sdk.isLicenseUrlAvailable && kony.license.createSession) {
+            kony.license.createSession();
+        }
+        if (isServiceDocPresentInAppConfig(initConfig)) {
+            initWithServiceDocHelper(initConfig.appConfig.serviceDoc, successcallback, failurecallback);
+        } else if (initConfig.isMFApp) {
+            KNYMobileFabric.init(initConfig.appKey, initConfig.appSecret, initConfig.serviceUrl, function(data) {
+                var MetricsService = KNYMobileFabric.getMetricsService();
+                if (kony.license.registerChangeListener) {
+                    kony.license.registerChangeListener(KNYMobileFabric.sessionChangeHandler);
                 }
-            }
-            if (kony.sdk.isLicenseUrlAvailable && kony.license.createSession) {
-                kony.license.createSession();
-            }
-            if (isServiceDocPresentInAppConfig(initConfig)) {
-                initWithServiceDocHelper(initConfig.appConfig.serviceDoc, successcallback, failurecallback);
-            } else if (initConfig.isMFApp) {
-                KNYMobileFabric.init(initConfig.appKey, initConfig.appSecret, initConfig.serviceUrl, function(data) {
-                    var MetricsService = KNYMobileFabric.getMetricsService();
-                    if (kony.license.registerChangeListener) {
-                        kony.license.registerChangeListener(KNYMobileFabric.sessionChangeHandler);
-                    }
-                    if (successcallback) successcallback(MetricsService, initConfig);
-                }, function(error) {
-                    if (failurecallback) failurecallback(error);
-                });
-            } else {
-                initWithServiceDocHelper(getServiceDocNonMFApp(initConfig), successcallback, failurecallback);
-            }
-        };
+                if (successcallback) successcallback(MetricsService, initConfig);
+            }, function(error) {
+                if (failurecallback) failurecallback(error);
+            });
+        } else {
+            initWithServiceDocHelper(getServiceDocNonMFApp(initConfig), successcallback, failurecallback);
+        }
+    };
     var initWithServiceDocHelper = function(serviceDoc, successcallback, failurecallback) {
             try {
                 KNYMobileFabric.initWithServiceDoc(null, null, serviceDoc);
@@ -2600,42 +2595,42 @@ kony.setupsdks = function(initConfig, successCallBack, errorCallBack) {
             }
         }
         /*
-   * isMFApp -- boolean to indicate app is being built for MFapp as backend or plain Konyserver
-   * appConfig -- set to appConfig of startup.js
-   *
-   * --MF Parameters--
-   * serviceUrl -- mf appconfig url  
-   * appKey -- set to App Key for MF app scenario
-   * appSecret -- set to App Secret for MF app scenario
-   *
-   * -- For APM --
-   * eventTypes -- This should be set to comma separated values chosen in the IDE for events chosen for automatic tracking
-   *
-   * Examples
-   * var sdkInitConfigForMF = { 
-   *    "isMFApp": true,
-        "appConfig" : appconfig,
+         * isMFApp -- boolean to indicate app is being built for MFapp as backend or plain Konyserver
+         * appConfig -- set to appConfig of startup.js
+         *
+         * --MF Parameters--
+         * serviceUrl -- mf appconfig url  
+         * appKey -- set to App Key for MF app scenario
+         * appSecret -- set to App Secret for MF app scenario
+         *
+         * -- For APM --
+         * eventTypes -- This should be set to comma separated values chosen in the IDE for events chosen for automatic tracking
+         *
+         * Examples
+         * var sdkInitConfigForMF = { 
+         *    "isMFApp": true,
+              "appConfig" : appconfig,
 
-        "appKey" :"<appkey fetched from MF>",
-        "appSecret":"<appsecret fetched from MF>",
-        "serviceUrl" : "<appconfig url of the form https://100000013.auth.sit2-konycloud.com/appconfig>",
-        "eventTypes" :   ["FormEntry","FormExit","Touch","ServiceRequest","ServiceResponse","Gesture","Orientation","Error","Crash"]
-        }
-   * var sdkInitConfigForNonMF = {
-        "isMFApp": false,
-        "appConfig" : appconfig
+              "appKey" :"<appkey fetched from MF>",
+              "appSecret":"<appsecret fetched from MF>",
+              "serviceUrl" : "<appconfig url of the form https://100000013.auth.sit2-konycloud.com/appconfig>",
+              "eventTypes" :   ["FormEntry","FormExit","Touch","ServiceRequest","ServiceResponse","Gesture","Orientation","Error","Crash"]
+              }
+         * var sdkInitConfigForNonMF = {
+              "isMFApp": false,
+              "appConfig" : appconfig
 
-        "eventTypes" :   ["FormEntry","FormExit","Touch","ServiceRequest","ServiceResponse","Gesture","Orientation","Error","Crash"]
-        }               
-   */
-        sdkInit(initConfig, function(metricsObject, initConfig) {
-            kony.print("sdk initialization done");
-            konyAPMSuccessCallBack(metricsObject, initConfig);
-            if (successCallBack) successCallBack(KNYMobileFabric);
-        }, function(errorObj) {
-            kony.print("Error in setup" + errorObj ? errorObj.toString() : "");
-            if (errorCallBack) errorCallBack(errorObj);
-        });
+              "eventTypes" :   ["FormEntry","FormExit","Touch","ServiceRequest","ServiceResponse","Gesture","Orientation","Error","Crash"]
+              }               
+         */
+    sdkInit(initConfig, function(metricsObject, initConfig) {
+        kony.print("sdk initialization done");
+        konyAPMSuccessCallBack(metricsObject, initConfig);
+        if (successCallBack) successCallBack(KNYMobileFabric);
+    }, function(errorObj) {
+        kony.print("Error in setup" + errorObj ? errorObj.toString() : "");
+        if (errorCallBack) errorCallBack(errorObj);
+    });
 };
 
 function konyLogger() {
@@ -2646,81 +2641,81 @@ function konyLogger() {
     }
 }
 /*
-	function konyNetworkProvider() {
-		//var logger = new konyLogger();
-		this.post = function (url, params, headers, successCallback, failureCallback, includeReportingParams) {
+function konyNetworkProvider() {
+	//var logger = new konyLogger();
+	this.post = function (url, params, headers, successCallback, failureCallback, includeReportingParams) {
 
-			function networkCallbackStatus(status, result) {
-				if (status === 400) {
-					logger.log("Response:" + JSON.stringify(result));
-					if (result.opstatus !== null && result.opstatus !== undefined && result.opstatus !== 0) {
-						failureCallback(result);
-					} else {
-						successCallback(result);
-					}
-				}
-			}
-			if (headers === undefined || headers === null) {
-				headers = {}
-			} 
-			if (headers["Content-Type"] === null || headers["Content-Type"] === undefined) {
-				//headers["Content-Type"] = "application/json"; //setting to default header
-				//headers["Content-Type"] = "application/x-www-form-urlencoded"; //setting to default header
-			}
-			// headers = JSON.stringify(headers);
-
-			if (params === undefined || params === null) {
-				params = {};
-			}
-			
-			if(typeof(headers) !== 'undefined' && headers !== null){
-				params.httpheaders = headers;
-			}
-			
-			var sprop = "konyreportingparams";
-
-		  if (includeReportingParams) {
-
-			if (params[sprop]) {
-				//This means is this is a reporting service. The license.js will cleanup this variable.
-				// To ensure that our values are nto overridden we take a back up of the same.
-				params.konysdktemparams = params[sprop];
-				if (Object.defineProperty) {
-					Object.defineProperty(params, sprop, {
-						get : function () {
-							return this.konysdktemparams;
-						},
-						set : function (value) {}
-					});
+		function networkCallbackStatus(status, result) {
+			if (status === 400) {
+				logger.log("Response:" + JSON.stringify(result));
+				if (result.opstatus !== null && result.opstatus !== undefined && result.opstatus !== 0) {
+					failureCallback(result);
 				} else {
-					params.__defineGetter__(sprop, function () {
-						return this.konysdktemparams;
-					});
-					params.__defineSetter__(sprop, function (value) {});
+					successCallback(result);
 				}
 			}
-		  } else {
+		}
+		if (headers === undefined || headers === null) {
+			headers = {}
+		} 
+		if (headers["Content-Type"] === null || headers["Content-Type"] === undefined) {
+			//headers["Content-Type"] = "application/json"; //setting to default header
+			//headers["Content-Type"] = "application/x-www-form-urlencoded"; //setting to default header
+		}
+		// headers = JSON.stringify(headers);
+
+		if (params === undefined || params === null) {
+			params = {};
+		}
+		
+		if(typeof(headers) !== 'undefined' && headers !== null){
+			params.httpheaders = headers;
+		}
+		
+		var sprop = "konyreportingparams";
+
+	  if (includeReportingParams) {
+
+		if (params[sprop]) {
+			//This means is this is a reporting service. The license.js will cleanup this variable.
+			// To ensure that our values are nto overridden we take a back up of the same.
+			params.konysdktemparams = params[sprop];
 			if (Object.defineProperty) {
 				Object.defineProperty(params, sprop, {
-					get : function () {},
-					set : function () {}
+					get : function () {
+						return this.konysdktemparams;
+					},
+					set : function (value) {}
 				});
 			} else {
-				params.__defineGetter__(sprop, function () {});
-				params.__defineSetter__(sprop, function () {});
+				params.__defineGetter__(sprop, function () {
+					return this.konysdktemparams;
+				});
+				params.__defineSetter__(sprop, function (value) {});
 			}
-		  }
-			
-			//To be removed:hack for desktopweb case
-		   if(url.indexOf("?") == -1)
-				  url = url + "?/CMS";
-			else
-				  url = url + "&/CMS";
-			logger.log("Hitting " + url + " with params " + JSON.stringify(params));
-			kony.net.invokeServiceAsync(url, params, networkCallbackStatus, null);
-		};
+		}
+	  } else {
+		if (Object.defineProperty) {
+			Object.defineProperty(params, sprop, {
+				get : function () {},
+				set : function () {}
+			});
+		} else {
+			params.__defineGetter__(sprop, function () {});
+			params.__defineSetter__(sprop, function () {});
+		}
+	  }
+		
+		//To be removed:hack for desktopweb case
+	   if(url.indexOf("?") == -1)
+			  url = url + "?/CMS";
+		else
+			  url = url + "&/CMS";
+		logger.log("Hitting " + url + " with params " + JSON.stringify(params));
+		kony.net.invokeServiceAsync(url, params, networkCallbackStatus, null);
 	};
-	*/
+};
+*/
 function konyNetworkProvider() {
     this.post = function(url, params, headers, successCallback, failureCallback) {
         if (typeof(XMLHttpRequest) !== 'undefined') {
@@ -2785,8 +2780,10 @@ function konyNetHttpRequest(url, params, headers, successCallback, failureCallba
             }
             if (isInvalidJSON || (!response && status == 200)) {
                 var errorMessage = {};
-                errorMessage.httpresponse = {}; errorMessage["opstatus"] = kony.sdk.errorcodes.invalid_json_code;
-                errorMessage["errmsg"] = kony.sdk.errormessages.invalid_json_message; errorMessage["errcode"] = kony.sdk.errorcodes.invalid_json_code;
+                errorMessage.httpresponse = {}; 
+                errorMessage["opstatus"] = kony.sdk.errorcodes.invalid_json_code;
+                errorMessage["errmsg"] = kony.sdk.errormessages.invalid_json_message; 
+                errorMessage["errcode"] = kony.sdk.errorcodes.invalid_json_code;
                 errorMessage["httpStatusCode"] = status;
                 errorMessage.httpresponse["response"] = response;
                 errorMessage.httpresponse.headers = httpRequest.getAllResponseHeaders();
@@ -2872,8 +2869,10 @@ function konyXMLHttpRequest(url, params, headers, successCallback, errorCallback
             }
             if (isInvalidJSON || (res.target.status == 200 && !res.target.response)) {
                 resultTable = {};
-                resultTable.httpresponse = {}; resultTable["opstatus"] = kony.sdk.errorcodes.invalid_json_code;
-                resultTable["errmsg"] = kony.sdk.errormessages.invalid_json_message; resultTable["errcode"] = kony.sdk.errorcodes.invalid_json_code;
+                resultTable.httpresponse = {}; 
+                resultTable["opstatus"] = kony.sdk.errorcodes.invalid_json_code;
+                resultTable["errmsg"] = kony.sdk.errormessages.invalid_json_message; 
+                resultTable["errcode"] = kony.sdk.errorcodes.invalid_json_code;
                 resultTable["httpStatusCode"] = res.target.status;
                 resultTable.httpresponse["response"] = res.target.response;
                 resultTable.httpresponse.headers = res.target.getAllResponseHeaders();

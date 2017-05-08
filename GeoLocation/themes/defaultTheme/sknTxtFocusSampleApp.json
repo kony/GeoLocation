@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -85,6 +86,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -139,6 +141,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -186,6 +189,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -212,7 +216,7 @@
         "wType": "TextArea0"
     },
     "isForked": false,
-    "kuid": "s6c916311f524388afda5dfd2b5991ba",
+    "kuid": "sf1a1a2e5bbb4d6f8ae38ef377143ad8",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -246,6 +250,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -300,6 +305,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -354,6 +360,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -406,6 +413,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -468,6 +476,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -515,6 +524,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

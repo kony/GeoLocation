@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "cbxNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -89,6 +90,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "cbxNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -115,7 +117,7 @@
         "wType": "CheckBoxGroup"
     },
     "isForked": false,
-    "kuid": "sfe3be1ee27146ffab8d39de34d588b3",
+    "kuid": "s697accaec174a71aad2879a145d04a0",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -150,6 +152,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "cbxNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -204,6 +207,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "cbxNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -258,6 +262,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "cbxNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -312,6 +317,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "cbxNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -366,6 +372,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "cbxNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -432,6 +439,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "cbxNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -479,6 +487,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "cbxNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

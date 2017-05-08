@@ -38,6 +38,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknHbxWhite",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -92,6 +93,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknHbxWhite",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -118,7 +120,7 @@
         "wType": "HBox"
     },
     "isForked": false,
-    "kuid": "s8279090df1b4b2bad75eec17cb7fd66",
+    "kuid": "s8e4b8aef75b4bce8c839aabe20a15ae",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -152,6 +154,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknHbxWhite",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -204,6 +207,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknHbxWhite",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

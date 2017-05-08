@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -85,6 +86,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -139,6 +141,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -186,6 +189,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -212,7 +216,7 @@
         "wType": "HStrip0"
     },
     "isForked": false,
-    "kuid": "s1c9b48690a9447baa508b4ffd7e5b1a",
+    "kuid": "se29fe9911094278ad47c8e146fdebf0",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -246,6 +250,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -299,6 +304,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -352,6 +358,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -404,6 +411,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -466,6 +474,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -513,6 +522,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStripFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

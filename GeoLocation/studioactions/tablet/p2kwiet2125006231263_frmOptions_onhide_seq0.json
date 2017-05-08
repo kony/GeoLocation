@@ -1,0 +1,20 @@
+{
+    "p2kwiet2125006231263_frmOptions_onhide_seq0": {
+        "id": "p2kwiet2125006231263_frmOptions_onhide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onhide_265632125006236409",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onHideFrmGeoTab",
+            "display": "onHideFrmGeoTab"
+        }]
+    }
+}

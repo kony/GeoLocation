@@ -8,19 +8,20 @@ var appConfig = {
     serverIp: null,
     serverPort: null,
     secureServerPort: null,
-    isDebug: false,
-    middlewareContext: "middleware",
+    isDebug: true,
+    middlewareContext: "GeoLocation",
     isMFApp: false,
     eventTypes: [],
-    url: null,
-    secureurl: null
+    url: "https://mcfdemo1.konycloud.com/GeoLocation/MWServlet",
+    secureurl: "https://mcfdemo1.konycloud.com/GeoLocation/MWServlet"
 };
 sessionID = "";
-watchID = "";
-watchFlag = false;
 
 function appInit(params) {
     skinsInit();
+    initializeUserWidgets();
+    initializevbox21250062368();
+    setAppHeadersAndFooters();
     frmGeoCurrentNWatchGlobals();
     frmHomeGlobals();
     frmOptionsGlobals();
@@ -35,6 +36,8 @@ function setAppBehaviors() {
 };
 
 function themeCallBack() {
+    initializeGlobalVariables();
+    callAppMenu();
     kony.application.setApplicationInitializationEvents({
         init: appInit,
         showstartupform: function() {
@@ -48,14 +51,17 @@ function loadResources() {
     sdkInitConfig = {
         "appConfig": appConfig,
         "isMFApp": appConfig.isMFApp,
-        "eventTypes": appConfig.eventTypes
+        "eventTypes": appConfig.eventTypes,
     }
-    kony.setupsdks(sdkInitConfig, null, null);
     kony.theme.setCurrentTheme("KonyTheme", themeCallBack, themeCallBack);
 };
+
+function onSuccessSDKCallBack() {
+    kony.theme.setCurrentTheme("KonyTheme", themeCallBack, themeCallBack);
+}
 kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
 //If default locale is specified. This is set even before any other app life cycle event is called.
 loadResources();
-kony.print = function() {
-    return;
-};
+// If you wish to debug Application Initialization events, now is the time to
+// place breakpoints.
+debugger;

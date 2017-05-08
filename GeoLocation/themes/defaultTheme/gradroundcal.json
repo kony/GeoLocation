@@ -23,6 +23,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -90,6 +91,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -146,6 +148,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -195,6 +198,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -221,7 +225,7 @@
         "wType": "Calendar"
     },
     "isForked": false,
-    "kuid": "s508a70b211743a0bc63200af1b3f3df",
+    "kuid": "se846c2d941f4f0ba200a246235ff95d",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -253,6 +257,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

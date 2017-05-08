@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -89,6 +90,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -115,7 +117,7 @@
         "wType": "TextArea"
     },
     "isForked": false,
-    "kuid": "s7d7cdaee3bc400a82c4e7954727b134",
+    "kuid": "s1254682e8244857be244836dddaeaa5",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -149,6 +151,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -203,6 +206,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -257,6 +261,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -324,6 +329,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -371,6 +377,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

@@ -13,7 +13,7 @@
         0,
         0
     ],
-    "_skin_": "s0e601ed7bb4442ba407861f681e6be9",
+    "_skin_": "sab1d862e8034140b083cbe6387257fa",
     "_text_": "This application will showcase the following features of the GeoLocation API",
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -47,7 +47,7 @@
         "@class": "com.kony.gen.viz.model.component.property.label.KioskLabelProperty",
         "render": true
     },
-    "kuid": "p2kwiet433743360513",
+    "kuid": "p2kwiet2125006231268",
     "margininpixel": false,
     "name": "kony.ui.Label",
     "paddinginpixel": false,

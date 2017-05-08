@@ -22,6 +22,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -87,6 +88,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -143,6 +145,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -192,6 +195,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -218,7 +222,7 @@
         "wType": "DataGrid"
     },
     "isForked": false,
-    "kuid": "s0af8fbbc5784e95ae0ec1aa5eb27ae9",
+    "kuid": "s5880296e4e147c4a9fc054589fed8a9",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -254,6 +258,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -307,6 +312,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -361,6 +367,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -414,6 +421,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -476,6 +484,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -523,6 +532,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "dgFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

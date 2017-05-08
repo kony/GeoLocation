@@ -1,0 +1,17 @@
+{
+    "p2kwiet2125006231190_btnClearWatch_onClick_seq0": {
+        "id": "p2kwiet2125006231190_btnClearWatch_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_85427212500623428",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearWatch",
+            "display": "clearWatch"
+        }]
+    }
+}

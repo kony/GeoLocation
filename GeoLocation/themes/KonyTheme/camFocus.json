@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -88,6 +89,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -146,6 +148,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -195,6 +198,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -221,7 +225,7 @@
         "wType": "Camera"
     },
     "isForked": false,
-    "kuid": "s7487dc5d54e44e18f09d39bcc0879b6",
+    "kuid": "s299952fccb94baeab8d9e06209c6bcd",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -256,6 +260,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -311,6 +316,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -365,6 +371,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -419,6 +426,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -476,6 +484,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -529,6 +538,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -591,6 +601,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -639,6 +650,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

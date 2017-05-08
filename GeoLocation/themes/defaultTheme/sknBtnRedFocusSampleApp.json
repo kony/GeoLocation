@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnRedFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -85,6 +86,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnRedFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -139,6 +141,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnRedFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -186,6 +189,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnRedFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -212,7 +216,7 @@
         "wType": "Button"
     },
     "isForked": false,
-    "kuid": "sf600cd53e2348969cd06c604e89c2b2",
+    "kuid": "s12fad59740c47fbadfcdd1490bd8278",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -246,6 +250,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnRedFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -301,6 +306,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnRedFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -353,6 +359,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnRedFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

@@ -13,7 +13,7 @@
         0,
         0
     ],
-    "_skin_": "s4284abfe8d0490aab8c4e571628e453",
+    "_skin_": "sd3fe093b2644002803906118c3f94fd",
     "_title_": "",
     "addWidgetsdone": false,
     "allboxes": [],
@@ -69,7 +69,7 @@
         },
         "render": true
     },
-    "kuid": "p2kwiet433743360566",
+    "kuid": "p2kwiet2125006231321",
     "layouttype": 0,
     "margininpixel": false,
     "menuposition": 2,
@@ -93,7 +93,7 @@
         }
     },
     "templateType": "forms",
-    "titleBarSkin": "se8656328df94620acf20d48cdea5a86",
+    "titleBarSkin": "s081b42fe5c5458880a64aa2fb30ee4a",
     "titlebar": true,
     "transparencybehindthepopup": 100,
     "type": 3,

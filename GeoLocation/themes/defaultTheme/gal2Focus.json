@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -85,6 +86,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -139,6 +141,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -186,6 +189,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -212,7 +216,7 @@
         "wType": "IGallery"
     },
     "isForked": false,
-    "kuid": "s923827ad4444ae2ac943b6e8cb468f4",
+    "kuid": "s4c02dcdda87426c8c27b68fef2cf35e",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -246,6 +250,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -299,6 +304,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -352,6 +358,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -404,6 +411,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -466,6 +474,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -513,6 +522,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

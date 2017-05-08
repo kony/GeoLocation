@@ -40,6 +40,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konyrctxt",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -95,6 +96,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konyrctxt",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -121,7 +123,7 @@
         "wType": "RichText"
     },
     "isForked": false,
-    "kuid": "s897be957f4f45b8b3a9c2d9c243d5a2",
+    "kuid": "sffa0c6a1a1b49c9954c781ff8a5979e",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -152,6 +154,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konyrctxt",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

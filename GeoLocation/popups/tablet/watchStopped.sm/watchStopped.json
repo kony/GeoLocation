@@ -14,7 +14,7 @@
         0,
         0
     ],
-    "_skin_": "s73b9a411ad640b19d9cfc1d3c857e02",
+    "_skin_": "se47123bf63142dc972cd5d3fcbf4872",
     "_title_": "",
     "addWidgetsdone": false,
     "allboxes": [],
@@ -51,7 +51,7 @@
     "footeroverlap": false,
     "headeroverlap": false,
     "id": "watchStopped",
-    "ide_onHide": "p2kwiet433743360554_watchStopped_onhide_seq0",
+    "ide_onHide": "p2kwiet2125006231309_watchStopped_onhide_seq0",
     "info": null,
     "initdone": false,
     "intransitionconfig": {
@@ -91,7 +91,7 @@
     },
     "ismodal": false,
     "isvisible": true,
-    "kuid": "p2kwiet433743360554",
+    "kuid": "p2kwiet2125006231309",
     "margininpixel": false,
     "menuposition": 2,
     "name": "kony.ui.Popup",

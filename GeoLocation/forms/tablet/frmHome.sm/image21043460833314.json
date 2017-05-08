@@ -14,7 +14,7 @@
         0,
         0
     ],
-    "_skin_": "s84ebc5a424a40b288f11fb894994550",
+    "_skin_": "s67734dc7a5945a9ad7dbab638fb4777",
     "_src_": "bulletwhite.png",
     "_text_": "bulletwhite.png",
     "android": {
@@ -36,7 +36,7 @@
         "render": true
     },
     "isvisible": true,
-    "kuid": "p2kwiet433743360464",
+    "kuid": "p2kwiet2125006231219",
     "margininpixel": false,
     "name": "kony.ui.Image2",
     "paddinginpixel": false,

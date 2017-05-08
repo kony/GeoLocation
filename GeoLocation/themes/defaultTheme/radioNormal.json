@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "radioNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -89,6 +90,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "radioNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -115,7 +117,7 @@
         "wType": "RadioButtonGroup"
     },
     "isForked": false,
-    "kuid": "sc0b20dd12124428816702da5db3b476",
+    "kuid": "s45218e575c64dd0a07cccc24f24b022",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -150,6 +152,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "radioNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -204,6 +207,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "radioNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -258,6 +262,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "radioNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -312,6 +317,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "radioNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -366,6 +372,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "radioNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -432,6 +439,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "radioNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -479,6 +487,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "radioNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabActiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -87,6 +88,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabActiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -143,6 +145,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabActiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -192,6 +195,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabActiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -218,7 +222,7 @@
         "wType": "TabPane"
     },
     "isForked": false,
-    "kuid": "s8267eef82f04505acb9907c662f4bb8",
+    "kuid": "sc82519431b5430088593e93a8719800",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -250,6 +254,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabActiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -302,6 +307,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabActiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -352,6 +358,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabActiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -414,6 +421,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabActiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -461,6 +469,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabActiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

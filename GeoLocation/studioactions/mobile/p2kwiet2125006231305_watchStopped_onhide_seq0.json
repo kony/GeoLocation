@@ -1,0 +1,24 @@
+{
+    "p2kwiet2125006231305_watchStopped_onhide_seq0": {
+        "id": "p2kwiet2125006231305_watchStopped_onhide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onhide_24292125006232166",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOptions",
+            "formKUID": "p2kwiet2125006231211",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

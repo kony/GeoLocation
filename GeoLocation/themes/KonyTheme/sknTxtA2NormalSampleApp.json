@@ -21,6 +21,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -88,6 +89,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -144,6 +146,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -191,6 +194,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -217,7 +221,7 @@
         "wType": "TextArea"
     },
     "isForked": false,
-    "kuid": "s88ce1bca3c84041ab0f1ecaf7a1cc28",
+    "kuid": "s04c4a2c7c27447dbe5c0b308b7f9e9b",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -251,6 +255,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -305,6 +310,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -359,6 +365,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -413,6 +420,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -469,6 +477,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -521,6 +530,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -583,6 +593,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -630,6 +641,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTxtA2NormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

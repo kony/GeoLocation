@@ -1,236 +1,217 @@
-//Form JS File
-function frmHome_btnContinue_onClick_seq0(eventobject) {
-    frmOptions.show();
-};
-
 function addWidgetsfrmHome() {
     var lblHome = new kony.ui.Label({
         "id": "lblHome",
         "isVisible": true,
-        "text": "This application will showcase the following features of the GeoLocation API",
-        "skin": "sknLblNormal"
+        "skin": "sknLblNormal",
+        "text": "This application will showcase the following features of the GeoLocation API"
     }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "vExpand": false,
+        "containerWeight": 100,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
         "hExpand": true,
         "margin": [5, 5, 5, 5],
-        "padding": [0, 0, 0, 0],
-        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
         "marginInPixel": false,
-        "paddingInPixel": false,
-        "containerWeight": 6
-    }, {
-        "textCopyable": false
-    });
-    var image2159202961514 = new kony.ui.Image2({
-        "id": "image2159202961514",
-        "isVisible": true,
-        "src": "bulletwhite.png",
-        "imageWhenFailed": null,
-        "imageWhileDownloading": null
-    }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
-        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
-        "referenceWidth": null,
-        "referenceHeight": null,
-        "marginInPixel": false,
         "paddingInPixel": false,
-        "containerWeight": 11
-    }, {});
-    var lblCurrPos = new kony.ui.Label({
-        "id": "lblCurrPos",
-        "isVisible": true,
-        "text": "getCurrentPosition",
-        "skin": "sknLblNormal"
-    }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
         "vExpand": false,
-        "hExpand": true,
-        "margin": [0, 0, 0, 0],
-        "padding": [0, 0, 0, 0],
-        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-        "marginInPixel": false,
-        "paddingInPixel": false,
-        "containerWeight": 89
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
     var hbxGetPos = new kony.ui.Box({
         "id": "hbxGetPos",
         "isVisible": true,
-        "position": constants.BOX_POSITION_AS_NORMAL,
-        "orientation": constants.BOX_LAYOUT_HORIZONTAL
+        "orientation": constants.BOX_LAYOUT_HORIZONTAL,
+        "position": constants.BOX_POSITION_AS_NORMAL
+    }, {
+        "containerWeight": 100,
+        "layoutAlignment": constants.BOX_LAYOUT_ALIGN_FROM_LEFT,
+        "layoutType": constants.CONTAINER_LAYOUT_BOX,
+        "margin": [2, 1, 4, 1],
+        "marginInPixel": false,
+        "padding": [1, 1, 1, 1],
+        "paddingInPixel": false,
+        "percent": true,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_MIDDLE_LEFT
+    }, {});
+    var image2159202961514 = new kony.ui.Image2({
+        "id": "image2159202961514",
+        "isVisible": true,
+        "src": "bulletwhite.png"
     }, {
         "containerWeight": 11,
-        "percent": true,
-        "widgetAlignment": constants.WIDGET_ALIGN_MIDDLE_LEFT,
-        "margin": [2, 1, 4, 1],
-        "padding": [1, 1, 1, 1],
-        "vExpand": false,
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "margin": [0, 0, 0, 0],
         "marginInPixel": false,
+        "padding": [0, 0, 0, 0],
         "paddingInPixel": false,
-        "layoutType": constants.CONTAINER_LAYOUT_BOX
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
-    hbxGetPos.add(
-    image2159202961514, lblCurrPos);
+    var lblCurrPos = new kony.ui.Label({
+        "id": "lblCurrPos",
+        "isVisible": true,
+        "skin": "sknLblNormal",
+        "text": "getCurrentPosition"
+    }, {
+        "containerWeight": 89,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
+    }, {
+        "textCopyable": false
+    });
+    hbxGetPos.add(image2159202961514, lblCurrPos);
+    var hbxWatch = new kony.ui.Box({
+        "id": "hbxWatch",
+        "isVisible": true,
+        "orientation": constants.BOX_LAYOUT_HORIZONTAL,
+        "position": constants.BOX_POSITION_AS_NORMAL
+    }, {
+        "containerWeight": 100,
+        "layoutAlignment": constants.BOX_LAYOUT_ALIGN_FROM_LEFT,
+        "layoutType": constants.CONTAINER_LAYOUT_BOX,
+        "margin": [2, 0, 4, 0],
+        "marginInPixel": false,
+        "padding": [1, 1, 1, 1],
+        "paddingInPixel": false,
+        "percent": true,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_MIDDLE_LEFT
+    }, {});
     var image2159202961516 = new kony.ui.Image2({
         "id": "image2159202961516",
         "isVisible": true,
-        "src": "bulletwhite.png",
-        "imageWhenFailed": null,
-        "imageWhileDownloading": null
+        "src": "bulletwhite.png"
     }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "margin": [0, 0, 0, 0],
-        "padding": [0, 0, 0, 0],
+        "containerWeight": 11,
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
-        "referenceWidth": null,
-        "referenceHeight": null,
+        "margin": [0, 0, 0, 0],
         "marginInPixel": false,
+        "padding": [0, 0, 0, 0],
         "paddingInPixel": false,
-        "containerWeight": 11
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var lblWatPos = new kony.ui.Label({
         "id": "lblWatPos",
         "isVisible": true,
-        "text": "watchPosition",
-        "skin": "sknLblNormal"
+        "skin": "sknLblNormal",
+        "text": "watchPosition"
     }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "vExpand": false,
+        "containerWeight": 89,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
         "hExpand": true,
         "margin": [0, 0, 0, 0],
-        "padding": [0, 0, 0, 0],
-        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
         "marginInPixel": false,
+        "padding": [0, 0, 0, 0],
         "paddingInPixel": false,
-        "containerWeight": 89
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
-    var hbxWatch = new kony.ui.Box({
-        "id": "hbxWatch",
+    hbxWatch.add(image2159202961516, lblWatPos);
+    var hbxClear = new kony.ui.Box({
+        "id": "hbxClear",
         "isVisible": true,
-        "position": constants.BOX_POSITION_AS_NORMAL,
-        "orientation": constants.BOX_LAYOUT_HORIZONTAL
+        "orientation": constants.BOX_LAYOUT_HORIZONTAL,
+        "position": constants.BOX_POSITION_AS_NORMAL
     }, {
-        "containerWeight": 11,
-        "percent": true,
-        "widgetAlignment": constants.WIDGET_ALIGN_MIDDLE_LEFT,
-        "margin": [2, 0, 4, 0],
-        "padding": [1, 1, 1, 1],
-        "vExpand": false,
+        "containerWeight": 100,
+        "layoutAlignment": constants.BOX_LAYOUT_ALIGN_FROM_LEFT,
+        "layoutType": constants.CONTAINER_LAYOUT_BOX,
+        "margin": [2, 1, 4, 1],
         "marginInPixel": false,
+        "padding": [1, 1, 1, 1],
         "paddingInPixel": false,
-        "layoutType": constants.CONTAINER_LAYOUT_BOX
+        "percent": true,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
-    hbxWatch.add(
-    image2159202961516, lblWatPos);
     var image2159202961517 = new kony.ui.Image2({
         "id": "image2159202961517",
         "isVisible": true,
-        "src": "bulletwhite.png",
-        "imageWhenFailed": null,
-        "imageWhileDownloading": null
+        "src": "bulletwhite.png"
     }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "margin": [0, 0, 0, 0],
-        "padding": [0, 0, 0, 0],
+        "containerWeight": 11,
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
-        "referenceWidth": null,
-        "referenceHeight": null,
+        "margin": [0, 0, 0, 0],
         "marginInPixel": false,
+        "padding": [0, 0, 0, 0],
         "paddingInPixel": false,
-        "containerWeight": 11
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var lblClearWatch = new kony.ui.Label({
         "id": "lblClearWatch",
         "isVisible": true,
-        "text": "clearWatch",
-        "skin": "sknLblNormal"
+        "skin": "sknLblNormal",
+        "text": "clearWatch"
     }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "vExpand": false,
+        "containerWeight": 89,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
         "hExpand": true,
         "margin": [0, 0, 0, 0],
-        "padding": [0, 0, 0, 0],
-        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
         "marginInPixel": false,
+        "padding": [0, 0, 0, 0],
         "paddingInPixel": true,
-        "containerWeight": 89
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
-    var hbxClear = new kony.ui.Box({
-        "id": "hbxClear",
-        "isVisible": true,
-        "position": constants.BOX_POSITION_AS_NORMAL,
-        "orientation": constants.BOX_LAYOUT_HORIZONTAL
-    }, {
-        "containerWeight": 11,
-        "percent": true,
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "margin": [2, 1, 4, 1],
-        "padding": [1, 1, 1, 1],
-        "vExpand": false,
-        "marginInPixel": false,
-        "paddingInPixel": false,
-        "layoutType": constants.CONTAINER_LAYOUT_BOX
-    }, {});
-    hbxClear.add(
-    image2159202961517, lblClearWatch);
+    hbxClear.add(image2159202961517, lblClearWatch);
     var btnContinue = new kony.ui.Button({
+        "focusSkin": "sknBtnFocusSampleApp",
         "id": "btnContinue",
         "isVisible": true,
-        "text": "Continue",
+        "onClick": p2kwiet2125006231205_btnContinue_onClick_seq0,
         "skin": "sknBtnNormalSampleApp",
-        "focusSkin": "sknBtnFocusSampleApp",
-        "onClick": frmHome_btnContinue_onClick_seq0
+        "text": "Continue"
     }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "vExpand": false,
-        "hExpand": true,
-        "margin": [5, 10, 5, 5],
-        "padding": [3, 12, 3, 12],
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [5, 10, 5, 5],
         "marginInPixel": false,
+        "padding": [3, 12, 3, 12],
         "paddingInPixel": true,
-        "containerWeight": 6
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
-    frmHome.add(
-    lblHome, hbxGetPos, hbxWatch, hbxClear, btnContinue);
+    frmHome.add(lblHome, hbxGetPos, hbxWatch, hbxClear, btnContinue);
 };
 
 function frmHomeGlobals() {
-    var MenuId = [];
     frmHome = new kony.ui.Form2({
+        "addWidgets": addWidgetsfrmHome,
+        "enabledForIdleTimeout": false,
         "id": "frmHome",
         "needAppMenu": true,
-        "title": "Home",
-        "enabledForIdleTimeout": false,
         "skin": "sknFrmFormBgImg",
-        "addWidgets": addWidgetsfrmHome
+        "title": "Home"
     }, {
-        "padding": [0, 0, 0, 0],
         "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_BOTH,
-        "paddingInPixel": false,
-        "layoutType": constants.CONTAINER_LAYOUT_BOX
+        "layoutType": constants.CONTAINER_LAYOUT_BOX,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
     }, {
-        "retainScrollPosition": false,
-        "windowSoftInputMode": constants.FORM_ADJUST_RESIZE,
-        "titleBar": true,
-        "titleBarSkin": "sknTitleBarSampleApp",
         "footerOverlap": false,
         "headerOverlap": false,
         "inTransitionConfig": {
             "formAnimation": 0
         },
+        "menuPosition": constants.FORM_MENU_POSITION_AFTER_APPMENU,
         "outTransitionConfig": {
             "formAnimation": 0
         },
-        "menuPosition": constants.FORM_MENU_POSITION_AFTER_APPMENU
+        "retainScrollPosition": false,
+        "titleBar": true,
+        "titleBarSkin": "sknTitleBarSampleApp",
+        "windowSoftInputMode": constants.FORM_ADJUST_RESIZE
     });
 };

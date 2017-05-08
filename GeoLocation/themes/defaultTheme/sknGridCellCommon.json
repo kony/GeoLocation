@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknGridCellCommon",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -87,6 +88,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknGridCellCommon",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -142,6 +144,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknGridCellCommon",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -190,6 +193,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknGridCellCommon",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -216,7 +220,7 @@
         "wType": "Commons"
     },
     "isForked": false,
-    "kuid": "s99444ce84534c4e96836441cba47be2",
+    "kuid": "s1dd3ec14eff46fb979ef320b832f9a0",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -246,6 +250,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknGridCellCommon",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

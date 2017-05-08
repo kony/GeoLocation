@@ -14,7 +14,7 @@
         0,
         0
     ],
-    "_skin_": "s73b9a411ad640b19d9cfc1d3c857e02",
+    "_skin_": "se47123bf63142dc972cd5d3fcbf4872",
     "_title_": "",
     "addWidgetsdone": false,
     "allboxes": [],
@@ -56,7 +56,7 @@
     "footeroverlap": false,
     "headeroverlap": false,
     "id": "watchStopped",
-    "ide_onHide": "p2kwiet433743360558_watchStopped_onhide_seq0",
+    "ide_onHide": "p2kwiet2125006231313_watchStopped_onhide_seq0",
     "info": null,
     "initdone": false,
     "intransitionconfig": {
@@ -79,7 +79,7 @@
         "render": true,
         "undefined": true
     },
-    "kuid": "p2kwiet433743360558",
+    "kuid": "p2kwiet2125006231313",
     "layouttype": 0,
     "margininpixel": false,
     "menuposition": 2,

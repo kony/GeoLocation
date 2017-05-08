@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -87,6 +88,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -144,6 +146,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -192,6 +195,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -218,7 +222,7 @@
         "wType": "TitleBar"
     },
     "isForked": false,
-    "kuid": "sba2eb1185b3487ab8550725e3bb876a",
+    "kuid": "s5f36580347142c7b3b8c2db0967e3b8",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -252,6 +256,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -306,6 +311,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -361,6 +367,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -417,6 +424,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -469,6 +477,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -531,6 +540,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -578,6 +588,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTitleBarSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

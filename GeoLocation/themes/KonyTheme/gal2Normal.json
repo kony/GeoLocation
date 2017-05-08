@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -87,6 +88,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -143,6 +145,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -190,6 +193,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -216,7 +220,7 @@
         "wType": "IGallery"
     },
     "isForked": false,
-    "kuid": "sc9181281a9547fcb18bc0f8b8749210",
+    "kuid": "sfb85f97e04f43efbcf79282816e093a",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -250,6 +254,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -304,6 +309,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -357,6 +363,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -410,6 +417,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -466,6 +474,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -518,6 +527,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -580,6 +590,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -627,6 +638,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gal2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

@@ -40,6 +40,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "rowskin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -95,6 +96,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "rowskin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -121,7 +123,7 @@
         "wType": "DataGrid"
     },
     "isForked": false,
-    "kuid": "s660af36eeea441cbc7e58f69e9da183",
+    "kuid": "s31a0d487659409b808838db48f8329c",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -152,6 +154,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "rowskin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

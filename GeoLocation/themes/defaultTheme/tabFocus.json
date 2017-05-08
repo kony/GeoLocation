@@ -22,6 +22,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -92,6 +93,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -118,7 +120,7 @@
         "wType": "TabPane"
     },
     "isForked": false,
-    "kuid": "s8e6259ef9094786af6c29df80d8f48f",
+    "kuid": "s90aa40a83934f738eac6098bb5bc735",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -163,6 +165,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -210,6 +213,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tabFocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

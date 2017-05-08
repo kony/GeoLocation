@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknPhoneNormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -90,6 +91,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknPhoneNormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -116,7 +118,7 @@
         "wType": "Phone"
     },
     "isForked": false,
-    "kuid": "s81cdd71ab894f2da900db3ad4c8f5e0",
+    "kuid": "s9707bfd43634ee59a9c90d7a62ea813",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -151,6 +153,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknPhoneNormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -206,6 +209,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknPhoneNormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -261,6 +265,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknPhoneNormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -316,6 +321,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknPhoneNormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -371,6 +377,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknPhoneNormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -437,6 +444,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknPhoneNormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -484,6 +492,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknPhoneNormalSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

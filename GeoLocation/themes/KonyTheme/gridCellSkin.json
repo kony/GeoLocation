@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gridCellSkin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -87,6 +88,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gridCellSkin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -142,6 +144,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gridCellSkin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -190,6 +193,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gridCellSkin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -216,7 +220,7 @@
         "wType": "Grid Calendar Cell Skin"
     },
     "isForked": false,
-    "kuid": "sbcd4b10af71495c8b82ba29c4d1cf97",
+    "kuid": "se15e1571271445f96cbe801b6c72d4e",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -248,6 +252,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gridCellSkin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -300,6 +305,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gridCellSkin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -350,6 +356,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gridCellSkin",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

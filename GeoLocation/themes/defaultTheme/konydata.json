@@ -22,6 +22,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konydata",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -88,6 +89,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konydata",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -143,6 +145,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konydata",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -169,7 +172,7 @@
         "wType": "DataGrid"
     },
     "isForked": false,
-    "kuid": "s3bb288d2fd0478b8c0e31343f3563c7",
+    "kuid": "s17e3d1c05204fb38d3500b993ea0745",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -200,6 +203,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konydata",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

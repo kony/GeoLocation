@@ -40,6 +40,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "whiterounftb",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -95,6 +96,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "whiterounftb",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -121,7 +123,7 @@
         "wType": "TextField0"
     },
     "isForked": false,
-    "kuid": "scaf6873d3764847959898bb738802be",
+    "kuid": "safc607af4c64e4bb05591f12075ccaa",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -153,6 +155,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "whiterounftb",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -205,6 +208,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "whiterounftb",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -256,6 +260,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "whiterounftb",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

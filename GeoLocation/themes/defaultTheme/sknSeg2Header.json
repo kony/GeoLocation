@@ -21,6 +21,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -86,6 +87,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -142,6 +144,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -191,6 +194,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -217,7 +221,7 @@
         "wType": "Segment"
     },
     "isForked": false,
-    "kuid": "s09cc79df99e4a9aa0bb2f98221b0ac9",
+    "kuid": "s2044a09c65d44fcb89019c794e2bd53",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -252,6 +256,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -304,6 +309,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -356,6 +362,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -410,6 +417,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -465,6 +473,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -515,6 +524,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -577,6 +587,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -624,6 +635,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknSeg2Header",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

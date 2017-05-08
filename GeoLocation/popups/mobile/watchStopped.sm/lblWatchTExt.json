@@ -13,7 +13,7 @@
         3,
         10
     ],
-    "_skin_": "s14e8ae130b340a79a0c0e47c6c31d3d",
+    "_skin_": "s897dbd2ccff444d81e158ca01e82420",
     "_text_": "Watch has stopped",
     "_wrapping_": 2,
     "android": {
@@ -90,7 +90,7 @@
         "render": true
     },
     "isvisible": true,
-    "kuid": "p2kwiet433743360548",
+    "kuid": "p2kwiet2125006231303",
     "margininpixel": false,
     "name": "kony.ui.Label",
     "paddinginpixel": true,

@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tbx2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -89,6 +90,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tbx2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -115,7 +117,7 @@
         "wType": "TextField"
     },
     "isForked": false,
-    "kuid": "s620184d4674461bb30eaf8978d2c52a",
+    "kuid": "s00ef07bce4a4d7c9ed22e9f591c0211",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -149,6 +151,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tbx2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -203,6 +206,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tbx2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -257,6 +261,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tbx2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -324,6 +329,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tbx2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -371,6 +377,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "tbx2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

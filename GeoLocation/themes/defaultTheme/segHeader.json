@@ -22,6 +22,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -86,6 +87,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -141,6 +143,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -189,6 +192,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -215,7 +219,7 @@
         "wType": "Segment0"
     },
     "isForked": false,
-    "kuid": "s277c83e4eb941fabfa26383dc09a883",
+    "kuid": "s438999f57a7449badaaeaba506794ab",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -250,6 +254,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -304,6 +309,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -358,6 +364,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -411,6 +418,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -473,6 +481,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -520,6 +529,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "segHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

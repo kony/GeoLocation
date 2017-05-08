@@ -42,6 +42,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknHbxNavigationSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -68,7 +69,7 @@
         "wType": "HBox"
     },
     "isForked": false,
-    "kuid": "sfab644471c6431b86f090458e8c5615",
+    "kuid": "sbb568e07edb4b0ca0d1eacad3e0bebd",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -113,6 +114,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknHbxNavigationSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

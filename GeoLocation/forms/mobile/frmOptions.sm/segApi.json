@@ -69,12 +69,12 @@
     "counter": 3,
     "focusedindex": null,
     "focuseditem": null,
-    "generatedtemplate": "p2kwiet433743360459",
+    "generatedtemplate": "p2kwiet2125006231214",
     "groupcells": false,
     "hasSections": false,
     "hiddencolumns": {},
     "id": "segApi",
-    "ide_onRowClick": "p2kwiet433743360456_segApi_onRowClick_seq0",
+    "ide_onRowClick": "p2kwiet2125006231211_segApi_onRowClick_seq0",
     "info": null,
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
@@ -107,7 +107,7 @@
         "viewType": "tableview"
     },
     "isvisible": true,
-    "kuid": "p2kwiet433743360454",
+    "kuid": "p2kwiet2125006231209",
     "layoutalignment": 3,
     "margininpixel": false,
     "name": "kony.ui.SegmentedUI2",
@@ -119,14 +119,14 @@
     "parent": "frmOptions",
     "pf": "frmOptions",
     "retainselection": false,
-    "rowTemplateId": "p2kwiet433743360459",
+    "rowTemplateId": "p2kwiet2125006231214",
     "rowcounter": 2,
-    "rowfocusskin": "s5e0c1dc41044d5cb49a4aa2d1053adf",
-    "rowskin": "s141fd5fad9e4d4aae75757b4cdc1af8",
+    "rowfocusskin": "se26bcd695de413e8fc0cc36d5617f6f",
+    "rowskin": "s2fe925a51304f8cb1533977866e947c",
     "screenlevelwidget": false,
     "scrollingevents": false,
     "seccounter": 0,
-    "sectionheaderskin": "s09cc79df99e4a9aa0bb2f98221b0ac9",
+    "sectionheaderskin": "s2044a09c65d44fcb89019c794e2bd53",
     "selectedRows": null,
     "selectedState": false,
     "selectedindex": null,
@@ -216,7 +216,7 @@
     "widgetdatamap": {
         "lblApi": "lblApi"
     },
-    "widgetskin": "s141fd5fad9e4d4aae75757b4cdc1af8",
+    "widgetskin": "s2fe925a51304f8cb1533977866e947c",
     "winphone8": {
         "@class": "com.kony.gen.viz.model.container.property.segment2.WinPhone8Segment2Property",
         "_margin_": [

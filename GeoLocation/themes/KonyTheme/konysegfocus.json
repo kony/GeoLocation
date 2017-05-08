@@ -40,6 +40,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konysegfocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -95,6 +96,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konysegfocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -121,7 +123,7 @@
         "wType": "Segment0"
     },
     "isForked": false,
-    "kuid": "s0441c47d01242f3b02729477ad4c46f",
+    "kuid": "sd38f3c22bfa4bc692b87278c4054997",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -153,6 +155,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konysegfocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -205,6 +208,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konysegfocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -256,6 +260,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konysegfocus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

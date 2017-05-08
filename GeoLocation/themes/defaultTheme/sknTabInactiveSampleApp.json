@@ -22,6 +22,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabInactiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -87,6 +88,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabInactiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -142,6 +144,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabInactiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -190,6 +193,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabInactiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -216,7 +220,7 @@
         "wType": "TabPane"
     },
     "isForked": false,
-    "kuid": "se10b3c7d78b4b51b757139e1aba04b3",
+    "kuid": "s769569a90b54b749c18ab4471e96f99",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -247,6 +251,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabInactiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -309,6 +314,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabInactiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -356,6 +362,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknTabInactiveSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

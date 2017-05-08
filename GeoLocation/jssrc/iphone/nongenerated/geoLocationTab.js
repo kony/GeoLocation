@@ -5,7 +5,7 @@
  ******************************************************************/
 function geoSuccessCallBackTab(position) {
     /*var lat = position.coords.latitude.toFixed(10).replace(/0{0,2}$/, "");
-	var lng = position.coords.longitude.toFixed(10).replace(/0{0,2}$/, "");*/
+    var lng = position.coords.longitude.toFixed(10).replace(/0{0,2}$/, "");*/
     var lat = position.coords.latitude;
     var lang = position.coords.longitude;
     var alt = position.coords.altitude;
@@ -119,7 +119,7 @@ function handleAlertTab(response) {
 /*****************************************************************
  *	Name    : clearWatchTab
  *	Author  : Kony
- *	Purpose : The below function is to invoke ' kony.location.clearWatch
+ *	Purpose : The below function is to invoke ' kony.location.clearWatch 
  * ' API
  ******************************************************************/
 function clearWatchTab() {

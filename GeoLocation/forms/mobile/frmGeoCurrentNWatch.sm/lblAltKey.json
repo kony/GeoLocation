@@ -13,7 +13,7 @@
         1,
         1
     ],
-    "_skin_": "s75262ed4b28465c8ce4bcfa2e89e3d7",
+    "_skin_": "s7cccb2797e4436da7246e4ec55efa4f",
     "_text_": "Altitude",
     "_wrapping_": 2,
     "android": {
@@ -38,7 +38,7 @@
         "render": true
     },
     "isvisible": true,
-    "kuid": "p2kwiet433743360414",
+    "kuid": "p2kwiet2125006231169",
     "margininpixel": false,
     "name": "kony.ui.Label",
     "paddinginpixel": false,

@@ -40,6 +40,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konytxtnorm",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -95,6 +96,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konytxtnorm",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -121,7 +123,7 @@
         "wType": "TextField0"
     },
     "isForked": false,
-    "kuid": "sae98ac185da44959c12d454f18e9071",
+    "kuid": "s22e8355f4fe4014a3de265905ac7958",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -152,6 +154,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "konytxtnorm",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

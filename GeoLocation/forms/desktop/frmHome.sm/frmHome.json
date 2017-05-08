@@ -13,7 +13,7 @@
         0,
         0
     ],
-    "_skin_": "sc27dfda91a045aa86f08b83834191b6",
+    "_skin_": "s882749224b2454ba61b26d809e9132b",
     "_title_": "GeoLocation",
     "addWidgetsdone": false,
     "allboxes": [],
@@ -49,9 +49,9 @@
     "enabledforidletimeout": false,
     "footeroverlap": false,
     "headeroverlap": false,
-    "headersId": "p2kwiet433743360566",
+    "headersId": "p2kwiet2125006231321",
     "id": "frmHome",
-    "ide_preShow": "p2kwiet433743360518_frmHome_preshow_seq0",
+    "ide_preShow": "p2kwiet2125006231273_frmHome_preshow_seq0",
     "info": null,
     "initdone": false,
     "intransitionconfig": {
@@ -73,7 +73,7 @@
         },
         "render": true
     },
-    "kuid": "p2kwiet433743360518",
+    "kuid": "p2kwiet2125006231273",
     "layouttype": 0,
     "margininpixel": false,
     "menuposition": 2,
@@ -97,7 +97,7 @@
         }
     },
     "templateType": "forms",
-    "titleBarSkin": "se8656328df94620acf20d48cdea5a86",
+    "titleBarSkin": "s081b42fe5c5458880a64aa2fb30ee4a",
     "titlebar": true,
     "transparencybehindthepopup": 100,
     "type": 3,

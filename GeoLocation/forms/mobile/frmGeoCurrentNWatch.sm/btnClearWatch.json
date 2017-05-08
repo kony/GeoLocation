@@ -13,7 +13,7 @@
         0,
         0
     ],
-    "_skin_": "sf157a5844b2412fae13fe8527d04d32",
+    "_skin_": "s3dc34d7876f48df847fd27e01e0c0af",
     "_text_": "clearWatch",
     "android": {
         "@class": "com.kony.gen.viz.model.component.property.button.AndroidButtonProperty",
@@ -50,10 +50,10 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s003d0d5646447a38be2ed3c00c24f48",
+    "focusskin": "s6b1196493764f4f82a8ecd97f5dc4cd",
     "hexpand": true,
     "id": "btnClearWatch",
-    "ide_onClick": "p2kwiet433743360435_btnClearWatch_onClick_seq0",
+    "ide_onClick": "p2kwiet2125006231190_btnClearWatch_onClick_seq0",
     "info": null,
     "iphone": {
         "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",
@@ -90,7 +90,7 @@
         "render": true
     },
     "isvisible": true,
-    "kuid": "p2kwiet433743360432",
+    "kuid": "p2kwiet2125006231187",
     "margininpixel": true,
     "name": "kony.ui.Button",
     "paddinginpixel": false,

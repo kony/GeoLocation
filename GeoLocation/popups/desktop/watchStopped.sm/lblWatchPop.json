@@ -13,7 +13,7 @@
         0,
         0
     ],
-    "_skin_": "s14e8ae130b340a79a0c0e47c6c31d3d",
+    "_skin_": "s897dbd2ccff444d81e158ca01e82420",
     "_text_": "Watch has stopped",
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -34,7 +34,7 @@
         "@class": "com.kony.gen.viz.model.component.property.label.KioskLabelProperty",
         "render": true
     },
-    "kuid": "p2kwiet433743360556",
+    "kuid": "p2kwiet2125006231311",
     "margininpixel": false,
     "name": "kony.ui.Label",
     "paddinginpixel": false,

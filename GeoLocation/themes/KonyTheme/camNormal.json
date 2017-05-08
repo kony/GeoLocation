@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -89,6 +90,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -147,6 +149,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -197,6 +200,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -223,7 +227,7 @@
         "wType": "Camera"
     },
     "isForked": false,
-    "kuid": "s356c0500bc447e7945aa3fd64fce1f3",
+    "kuid": "sc280f887cbe423da478054330e5f51d",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -258,6 +262,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -313,6 +318,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -368,6 +374,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -423,6 +430,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -480,6 +488,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -533,6 +542,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -596,6 +606,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -644,6 +655,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "camNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

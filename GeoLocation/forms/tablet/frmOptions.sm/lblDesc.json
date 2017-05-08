@@ -7,7 +7,7 @@
         4,
         2
     ],
-    "_skin_": "s0e601ed7bb4442ba407861f681e6be9",
+    "_skin_": "sab1d862e8034140b083cbe6387257fa",
     "_text_": "",
     "_wrapping_": 2,
     "android": {
@@ -32,7 +32,7 @@
         "render": true
     },
     "isvisible": true,
-    "kuid": "p2kwiet433743360505",
+    "kuid": "p2kwiet2125006231260",
     "margininpixel": false,
     "name": "kony.ui.Label",
     "parent": "vbxPosition",

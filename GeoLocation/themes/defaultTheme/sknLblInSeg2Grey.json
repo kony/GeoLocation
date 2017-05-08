@@ -38,6 +38,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblInSeg2Grey",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -93,6 +94,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblInSeg2Grey",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -119,7 +121,7 @@
         "wType": "Label"
     },
     "isForked": false,
-    "kuid": "s9c4f423ed574be3bc1d65dd653b4ba1",
+    "kuid": "s2bff161cebf4412842c6d53e1fa136a",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -150,6 +152,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblInSeg2Grey",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -201,6 +204,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblInSeg2Grey",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -251,6 +255,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblInSeg2Grey",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

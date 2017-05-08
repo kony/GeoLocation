@@ -1,28 +1,18 @@
-//Form JS File
-function watchStopped_watchStopped_onhide_seq0(eventobject, neworientation) {
-    frmOptions.show();
-};
-
-function watchStopped_btnWatchPopUp_onClick_seq0(eventobject) {
-    watchStopped.dismiss();
-    frmOptions.show();
-};
-
 function addWidgetswatchStopped() {
     var lblWatchTExt = new kony.ui.Label({
         "id": "lblWatchTExt",
         "isVisible": true,
         "text": "Watch has stopped"
     }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "vExpand": false,
+        "containerWeight": 100,
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "hExpand": true,
         "margin": [12, 18, 12, 15],
-        "padding": [6, 10, 6, 10],
-        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "marginInPixel": true,
+        "padding": [6, 10, 6, 10],
         "paddingInPixel": true,
-        "containerWeight": 11
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false,
         "wrapping": constants.WIDGET_TEXT_WORD_WRAP
@@ -30,51 +20,49 @@ function addWidgetswatchStopped() {
     var btnWatchPopUp = new kony.ui.Button({
         "id": "btnWatchPopUp",
         "isVisible": true,
-        "text": "OK",
-        "onClick": watchStopped_btnWatchPopUp_onClick_seq0
+        "onClick": p2kwiet2125006231305_btnWatchPopUp_onClick_seq0,
+        "text": "OK"
     }, {
-        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
-        "vExpand": false,
-        "hExpand": true,
-        "margin": [32, 4, 32, 4],
-        "padding": [4, 7, 4, 7],
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [32, 4, 32, 4],
         "marginInPixel": true,
+        "padding": [4, 7, 4, 7],
         "paddingInPixel": true,
-        "containerWeight": 11
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "glowEffect": false,
         "showProgressIndicator": true
     });
-    watchStopped.add(
-    lblWatchTExt, btnWatchPopUp);
+    watchStopped.add(lblWatchTExt, btnWatchPopUp);
 };
 
 function watchStoppedGlobals() {
     watchStopped = new kony.ui.Popup({
+        "addWidgets": addWidgetswatchStopped,
         "id": "watchStopped",
-        "title": null,
-        "transparencyBehindThePopup": 0,
-        "onHide": watchStopped_watchStopped_onhide_seq0,
         "isModal": false,
-        "addWidgets": addWidgetswatchStopped
+        "onHide": p2kwiet2125006231305_watchStopped_onhide_seq0,
+        "transparencyBehindThePopup": 0
     }, {
-        "padding": [0, 0, 0, 0],
+        "containerHeightReference": constants.CONTAINER_HEIGHT_BY_FORM_REFERENCE,
         "containerWeight": 80,
-        "containerHeight": null,
-        "paddingInPixel": false,
-        "layoutType": constants.CONTAINER_LAYOUT_BOX
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
     }, {
-        "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_DEFAULT,
         "bounces": true,
         "configureExtendTop": false,
+        "extendTop": false,
         "footerOverlap": false,
         "headerOverlap": false,
         "inTransitionConfig": {
             "transitionDirection": "none",
             "transitionEffect": "none"
         },
+        "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_DEFAULT,
         "outTransitionConfig": {
             "transitionDirection": "none",
             "transitionEffect": "none"

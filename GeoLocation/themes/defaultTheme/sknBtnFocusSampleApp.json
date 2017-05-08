@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -86,6 +87,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -142,6 +144,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -191,6 +194,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -217,7 +221,7 @@
         "wType": "Button"
     },
     "isForked": false,
-    "kuid": "s003d0d5646447a38be2ed3c00c24f48",
+    "kuid": "s6b1196493764f4f82a8ecd97f5dc4cd",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -251,6 +255,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -305,6 +310,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -359,6 +365,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -412,6 +419,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -475,6 +483,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -522,6 +531,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknBtnFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

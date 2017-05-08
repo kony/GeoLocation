@@ -21,6 +21,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "calSubHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -85,6 +86,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "calSubHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -139,6 +141,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "calSubHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -186,6 +189,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "calSubHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -212,7 +216,7 @@
         "wType": "Grid Calendar"
     },
     "isForked": false,
-    "kuid": "sba9869963ce4424b0a5029eea020b87",
+    "kuid": "s11a80811cc44ba39514e40e7b4ea365",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -243,6 +247,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "calSubHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -294,6 +299,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "calSubHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -344,6 +350,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "calSubHeader",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

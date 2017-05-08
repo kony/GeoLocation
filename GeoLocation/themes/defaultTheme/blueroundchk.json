@@ -22,6 +22,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "blueroundchk",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -88,6 +89,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "blueroundchk",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -143,6 +145,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "blueroundchk",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -191,6 +194,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "blueroundchk",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -217,7 +221,7 @@
         "wType": "CheckBoxGroup"
     },
     "isForked": false,
-    "kuid": "sf04fc04540d47efafbb3c37628aff45",
+    "kuid": "s6f04694321343489d3d910989696bf2",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -248,6 +252,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "blueroundchk",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

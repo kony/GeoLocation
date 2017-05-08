@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -87,6 +88,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -143,6 +145,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -190,6 +193,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -216,7 +220,7 @@
         "wType": "HStrip"
     },
     "isForked": false,
-    "kuid": "s3618acb3aa347e9ac9a61053164c902",
+    "kuid": "s3dd4bc7db1e4de8bb589e5526a9bac3",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -250,6 +254,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -304,6 +309,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -357,6 +363,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -410,6 +417,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -466,6 +474,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -518,6 +527,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -580,6 +590,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -627,6 +638,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "hStrip2Focus",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

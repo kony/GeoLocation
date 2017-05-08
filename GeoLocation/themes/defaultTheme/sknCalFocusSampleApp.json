@@ -22,6 +22,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -87,6 +88,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -143,6 +145,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -192,6 +195,7 @@
         "font_weight": "bold",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -218,7 +222,7 @@
         "wType": "Calendar"
     },
     "isForked": false,
-    "kuid": "s95ca82bc76c4450b38f8b4df0ebca72",
+    "kuid": "sb850e196591421cb86840dd01453332",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -253,6 +257,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -307,6 +312,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -361,6 +367,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -414,6 +421,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -476,6 +484,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -523,6 +532,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknCalFocusSampleApp",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -89,6 +90,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -115,7 +117,7 @@
         "wType": "TextArea"
     },
     "isForked": false,
-    "kuid": "sa0b7ea22d0c41929bf27abcb04a7d26",
+    "kuid": "s1292eae4daf43daa95aad16fc7b401b",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -149,6 +151,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -203,6 +206,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -257,6 +261,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -324,6 +329,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -371,6 +377,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "txt2Normal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

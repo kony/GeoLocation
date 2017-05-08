@@ -21,6 +21,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -88,6 +89,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -145,6 +147,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -192,6 +195,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -218,7 +222,7 @@
         "wType": "Label"
     },
     "isForked": false,
-    "kuid": "s0e601ed7bb4442ba407861f681e6be9",
+    "kuid": "sab1d862e8034140b083cbe6387257fa",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -253,6 +257,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -307,6 +312,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -360,6 +366,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -414,6 +421,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -470,6 +478,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -524,6 +533,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -578,6 +588,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -629,6 +640,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -691,6 +703,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -738,6 +751,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "sknLblNormal",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {

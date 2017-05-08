@@ -23,6 +23,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcam",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -91,6 +92,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcam",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -147,6 +149,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcam",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -196,6 +199,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcam",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
@@ -222,7 +226,7 @@
         "wType": "Camera"
     },
     "isForked": false,
-    "kuid": "s4d4c3d7cfe74f8eb47ef8db10e515a7",
+    "kuid": "s0e9356d423f43189245cc7144755a4b",
     "shadow": {
         "br": 0,
         "color": "000000",
@@ -255,6 +259,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcam",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -308,6 +313,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcam",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "repeatImageHorizontally": false,
@@ -360,6 +366,7 @@
         "font_weight": "normal",
         "gridLineColor": "0000000",
         "id": "gradroundcam",
+        "isCustomCSSEnabled": false,
         "isForked": true,
         "psp": {},
         "shadow": {
