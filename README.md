@@ -13,23 +13,8 @@ This Application will showcase the following features of GeoLocation APIs
 * watchPosition
 * clearWatch
 
-# Supported platforms:
+# Supported platforms for Kony Visualizer 8.1
 **Mobile**
  * Android
  * iPhone
- * SPA Android
- * SPA iPhone
- * BlackBerry
- * SPA BlackBerry
- * Windows Phone 7.5
- * Windows Phone 8
  
-**Tablet** 
- * Android
- * iPad
- * SPA iPad
- * SPA Android
- * Windows 8
- 
-**Desktop**
- * DesktopWeb
