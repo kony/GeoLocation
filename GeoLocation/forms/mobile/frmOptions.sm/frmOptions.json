@@ -1,177 +1,127 @@
 {
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
-    "_enabled_": false,
     "_margin_": [
         0,
         0,
         0,
         0
     ],
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "s882749224b2454ba61b26d809e9132b",
-    "_title_": "Position API's",
+    "_percent_": true,
+    "_skin_": "s862f1f2465544b5bf327b88203cf6f5",
+    "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
-        "@class": "com.kony.gen.viz.model.container.property.form.AndroidFormProperty",
-        "displayOrientation": 3,
-        "footerOverlap": false,
-        "headerOverlap": false,
-        "inTransitionConfig": {
-            "formAnimation": 0
-        },
-        "isModal": false,
-        "menuPosition": 2,
-        "needAppMenu": true,
-        "outTransitionConfig": {
-            "formAnimation": 0
-        },
+        "needAppMenu": false,
         "psp": {
-            "showActionBar": true,
-            "showActionBarIcon": true,
-            "titleBar": true,
-            "titleBarSkin": "s5f36580347142c7b3b8c2db0967e3b8",
-            "windowSoftInputMode": 1
-        },
-        "render": true
+            "windowSoftInputMode": 2
+        }
     },
     "canUpdateUI": true,
     "children": [
-        "label159202961518",
-        "segApi"
+        "flxRoot",
+        "btnFramework"
     ],
-    "containerheightreference": 1,
     "containerweight": 100,
-    "displayorientation": 3,
-    "enabledforidletimeout": false,
-    "footeroverlap": false,
-    "headeroverlap": false,
-    "id": "frmOptions",
-    "ide_onHide": "p2kwiet2125006231211_frmOptions_onhide_seq0",
-    "info": null,
-    "initdone": false,
-    "intransitionconfig": {
-        "formTransition": "None"
-    },
-    "iphone": {
-        "@class": "com.kony.gen.viz.model.container.property.form.IPhoneFormProperty",
-        "displayOrientation": 3,
-        "footerOverlap": false,
-        "headerOverlap": false,
-        "inTransitionConfig": {
-            "transitionDirection": "none",
-            "transitionEffect": "none"
-        },
-        "isModal": false,
-        "needAppMenu": true,
-        "outTransitionConfig": {
-            "transitionDirection": "none",
-            "transitionEffect": "none"
-        },
-        "psp": {
-            "bounces": true,
-            "configureExtendBottom": false,
-            "configureExtendTop": false,
-            "configureStatusBarStyle": false,
-            "extendBottom": false,
-            "extendTop": false,
-            "formTransparencyDuringPostShow": 100,
-            "inputAccessoryViewType": 1,
-            "needsIndicatorDuringPostShow": true,
-            "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
-            "titleBarConfig": {
-                "buttonText": "",
-                "leftButtonText": "Back",
-                "leftTitle": "Back",
-                "prevFormTitle": true,
-                "renderTitleText": true,
-                "skinID": "sknTitleBarSampleApp",
-                "titleBarLeftSideView": "title",
-                "titleBarRightSideView": "none",
-                "titleBarSkin": "sknTitleBarSampleApp",
-                "visible": true
-            }
-        },
-        "render": true,
-        "titleBar": true
-    },
-    "ismodal": false,
-    "isvisible": true,
-    "kuid": "p2kwiet2125006231211",
-    "margininpixel": false,
-    "menuposition": 2,
-    "name": "kony.ui.Form2",
-    "needappmenu": true,
-    "outtransitionconfig": {
-        "formTransition": "None"
-    },
-    "paddinginpixel": false,
-    "percent": true,
-    "restorewidgetprototypes": true,
-    "retainscrollposition": false,
-    "spa": {
-        "@class": "com.kony.gen.viz.model.container.property.form.SPAFormProperty",
-        "inTransitionConfig": {
-            "formTransition": "none"
-        },
-        "isModal": false,
-        "needAppMenu": false,
-        "outTransitionConfig": {
-            "formTransition": "none"
-        },
-        "psp": {
-            "dockableAppMenu": true,
-            "dockableFooter": true,
-            "dockableHeader": true
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmOptionsController"
         }
     },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "GalaxyS5",
+    "displayorientation": 1,
+    "enabledforidletimeout": false,
+    "id": "frmOptions",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "a0e08084ae72433791dbcb1ee28f3746",
+                "leftBarButtonItems": [
+                    {
+                        "kuid": "af40e5c169984438a41a9a47e4fa275d",
+                        "leftButtonText": "Back",
+                        "leftTitle": "Back",
+                        "prevFormTitle": false,
+                        "titleBarLeftSideView": "button",
+                        "type": 4
+                    }
+                ],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "info": {
+                            "title": "Edit"
+                        },
+                        "kuid": "eee2cba2ea51461ab25cff29f6515d7c",
+                        "style": 0,
+                        "tintColor": "333333",
+                        "type": 1
+                    }
+                ],
+                "tintColor": "333333",
+                "translucent": true
+            }
+        },
+        "titleBar": false
+    },
+    "isvisible": true,
+    "kuid": "d923af78ee7341048092f9356491b2b9",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhone7",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "shellCSS": "and_GalaxyS5",
+    "snapgridsize": 10,
+    "snaptogrid": true,
     "spaan": {
-        "@class": "com.kony.gen.viz.model.container.property.form.SPAAndroidFormProperty",
-        "needAppMenu": true,
-        "render": true
+        "needAppMenu": false
     },
     "spabb": {
-        "@class": "com.kony.gen.viz.model.container.property.form.SPABBFormProperty",
-        "needAppMenu": true,
-        "render": true
+        "needAppMenu": false
     },
     "spaip": {
-        "@class": "com.kony.gen.viz.model.container.property.form.SPAIPhoneFormProperty",
-        "needAppMenu": true,
-        "render": true
+        "needAppMenu": false
     },
     "spawinphone8": {
-        "@class": "com.kony.gen.viz.model.container.property.form.SPAWinPhone8FormProperty",
-        "needAppMenu": true,
-        "render": true
+        "needAppMenu": false
     },
-    "templateType": "forms",
-    "titleBarSkin": "s5f36580347142c7b3b8c2db0967e3b8",
+    "titleBarSkin": "saac5bf6271e4fa8a31be31318362331",
     "titlebar": true,
-    "transparencybehindthepopup": 100,
     "type": 3,
     "wType": "Form",
-    "widgetalignment": 1,
     "winphone8": {
-        "@class": "com.kony.gen.viz.model.container.property.form.WinPhone8FormProperty",
-        "displayOrientation": 3,
-        "inTransitionConfig": {
-            "transitionSpeed": 0
-        },
-        "needAppMenu": true,
-        "outTransitionConfig": {
-            "transitionSpeed": 0
-        },
-        "psp": {
-            "animateHeaderFooter": false,
-            "enableCache": false,
-            "maxAppMenuButtons": 4
-        },
-        "render": true
+        "needAppMenu": false
     }
 }

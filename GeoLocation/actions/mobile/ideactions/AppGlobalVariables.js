@@ -1,3 +1,0 @@
- watchID = "";
- watchFlag = false;
- 

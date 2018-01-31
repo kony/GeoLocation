@@ -1,11 +1,1 @@
-{
-    "background_color": "ffffff",
-    "bg_type": "one",
-    "font_color": "333333",
-    "font_name": "Arial, Helvetica, sans-serif",
-    "font_size": "100",
-    "font_weight": "normal",
-    "isDefaultSkin": true,
-    "kuid": "s57e5424e7934faba3884eae10dd5fa9",
-    "wType": "TitleBar"
-}
+{"bg_type":"one","background_color":"ffffff","font_size":"100","font_color":"333333","font_name":"Arial, Helvetica, sans-serif","font_weight":"normal","wType":"TitleBar","kuid":"saac5bf6271e4fa8a31be31318362331","isDefaultSkin":true}

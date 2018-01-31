@@ -1,0 +1,29 @@
+{
+    "AS_Image_a32f3e4fe6334b9eb98a36d0783f1737": {
+        "id": "AS_Image_a32f3e4fe6334b9eb98a36d0783f1737",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwub62824ff58045dbb695239958d997a0",
+            "type": "userwidgets",
+            "KUID": "ub62824ff58045dbb695239958d997a0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h67286796b76421cbe59dbfa5f6be68d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openEmail();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

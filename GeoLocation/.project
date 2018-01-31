@@ -7,5 +7,6 @@
 	<buildSpec>
 	</buildSpec>
 	<natures>
+		<nature>com.pat.tool.keditor.nature.kprojectnature</nature>
 	</natures>
 </projectDescription>

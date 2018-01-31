@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "19%"
+    },
+    "_skin_": "se6953f9932c4c079444fb43461e8c0d",
+    "_src_": "mail_icon.png",
+    "_width_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "uwub62824ff58045dbb695239958d997a0",
+        "platform": "iphone",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "id": "imgMail",
+    "ide_onTouchEnd": "AS_Image_a32f3e4fe6334b9eb98a36d0783f1737",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "e49f8fd3efc743d58e771b2642c18a58",
+    "name": "kony.ui.Image2",
+    "parent": "flexAcc2",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

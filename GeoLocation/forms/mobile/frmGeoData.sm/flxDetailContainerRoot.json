@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "225dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "se21f2da16934f29899b103a0f5012aa",
+    "_top_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "94%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxLatitude",
+        "flxLongitude",
+        "flxAltitude",
+        "flxAccuracy",
+        "flxHeading",
+        "flxSpeeding",
+        "flxTImeStamp"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxDetailContainerRoot",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b05f3cd0fab84d6eae49b3c29d08d9a5",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxRoot",
+    "pf": "frmGeoData",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

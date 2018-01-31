@@ -1,0 +1,28 @@
+{
+    "AS_Form_c1279483bc6942aeb75d8138eb2412b0": {
+        "id": "AS_Form_c1279483bc6942aeb75d8138eb2412b0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGeoData",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e3b3e3dcd70c45bab71e775b541005e4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e5198d1a36e94bd48c9f8a474190b9fb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateBack",
+            "display": "navigateBack",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

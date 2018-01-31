@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_skin_": "s8e9c08bc890473b831208ade988abbd",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s8e9c08bc890473b831208ade988abbd",
+    "id": "btnFramework",
+    "ide_onClick": "AS_Button_ddcd427eed8248a6aa9cfd37358e2d7d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b932ff5c562242d79ef131e4641a804e",
+    "name": "kony.ui.Button",
+    "parent": "frmGeoData",
+    "pf": "frmGeoData",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 10
+}

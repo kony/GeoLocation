@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sa02f5bff977427abff2c812e69cdefd",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "KnowledgeFramework",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cbdc18ba065b436684e1311feed1ba85",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmKnowledgeFramework",
+    "pf": "frmKnowledgeFramework",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "u40bfc1199ce44c88c7357d43b36d45a",
+    "wType": "UserWidgetInstance",
+    "zindex": 50
+}

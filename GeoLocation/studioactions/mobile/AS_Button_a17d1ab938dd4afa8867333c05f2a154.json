@@ -1,0 +1,28 @@
+{
+    "AS_Button_a17d1ab938dd4afa8867333c05f2a154": {
+        "id": "AS_Button_a17d1ab938dd4afa8867333c05f2a154",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGeoData",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e3b3e3dcd70c45bab71e775b541005e4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d4c385e4073042f99fc94d44f2e61274",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearWatch",
+            "display": "clearWatch",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

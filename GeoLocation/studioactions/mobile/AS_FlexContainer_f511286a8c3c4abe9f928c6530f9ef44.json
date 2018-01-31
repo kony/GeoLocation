@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_f511286a8c3c4abe9f928c6530f9ef44": {
+        "id": "AS_FlexContainer_f511286a8c3c4abe9f928c6530f9ef44",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGeoData",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e3b3e3dcd70c45bab71e775b541005e4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h4645191f9284f42ae605f0aba9e617a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
